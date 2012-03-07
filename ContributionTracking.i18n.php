@@ -722,6 +722,7 @@ $messages['jv'] = array(
 );
 
 /** Georgian (ქართული)
+ * @author David1010
  * @author Malafaya
  * @author გიორგიმელა
  */
@@ -731,7 +732,7 @@ $messages['ka'] = array(
 	'contrib-tracking-error' => 'შეცდომა',
 	'contrib-tracking-error-text' => 'არასწორი ფორმის ნებართვა',
 	'contrib-tracking-submitting' => 'მიმდინარეობს გადახდების დამმუშავებლისდამი გაგზავნა...',
-	'contrib-tracking-continue' => 'თუ თქვენ არ იყავით ავტომატურად გადამისამართებული, დააჭირეთ ღილაკს რათა დაასრულოთ თქვენი შემოწირულობა  PayPal-ზე.',
+	'contrib-tracking-continue' => 'თუ თქვენ არ იყავით ავტომატურად გადამისამართებული, დააჭირეთ ღილაკს რათა დაასრულოთ თქვენი შემოწირულობა.',
 	'contrib-tracking-button' => 'გაგრძელება',
 );
 
@@ -1003,6 +1004,7 @@ $messages['pdc'] = array(
 );
 
 /** Polish (Polski)
+ * @author Beau
  * @author Leinad
  * @author Olgak85
  * @author Sp5uhe
@@ -1013,8 +1015,8 @@ $messages['pl'] = array(
 	'contrib-tracking-error' => 'Błąd',
 	'contrib-tracking-error-text' => 'Niewłaściwy format danych wejściowych',
 	'contrib-tracking-submitting' => 'Przesyłanie danych do systemu płatności...',
-	'contrib-tracking-continue' => 'Jeżeli nie {{GENDER:|zostałeś przekierowany|zostałaś przekierowana|przeniesiono Cię}} automatycznie, kliknij przycisk aby dokończyć wpłacanie darowizny za pomocą systemu PayPal.',
-	'contrib-tracking-redirect' => 'Zostaniesz automatycznie przekierowany do PayPal aby dokończyć wpłatę.',
+	'contrib-tracking-continue' => 'Jeżeli nie {{GENDER:|zostałeś przekierowany|zostałaś przekierowana|przekierowano Cię}} automatycznie, kliknij przycisk w celu dokończenia składania darowizny.',
+	'contrib-tracking-redirect' => 'Zostaniesz automatycznie {{GENDER:|przekierowany|przekierowana}}, aby dokończyć wpłatę.',
 	'contrib-tracking-button' => 'Kontynuuj',
 	'contrib-tracking-item-name-onetime' => 'Jednorazowa darowizna',
 	'contrib-tracking-item-name-recurring' => 'Powtarzająca się comiesięczna darowizna',
