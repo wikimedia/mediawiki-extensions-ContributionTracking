@@ -251,6 +251,7 @@ $messages['ca'] = array(
 
 /** Czech (Česky)
  * @author Mormegil
+ * @author Tchoř
  */
 $messages['cs'] = array(
 	'contributiontracking-desc' => 'Sledování finančních příspěvků v průběhu kampaně nadace Wikimedia',
@@ -258,8 +259,8 @@ $messages['cs'] = array(
 	'contrib-tracking-error' => 'Chyba',
 	'contrib-tracking-error-text' => 'Odeslaný formulář nebyl správně vyplněn',
 	'contrib-tracking-submitting' => 'Platba se odesílá ke zpracování…',
-	'contrib-tracking-continue' => 'Pokud nebudete automaticky přesměrován(a), klikněte na tlačítko, abyste mohl(a) dokončit svůj příspěvek pomocí služby PayPal.',
-	'contrib-tracking-redirect' => 'Pro dokončení příspěvku budete automaticky přesměrování na PayPal.',
+	'contrib-tracking-continue' => 'Pokud nebudete automaticky přesměrován(a), klikněte na tlačítko, abyste mohl(a) dokončit svůj příspěvek.',
+	'contrib-tracking-redirect' => 'Pro dokončení příspěvku budete automaticky přesměrování.',
 	'contrib-tracking-button' => 'Pokračovat',
 	'contrib-tracking-item-name-onetime' => 'Jednorázový dar',
 	'contrib-tracking-item-name-recurring' => 'Pravidelný měsíční příspěvek',
