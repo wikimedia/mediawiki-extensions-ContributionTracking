@@ -693,6 +693,7 @@ $messages['it'] = array(
  * @author Fryed-peach
  * @author Mizusumashi
  * @author Ohgi
+ * @author Shirayuki
  * @author Whym
  * @author 青子守歌
  */
@@ -703,7 +704,7 @@ $messages['ja'] = array(
 	'contrib-tracking-error-text' => 'フォーム送信が無効',
 	'contrib-tracking-submitting' => '決済処理者に提出中...',
 	'contrib-tracking-continue' => '自動的に転送されない場合、ボタンを押して寄付を完了させてください。',
-	'contrib-tracking-redirect' => '寄付を完了するため、PayPalに自動的に転送されます。',
+	'contrib-tracking-redirect' => 'あなたの寄付を完了させるため、自動的にリダイレクトします。',
 	'contrib-tracking-button' => '続行',
 	'contrib-tracking-item-name-onetime' => '1回だけ寄付',
 	'contrib-tracking-item-name-recurring' => '月ごとに定期寄付',
