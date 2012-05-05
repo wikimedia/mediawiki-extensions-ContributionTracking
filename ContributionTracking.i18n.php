@@ -71,6 +71,7 @@ $messages['an'] = array(
 );
 
 /** Arabic (العربية)
+ * @author DRIHEM
  * @author Meno25
  * @author OsamaK
  * @author زكريا
@@ -81,8 +82,8 @@ $messages['ar'] = array(
 	'contrib-tracking-error' => 'خطأ',
 	'contrib-tracking-error-text' => 'نموذج تسليم غير صحيح',
 	'contrib-tracking-submitting' => 'تسليم إلى معالج الدفع...',
-	'contrib-tracking-continue' => 'إذا لم تحول تلقائيا، انقر على الزر لإكمال التبرع على باي بال.',
-	'contrib-tracking-redirect' => 'سوف تحول إلى بيبال (PayPal) لإتمام تبرعك.',
+	'contrib-tracking-continue' => 'إذا لم يتم توجيهها تلقائياً، انقر فوق الزر لإتمام تبرعك.',
+	'contrib-tracking-redirect' => 'سوف يتم توجيهك تلقائياً لإتمام تبرعك.',
 	'contrib-tracking-button' => 'استمر',
 	'contrib-tracking-item-name-onetime' => 'التبرع مرة واحدة',
 	'contrib-tracking-item-name-recurring' => 'تبرع شهري متكرر',
