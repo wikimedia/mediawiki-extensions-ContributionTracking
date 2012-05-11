@@ -304,12 +304,13 @@ $messages['de-formal'] = array(
 );
 
 /** Zazaki (Zazaki)
+ * @author Erdemaslancan
  * @author Xoser
  */
 $messages['diq'] = array(
 	'contributiontracking-desc' => 'Yardimê peteyî tekip kerdoğ qe Wîkîmediya pere berz kerdoğî',
 	'contributiontracking' => 'Yardimê peteyî tekip kerdoğ',
-	'contrib-tracking-error' => 'Ğelet',
+	'contrib-tracking-error' => 'Xırab',
 	'contrib-tracking-error-text' => 'Ena form raşt niyo',
 	'contrib-tracking-submitting' => 'Processor de pere teslim keno...',
 	'contrib-tracking-continue' => 'Eka ti otomatik redirekt nibiyo, goceki rê bitexne u yardîmê pere xo ser PayPalî ra biker.',
