@@ -964,6 +964,7 @@ $messages['nl'] = array(
 /** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
  * @author Finnrind
  * @author Harald Khan
+ * @author Njardarlogar
  */
 $messages['nn'] = array(
 	'contributiontracking-desc' => 'Bidragssporing for innsamlinga til Wikimedia',
@@ -1301,7 +1302,7 @@ $messages['tg-cyrl'] = array(
 	'contrib-tracking-button' => 'Идома',
 );
 
-/** Tajik (Latin script) (tojikī)
+/** Tajik (Latin script) (Tojikī)
  * @author Liangent
  */
 $messages['tg-latn'] = array(
@@ -1352,6 +1353,7 @@ $messages['tl'] = array(
 
 /** Turkish (Türkçe)
  * @author Joseph
+ * @author Suelnur
  */
 $messages['tr'] = array(
 	'contributiontracking-desc' => 'Vikimedya fonsağlayıcı için katkı izlemesi',
@@ -1359,7 +1361,8 @@ $messages['tr'] = array(
 	'contrib-tracking-error' => 'Hata',
 	'contrib-tracking-error-text' => 'Geçersiz form teslimi',
 	'contrib-tracking-submitting' => 'Ödeme işlemcisine gönderiliyor...',
-	'contrib-tracking-continue' => "Eğer otomatik olarak yönlendirilmediyseniz, PayPal'daki bağışınızı tamamlamak için düğmeye basın.",
+	'contrib-tracking-continue' => 'Otomatik olarak yönlendirilmediyseniz, bağışınızı tamamlamak için düğmeye tıklayın.',
+	'contrib-tracking-redirect' => 'Bağışınızı tamamlamak üzere otomatik olarak yönlendirileceksiniz.',
 	'contrib-tracking-button' => 'Devam et',
 );
 
@@ -1393,7 +1396,7 @@ $messages['vec'] = array(
 	'contrib-tracking-button' => 'Và vanti',
 );
 
-/** Veps (Vepsän kel')
+/** Veps (Vepsän kel’)
  * @author Игорь Бродский
  */
 $messages['vep'] = array(
