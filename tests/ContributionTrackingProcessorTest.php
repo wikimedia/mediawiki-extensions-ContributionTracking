@@ -89,6 +89,7 @@ class ContributionTrackingProcessorTest extends MediaWikiTestCase {
 			'utm_source' => null,
 			'utm_medium' => null,
 			'utm_campaign' => null,
+			'utm_key' => null,
 			'optout' => 0,
 			'language' => null,
 			'owa_session' => null,
@@ -110,6 +111,7 @@ class ContributionTrackingProcessorTest extends MediaWikiTestCase {
 			'utm_source' => 'batcave',
 			'utm_medium' => 'Alfred',
 			'utm_campaign' => 'Joker',
+			'utm_key' => 'ThisJokerInstance',
 			'language' => 'squeak!',
 			'owa_session' => 'arghargh',
 			'owa_ref' => 'test',
@@ -144,6 +146,7 @@ class ContributionTrackingProcessorTest extends MediaWikiTestCase {
 			'utm_source' => 'batcave',
 			'utm_medium' => 'Alfred',
 			'utm_campaign' => 'Joker',
+			'utm_key' => 'ThisJokerInstance',
 			'language' => 'squeak!',
 			'owa_session' => 'arghargh',
 			'owa_ref' => 'test'

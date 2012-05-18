@@ -95,6 +95,9 @@ class ApiContributionTracking extends ApiBase {
 			'utm_campaign' => array(
 				ApiBase::PARAM_TYPE => 'string',
 			),
+			'utm_key' => array(
+				ApiBase::PARAM_TYPE => 'string',
+			),
 			'email-opt' => array(
 				ApiBase::PARAM_TYPE => 'boolean',
 			),
@@ -155,6 +158,7 @@ class ApiContributionTracking extends ApiBase {
 			'utm_source' => 'String identifying "utm_source"',
 			'utm_medium' => 'String identifying "utm_medium"',
 			'utm_campaign' => 'String identifying "utm_campaign"',
+			'utm_key' => 'String identifying "utm_key"',
 			'email-opt' => 'Boolean assumed to be from a checkbox. This is actually the inverse of the E-mail opt-out checkbox.',
 			'language' => array(
 				'User language code. Messages will be translated appropriately (where possible).',
