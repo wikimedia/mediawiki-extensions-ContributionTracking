@@ -247,6 +247,7 @@ class ContributionTrackingAPITest extends MediaWikiTestCase {
 			'utm_source' => 'here',
 			'utm_medium' => 'large',
 			'utm_campaign' => 'testy01',
+			'utm_key' => 'thisone',
 			'language' => 'en',
 			'owa_session' => 'foo2',
 			'owa_ref' => 'execute_save',

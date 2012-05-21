@@ -225,6 +225,7 @@ class ContributionTrackingProcessor {
 			'utm_source' => null,
 			'utm_medium' => null,
 			'utm_campaign' => null,
+			'utm_key' => null,
 			'optout' => 0,
 			'language' => null,
 			'owa_session' => null,

@@ -7,6 +7,7 @@ CREATE TABLE IF NOT EXISTS /*_*/contribution_tracking (
   utm_source varchar(128) default NULL,
   utm_medium varchar(128) default NULL,
   utm_campaign varchar(128) default NULL,
+  utm_key varchar(128) default NULL,
   optout tinyint(1) unsigned NOT NULL,
   language varchar(8) default NULL,
   ts char(14) default NULL,
