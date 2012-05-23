@@ -30,7 +30,7 @@ $specialPageAliases['bs'] = array(
 
 /** German (Deutsch) */
 $specialPageAliases['de'] = array(
-	'ContributionTracking' => array( 'Beitragstracking' ),
+	'ContributionTracking' => array( 'Beiträge_verfolgen', 'Beitragstracking', 'Beitragsverfolgung' ),
 );
 
 /** Lower Sorbian (Dolnoserbski) */
