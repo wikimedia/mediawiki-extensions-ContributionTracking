@@ -104,7 +104,7 @@ class ContributionTrackingProcessor {
 	 * @return array Staged key-value pairs ready to be saved as a contribution.
 	 */
 	static function stage_contribution( $params ) {
-		global $wgCotributionTrackingUTMKey;
+		global $wgContributionTrackingUTMKey;
 
 		//change the posted names to match the db where necessary
 		ContributionTrackingProcessor::rekey( $params, 'comment', 'note' );
@@ -113,7 +113,7 @@ class ContributionTrackingProcessor {
 
 		$tracked_contribution = ContributionTrackingProcessor::mergeArrayDefaults( $params, ContributionTrackingProcessor::getContributionDefaults(), true );
 
-		if( !$wgCotributionTrackingUTMKey ){
+		if( !$wgContributionTrackingUTMKey ){
 			// unset utm_key entries
 			if( array_key_exists( 'utm_key', $tracked_contribution ) ){
 				unset( $tracked_contribution['utm_key'] );

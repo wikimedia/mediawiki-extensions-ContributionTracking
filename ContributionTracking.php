@@ -86,7 +86,7 @@ $wgContributionTrackingRPPLength = '0';
  * attempt to insert utm_key columns into the database.
  */
 
-$wgCotributionTrackingUTMKey = false;
+$wgContributionTrackingUTMKey = false;
 
 # Unit tests
 $wgHooks['UnitTestsList'][] = 'efContributionTrackingUnitTests';
