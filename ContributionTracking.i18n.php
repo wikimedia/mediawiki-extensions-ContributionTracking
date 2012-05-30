@@ -756,6 +756,7 @@ $messages['km'] = array(
 /** Korean (한국어)
  * @author Ilovesabbath
  * @author Kwj2772
+ * @author 아라
  */
 $messages['ko'] = array(
 	'contributiontracking-desc' => '위키미디어 모금을 위한 기부 추적',
@@ -763,7 +764,7 @@ $messages['ko'] = array(
 	'contrib-tracking-error' => '오류',
 	'contrib-tracking-error-text' => '부적절한 양식 제출',
 	'contrib-tracking-submitting' => '결재 처리 요청 중...',
-	'contrib-tracking-continue' => '다음 단계로 자동으로 넘어가지 않는다면, 페이팔에서 기부 완료를 완료하기 위해서 버튼을 클릭하세요.',
+	'contrib-tracking-continue' => '자동으로 넘어가지 않는다면, 기부를 완료하기 위해서 버튼을 클릭하세요.',
 	'contrib-tracking-button' => '계속',
 );
 
@@ -1272,9 +1273,20 @@ $messages['sv'] = array(
 	'contrib-tracking-item-name-recurring' => 'Återkommande månatlig donation',
 );
 
-/** Swahili (Kiswahili) */
+/** Swahili (Kiswahili)
+ * @author Stephenwanjau
+ */
 $messages['sw'] = array(
+	'contributiontracking-desc' => 'Ufuatiliaji wa mchango kwa ajili ya uchangishaji fedha kwa Wikimedia',
+	'contributiontracking' => 'Ufuatiliaji wa mchango',
 	'contrib-tracking-error' => 'Hitilafu',
+	'contrib-tracking-error-text' => 'Kuwasilisha kwa fomu ni batili',
+	'contrib-tracking-submitting' => 'Inawasilisha kwa prosesa ya malipo...',
+	'contrib-tracking-continue' => 'Kama hautaelekezwa mara moja kwa moja, bonyeza lkitufe ili kukamilisha mchango wako.',
+	'contrib-tracking-redirect' => 'Utaelekezwa mara moja kwa moja kukamilisha mchango wako.',
+	'contrib-tracking-button' => 'Endelea',
+	'contrib-tracking-item-name-onetime' => 'Mchango wa wakati mmoja',
+	'contrib-tracking-item-name-recurring' => 'Mchango wa mara kwa mara kila mwezi',
 );
 
 /** Tamil (தமிழ்)
