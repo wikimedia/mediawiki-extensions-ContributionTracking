@@ -784,6 +784,13 @@ $messages['ksh'] = array(
 	'contrib-tracking-item-name-recurring' => 'Moonatlesch_Spänd',
 );
 
+/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
+ * @author George Animal
+ */
+$messages['ku-latn'] = array(
+	'contrib-tracking-error' => 'Çewtî',
+);
+
 /** Cornish (Kernowek)
  * @author Kw-Moon
  */
