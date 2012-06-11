@@ -23,7 +23,7 @@ $specialPageAliases['arz'] = array(
 	'ContributionTracking' => array( 'متابعة_المساهمه' ),
 );
 
-/** Bosnian (Bosanski) */
+/** Bosnian (bosanski) */
 $specialPageAliases['bs'] = array(
 	'ContributionTracking' => array( 'DoprinosiPracenje' ),
 );
@@ -31,6 +31,11 @@ $specialPageAliases['bs'] = array(
 /** German (Deutsch) */
 $specialPageAliases['de'] = array(
 	'ContributionTracking' => array( 'Beiträge_verfolgen', 'Beitragstracking', 'Beitragsverfolgung' ),
+);
+
+/** Zazaki (Zazaki) */
+$specialPageAliases['diq'] = array(
+	'ContributionTracking' => array( 'Takibêİştiraxan' ),
 );
 
 /** Lower Sorbian (Dolnoserbski) */
@@ -48,7 +53,7 @@ $specialPageAliases['fa'] = array(
 	'ContributionTracking' => array( 'ردگیری_مشارکت' ),
 );
 
-/** Finnish (Suomi) */
+/** Finnish (suomi) */
 $specialPageAliases['fi'] = array(
 	'ContributionTracking' => array( 'Muokkausten_seuranta' ),
 );
@@ -63,12 +68,12 @@ $specialPageAliases['ht'] = array(
 	'ContributionTracking' => array( 'SwiviKontribisyon' ),
 );
 
-/** Hungarian (Magyar) */
+/** Hungarian (magyar) */
 $specialPageAliases['hu'] = array(
 	'ContributionTracking' => array( 'Adományok_követése' ),
 );
 
-/** Interlingua (Interlingua) */
+/** Interlingua (interlingua) */
 $specialPageAliases['ia'] = array(
 	'ContributionTracking' => array( 'Traciamento_de_contributiones' ),
 );
@@ -78,7 +83,7 @@ $specialPageAliases['id'] = array(
 	'ContributionTracking' => array( 'Pelacakan_kontribusi', 'PelacakanKontribusi' ),
 );
 
-/** Italian (Italiano) */
+/** Italian (italiano) */
 $specialPageAliases['it'] = array(
 	'ContributionTracking' => array( 'TracciaEdit' ),
 );
@@ -103,7 +108,7 @@ $specialPageAliases['lad'] = array(
 	'ContributionTracking' => array( 'PerseguirAjustamientos' ),
 );
 
-/** Macedonian (Македонски) */
+/** Macedonian (македонски) */
 $specialPageAliases['mk'] = array(
 	'ContributionTracking' => array( 'СледењеНаПридонесите' ),
 );
@@ -118,7 +123,7 @@ $specialPageAliases['mr'] = array(
 	'ContributionTracking' => array( 'योगदानमागमूस' ),
 );
 
-/** Norwegian Bokmål (‪Norsk (bokmål)‬) */
+/** Norwegian Bokmål (‪norsk (bokmål)‬) */
 $specialPageAliases['nb'] = array(
 	'ContributionTracking' => array( 'Bidragssporing' ),
 );
@@ -133,7 +138,7 @@ $specialPageAliases['nl'] = array(
 	'ContributionTracking' => array( 'DonatiesVolgen' ),
 );
 
-/** Polish (Polski) */
+/** Polish (polski) */
 $specialPageAliases['pl'] = array(
 	'ContributionTracking' => array( 'Przekierowanie_do_systemu_płatnościowego' ),
 );
@@ -143,7 +148,7 @@ $specialPageAliases['sa'] = array(
 	'ContributionTracking' => array( 'योगदानउन्नयति' ),
 );
 
-/** Slovak (Slovenčina) */
+/** Slovak (slovenčina) */
 $specialPageAliases['sk'] = array(
 	'ContributionTracking' => array( 'SledovaniePríspevkov' ),
 );
@@ -158,17 +163,17 @@ $specialPageAliases['tr'] = array(
 	'ContributionTracking' => array( 'KatkıTakibi' ),
 );
 
-/** Vèneto (Vèneto) */
+/** vèneto (vèneto) */
 $specialPageAliases['vec'] = array(
 	'ContributionTracking' => array( 'TraciamentoContributi' ),
 );
 
-/** Simplified Chinese (‪中文(简体)‬) */
+/** Simplified Chinese (‪中文（简体）‬) */
 $specialPageAliases['zh-hans'] = array(
 	'ContributionTracking' => array( '贡献追踪' ),
 );
 
-/** Traditional Chinese (‪中文(繁體)‬) */
+/** Traditional Chinese (‪中文（繁體）‬) */
 $specialPageAliases['zh-hant'] = array(
 	'ContributionTracking' => array( '跟蹤貢獻' ),
 );
