@@ -111,7 +111,7 @@ $messages['arz'] = array(
 	'contrib-tracking-button' => 'استمر',
 );
 
-/** Asturian (Asturianu)
+/** Asturian (asturianu)
  * @author Xuacu
  */
 $messages['ast'] = array(
@@ -127,7 +127,7 @@ $messages['ast'] = array(
 	'contrib-tracking-item-name-recurring' => 'Donación mensual repetida',
 );
 
-/** Azerbaijani (Azərbaycanca)
+/** Azerbaijani (azərbaycanca)
  * @author Cekli829
  * @author Vago
  */
@@ -171,7 +171,7 @@ $messages['be-tarask'] = array(
 	'contrib-tracking-item-name-recurring' => 'Паўтараючаяся штомесячнае ахвяраваньне',
 );
 
-/** Bulgarian (Български)
+/** Bulgarian (български)
  * @author DCLXVI
  * @author Spiritia
  * @author Turin
@@ -203,7 +203,7 @@ $messages['bn'] = array(
 	'contrib-tracking-item-name-onetime' => 'একক-সময় অনুদান',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fulup
  */
 $messages['br'] = array(
@@ -219,7 +219,7 @@ $messages['br'] = array(
 	'contrib-tracking-item-name-recurring' => 'Donezon miziek ingal',
 );
 
-/** Bosnian (Bosanski)
+/** Bosnian (bosanski)
  * @author CERminator
  */
 $messages['bs'] = array(
@@ -235,7 +235,7 @@ $messages['bs'] = array(
 	'contrib-tracking-item-name-recurring' => 'Mjesečna ponavljajuća donacija',
 );
 
-/** Catalan (Català)
+/** Catalan (català)
  * @author Davidpar
  * @author Paucabot
  * @author Solde
@@ -250,7 +250,7 @@ $messages['ca'] = array(
 	'contrib-tracking-button' => 'Continua',
 );
 
-/** Czech (Česky)
+/** Czech (česky)
  * @author Mormegil
  * @author Tchoř
  */
@@ -267,7 +267,7 @@ $messages['cs'] = array(
 	'contrib-tracking-item-name-recurring' => 'Pravidelný měsíční příspěvek',
 );
 
-/** Danish (Dansk)
+/** Danish (dansk)
  * @author Peter Alberti
  */
 $messages['da'] = array(
@@ -333,7 +333,7 @@ $messages['dsb'] = array(
 	'contrib-tracking-item-name-recurring' => 'Wóspjetujucy se mjasecny dar',
 );
 
-/** Ewe (Eʋegbe) */
+/** Ewe (eʋegbe) */
 $messages['ee'] = array(
 	'contrib-tracking-error' => 'Vodada',
 );
@@ -374,7 +374,7 @@ $messages['eo'] = array(
 	'contrib-tracking-item-name-recurring' => 'Ĉiumonata donaco',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Armando-Martin
  * @author Crazymadlover
  * @author MetalBrasil
@@ -393,7 +393,7 @@ $messages['es'] = array(
 	'contrib-tracking-item-name-recurring' => 'Donación mensual recurrente',
 );
 
-/** Estonian (Eesti)
+/** Estonian (eesti)
  * @author Avjoska
  * @author Pikne
  */
@@ -408,7 +408,7 @@ $messages['et'] = array(
 	'contrib-tracking-item-name-recurring' => 'Korduv igakuine annetus',
 );
 
-/** Basque (Euskara)
+/** Basque (euskara)
  * @author An13sa
  */
 $messages['eu'] = array(
@@ -435,7 +435,7 @@ $messages['fa'] = array(
 	'contrib-tracking-item-name-recurring' => 'دورهٔ اهدای کمک مالی ماهانه',
 );
 
-/** Finnish (Suomi)
+/** Finnish (suomi)
  * @author Crt
  * @author Nedergard
  * @author Nike
@@ -455,7 +455,7 @@ $messages['fi'] = array(
 	'contrib-tracking-item-name-recurring' => 'Jatkuva kuukausilahjoitus',
 );
 
-/** French (Français)
+/** French (français)
  * @author DavidL
  * @author Korrigan
  * @author Peter17
@@ -475,7 +475,7 @@ $messages['fr'] = array(
 	'contrib-tracking-item-name-recurring' => 'Don mensuel récurrent',
 );
 
-/** Franco-Provençal (Arpetan)
+/** Franco-Provençal (arpetan)
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
@@ -491,7 +491,7 @@ $messages['frp'] = array(
 	'contrib-tracking-item-name-recurring' => 'Don per mês rècurrent',
 );
 
-/** Friulian (Furlan)
+/** Friulian (furlan)
  * @author Klenje
  */
 $messages['fur'] = array(
@@ -576,7 +576,7 @@ $messages['hi'] = array(
 	'contrib-tracking-item-name-recurring' => 'आवर्ती मासिक दान',
 );
 
-/** Croatian (Hrvatski)
+/** Croatian (hrvatski)
  * @author Dalibor Bosits
  * @author SpeedyGonsales
  */
@@ -609,7 +609,7 @@ $messages['hsb'] = array(
 	'contrib-tracking-item-name-recurring' => 'Wospjetowacy so měsačny dar',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Dani
  * @author Dj
  * @author Glanthor Reviol
@@ -627,7 +627,7 @@ $messages['hu'] = array(
 	'contrib-tracking-item-name-recurring' => 'Havonta ismétlődő adományozás',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -672,7 +672,7 @@ $messages['io'] = array(
 	'contrib-tracking-error' => 'Eroro',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Beta16
  * @author BrokenArrow
  * @author Darth Kule
@@ -791,7 +791,7 @@ $messages['ku-latn'] = array(
 	'contrib-tracking-error' => 'Çewtî',
 );
 
-/** Cornish (Kernowek)
+/** Cornish (kernowek)
  * @author Kw-Moon
  */
 $messages['kw'] = array(
@@ -829,7 +829,7 @@ $messages['li'] = array(
 	'contrib-tracking-item-name-onetime' => 'Einsige donatie',
 );
 
-/** Lithuanian (Lietuvių)
+/** Lithuanian (lietuvių)
  * @author Eitvys200
  * @author Matasg
  */
@@ -844,7 +844,7 @@ $messages['lt'] = array(
 	'contrib-tracking-item-name-recurring' => 'Kas mėnesinė auka',
 );
 
-/** Latvian (Latviešu)
+/** Latvian (latviešu)
  * @author Papuass
  */
 $messages['lv'] = array(
@@ -858,7 +858,7 @@ $messages['mhr'] = array(
 	'contrib-tracking-error' => 'Йоҥылыш',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  * @author Brest
  */
@@ -969,7 +969,7 @@ $messages['nl'] = array(
 	'contrib-tracking-item-name-recurring' => 'Terugkerende maandelijkse donatie',
 );
 
-/** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
+/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
  * @author Finnrind
  * @author Harald Khan
  * @author Njardarlogar
@@ -984,7 +984,7 @@ $messages['nn'] = array(
 	'contrib-tracking-button' => 'Hald fram',
 );
 
-/** Occitan (Occitan)
+/** Occitan (occitan)
  * @author Cedric31
  */
 $messages['oc'] = array(
@@ -1016,7 +1016,7 @@ $messages['pdc'] = array(
 	'contrib-tracking-button' => 'Weider',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author Beau
  * @author Leinad
  * @author Olgak85
@@ -1059,7 +1059,7 @@ $messages['ps'] = array(
 	'contrib-tracking-error' => 'تېروتنه',
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author Hamilton Abreu
  * @author Malafaya
  * @author Waldir
@@ -1077,7 +1077,7 @@ $messages['pt'] = array(
 	'contrib-tracking-item-name-recurring' => 'Donativo mensal recorrente',
 );
 
-/** Brazilian Portuguese (Português do Brasil)
+/** Brazilian Portuguese (português do Brasil)
  * @author Eduardo.mps
  * @author Giro720
  */
@@ -1094,7 +1094,7 @@ $messages['pt-br'] = array(
 	'contrib-tracking-item-name-recurring' => 'Doação mensal recorrente',
 );
 
-/** Romanian (Română)
+/** Romanian (română)
  * @author Firilacroco
  * @author KlaudiuMihaila
  * @author Minisarm
@@ -1113,7 +1113,7 @@ $messages['ro'] = array(
 	'contrib-tracking-item-name-recurring' => 'Donație lunară recurentă',
 );
 
-/** Tarandíne (Tarandíne)
+/** tarandíne (tarandíne)
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
@@ -1125,7 +1125,7 @@ $messages['roa-tara'] = array(
 	'contrib-tracking-item-name-recurring' => "Ste arrive 'a donazzione mensile",
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author DCamer
  * @author Eleferen
  * @author Kaganer
@@ -1160,7 +1160,7 @@ $messages['rue'] = array(
 	'contrib-tracking-item-name-recurring' => 'Періодічне штомісячне пожертвованя',
 );
 
-/** Sakha (Саха тыла)
+/** Sakha (саха тыла)
  * @author HalanTul
  */
 $messages['sah'] = array(
@@ -1176,7 +1176,7 @@ $messages['sah'] = array(
 	'contrib-tracking-item-name-recurring' => 'Ый аайы төлөбүр',
 );
 
-/** Sicilian (Sicilianu)
+/** Sicilian (sicilianu)
  * @author Aushulz
  */
 $messages['scn'] = array(
@@ -1199,7 +1199,7 @@ $messages['si'] = array(
 	'contrib-tracking-item-name-recurring' => 'ප්‍රත්‍යාවර්තී මාසික පරිත්‍යාගය',
 );
 
-/** Slovak (Slovenčina)
+/** Slovak (slovenčina)
  * @author Helix84
  * @author Teslaton
  */
@@ -1216,7 +1216,7 @@ $messages['sk'] = array(
 	'contrib-tracking-item-name-recurring' => 'Opakovaný mesačný dar',
 );
 
-/** Slovenian (Slovenščina)
+/** Slovenian (slovenščina)
  * @author Dbc334
  */
 $messages['sl'] = array(
@@ -1232,7 +1232,7 @@ $messages['sl'] = array(
 	'contrib-tracking-item-name-recurring' => 'Ponavljajoči se mesečni prispevki',
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Rancher
  * @author Јованвб
  */
@@ -1249,7 +1249,7 @@ $messages['sr-ec'] = array(
 	'contrib-tracking-item-name-recurring' => 'Месечни прилог',
 );
 
-/** Serbian (Latin script) (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪srpski (latinica)‬)
  * @author Michaello
  */
 $messages['sr-el'] = array(
@@ -1262,7 +1262,7 @@ $messages['sr-el'] = array(
 	'contrib-tracking-item-name-recurring' => 'Mesečni prilog',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author Boivie
  * @author Tobulos1
  * @author WikiPhoenix
@@ -1313,7 +1313,7 @@ $messages['te'] = array(
 	'contrib-tracking-button' => 'కొనసాగించు',
 );
 
-/** Tajik (Cyrillic script) (Тоҷикӣ)
+/** Tajik (Cyrillic script) (тоҷикӣ)
  * @author Ibrahim
  */
 $messages['tg-cyrl'] = array(
@@ -1321,7 +1321,7 @@ $messages['tg-cyrl'] = array(
 	'contrib-tracking-button' => 'Идома',
 );
 
-/** Tajik (Latin script) (Tojikī)
+/** Tajik (Latin script) (tojikī)
  * @author Liangent
  */
 $messages['tg-latn'] = array(
@@ -1385,7 +1385,7 @@ $messages['tr'] = array(
 	'contrib-tracking-button' => 'Devam et',
 );
 
-/** Ukrainian (Українська)
+/** Ukrainian (українська)
  * @author Aleksandrit
  * @author Тест
  */
@@ -1402,7 +1402,7 @@ $messages['uk'] = array(
 	'contrib-tracking-item-name-recurring' => 'Періодичне щомісячне пожертвування',
 );
 
-/** Vèneto (Vèneto)
+/** vèneto (vèneto)
  * @author Candalua
  */
 $messages['vec'] = array(
@@ -1466,7 +1466,7 @@ $messages['yi'] = array(
 	'contrib-tracking-button' => 'פֿארזעצן',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (‪中文（简体）‬)
  * @author Chenzw
  * @author Hydra
  * @author Liangent
@@ -1485,7 +1485,7 @@ $messages['zh-hans'] = array(
 	'contrib-tracking-item-name-recurring' => '每月定期捐款',
 );
 
-/** Traditional Chinese (‪中文(繁體)‬)
+/** Traditional Chinese (‪中文（繁體）‬)
  * @author Liangent
  * @author Mark85296341
  */
