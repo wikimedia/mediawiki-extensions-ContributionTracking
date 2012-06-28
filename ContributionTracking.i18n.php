@@ -765,7 +765,10 @@ $messages['ko'] = array(
 	'contrib-tracking-error-text' => '부적절한 양식 제출',
 	'contrib-tracking-submitting' => '결재 처리 요청 중...',
 	'contrib-tracking-continue' => '자동으로 넘어가지 않는다면, 기부를 완료하기 위해서 버튼을 클릭하세요.',
+	'contrib-tracking-redirect' => '자동으로 기부를 완료하기 위해 넘겨주기될 것입니다.',
 	'contrib-tracking-button' => '계속',
+	'contrib-tracking-item-name-onetime' => '한 번 기부',
+	'contrib-tracking-item-name-recurring' => '매월 정기 기부',
 );
 
 /** Colognian (Ripoarisch)
