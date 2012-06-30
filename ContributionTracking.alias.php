@@ -38,7 +38,7 @@ $specialPageAliases['diq'] = array(
 	'ContributionTracking' => array( 'Takibêİştiraxan' ),
 );
 
-/** Lower Sorbian (Dolnoserbski) */
+/** Lower Sorbian (dolnoserbski) */
 $specialPageAliases['dsb'] = array(
 	'ContributionTracking' => array( 'Slědowanje_pśinoskow' ),
 );
@@ -58,7 +58,7 @@ $specialPageAliases['fi'] = array(
 	'ContributionTracking' => array( 'Muokkausten_seuranta' ),
 );
 
-/** Galician (Galego) */
+/** Galician (galego) */
 $specialPageAliases['gl'] = array(
 	'ContributionTracking' => array( 'Seguimento_das_contribucións' ),
 );
