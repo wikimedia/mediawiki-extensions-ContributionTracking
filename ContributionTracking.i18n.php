@@ -57,7 +57,7 @@ $messages['af'] = array(
 	'contrib-tracking-item-name-recurring' => 'Herhalende maandelikse skenking',
 );
 
-/** Aragonese (Aragonés)
+/** Aragonese (aragonés)
  * @author Juanpabl
  */
 $messages['an'] = array(
@@ -152,7 +152,7 @@ $messages['ba'] = array(
 	'contrib-tracking-item-name-recurring' => 'Ай һайын ҡабатланған иғәнә',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Red Winged Duck
@@ -317,7 +317,7 @@ $messages['diq'] = array(
 	'contrib-tracking-button' => 'Dewam bike',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -498,7 +498,7 @@ $messages['fur'] = array(
 	'contrib-tracking-button' => 'Va indevant',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -593,7 +593,7 @@ $messages['hr'] = array(
 	'contrib-tracking-item-name-recurring' => 'Mjesečna ponavljajuća donacija',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
@@ -1147,7 +1147,7 @@ $messages['ru'] = array(
 	'contrib-tracking-item-name-recurring' => 'Ежемесячный взнос',
 );
 
-/** Rusyn (Русиньскый)
+/** Rusyn (русиньскый)
  * @author Gazeb
  */
 $messages['rue'] = array(
