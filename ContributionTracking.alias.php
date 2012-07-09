@@ -155,7 +155,7 @@ $specialPageAliases['sk'] = array(
 
 /** Tagalog (Tagalog) */
 $specialPageAliases['tl'] = array(
-	'ContributionTracking' => array( 'Pagbakas ng ambag' ),
+	'ContributionTracking' => array( 'Pagbakas_ng_ambag' ),
 );
 
 /** Turkish (Türkçe) */
