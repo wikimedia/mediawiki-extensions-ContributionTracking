@@ -136,7 +136,7 @@ $messages['az'] = array(
 	'contrib-tracking-button' => 'Davam et',
 );
 
-/** Bashkir (Башҡортса)
+/** Bashkir (башҡортса)
  * @author Assele
  */
 $messages['ba'] = array(
@@ -854,7 +854,7 @@ $messages['lv'] = array(
 	'contrib-tracking-button' => 'Turpināt',
 );
 
-/** Eastern Mari (Олык Марий)
+/** Eastern Mari (олык марий)
  * @author Сай
  */
 $messages['mhr'] = array(
@@ -911,7 +911,7 @@ $messages['ms'] = array(
 	'contrib-tracking-item-name-recurring' => 'Dermaan berulang bulanan',
 );
 
-/** Erzya (Эрзянь)
+/** Erzya (эрзянь)
  * @author Botuzhaleny-sodamo
  */
 $messages['myv'] = array(
@@ -925,9 +925,8 @@ $messages['nah'] = array(
 	'contrib-tracking-error' => 'Ahcuallōtl',
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+/** Norwegian Bokmål (‪norsk (bokmål)‬)
  * @author Finnrind
- * @author Jon Harald Søby
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -1418,7 +1417,7 @@ $messages['vec'] = array(
 	'contrib-tracking-button' => 'Và vanti',
 );
 
-/** Veps (Vepsän kel’)
+/** Veps (vepsän kel’)
  * @author Игорь Бродский
  */
 $messages['vep'] = array(
