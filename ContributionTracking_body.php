@@ -31,12 +31,10 @@ class ContributionTracking extends UnlistedSpecialPage {
 			$tracked_contribution = array(
 				'note' => $wgRequest->getVal( 'comment' ),
 				'referrer' => $wgRequest->getVal( 'referrer' ),
-				'anonymous' => $wgRequest->getCheck( 'comment-option', false ) ? false : true, //yup: 'anonymous' = !comment-option
 				'utm_source' => $wgRequest->getVal( 'utm_source' ),
 				'utm_medium' => $wgRequest->getVal( 'utm_medium' ),
 				'utm_campaign' => $wgRequest->getVal( 'utm_campaign' ),
 				'utm_key' => $wgRequest->getVal( 'utm_key' ),
-				'optout' => $wgRequest->getCheck( 'email-opt', false ) ? false : true, //Also: 'optout' = !email-opt.
 				'language' => $wgRequest->getVal( 'language' ),
 				'owa_session' => $wgRequest->getVal( 'owa_session' ),
 				'owa_ref' => $wgRequest->getVal( 'owa_ref', null ),

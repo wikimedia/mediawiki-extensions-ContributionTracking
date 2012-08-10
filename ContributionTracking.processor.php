@@ -108,8 +108,6 @@ class ContributionTrackingProcessor {
 
 		//change the posted names to match the db where necessary
 		ContributionTrackingProcessor::rekey( $params, 'comment', 'note' );
-		ContributionTrackingProcessor::rekey_invert_boolean( $params, 'comment-option', 'anonymous' );
-		ContributionTrackingProcessor::rekey_invert_boolean( $params, 'email-opt', 'optout' );
 
 		$tracked_contribution = ContributionTrackingProcessor::mergeArrayDefaults( $params, ContributionTrackingProcessor::getContributionDefaults(), true );
 

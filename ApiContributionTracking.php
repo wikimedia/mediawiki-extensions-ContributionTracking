@@ -30,12 +30,8 @@ class ApiContributionTracking extends ApiBase {
 	function getStagedParams( $params = null ) {
 
 		foreach ( $params as $key => $value ) {
-			if ( $value == '' ) {
-				if ( $key === 'comment-option' || $key === 'email-opt' ) {
-					$params[$key] = false;
-				} else {
-					unset( $params[$key] ); //gotcha. And might I add: BOO-URNS.
-				}
+			if ( $value === '' ) {
+				unset( $params[$key] ); //gotcha. And might I add: BOO-URNS.
 			}
 		}
 		return $params;
@@ -83,9 +79,6 @@ class ApiContributionTracking extends ApiBase {
 			'comment' => array(
 				ApiBase::PARAM_TYPE => 'string',
 			),
-			'comment-option' => array(
-				ApiBase::PARAM_TYPE => 'boolean',
-			),
 			'utm_source' => array(
 				ApiBase::PARAM_TYPE => 'string',
 			),
@@ -97,9 +90,6 @@ class ApiContributionTracking extends ApiBase {
 			),
 			'utm_key' => array(
 				ApiBase::PARAM_TYPE => 'string',
-			),
-			'email-opt' => array(
-				ApiBase::PARAM_TYPE => 'boolean',
 			),
 			'language' => array(
 				ApiBase::PARAM_TYPE => 'string',
@@ -154,12 +144,10 @@ class ApiContributionTracking extends ApiBase {
 				'String identifying the specific entity used to process this payment. ',
 				'Probably "paypal". (required)' ),
 			'comment' => 'String with a comment. Actually saved as "note" in the database',
-			'comment-option' => 'Boolean assumed to be from a checkbox. This is actually the inverse of the anonymous flag.',
 			'utm_source' => 'String identifying "utm_source"',
 			'utm_medium' => 'String identifying "utm_medium"',
 			'utm_campaign' => 'String identifying "utm_campaign"',
 			'utm_key' => 'String identifying "utm_key"',
-			'email-opt' => 'Boolean assumed to be from a checkbox. This is actually the inverse of the E-mail opt-out checkbox.',
 			'language' => array(
 				'User language code. Messages will be translated appropriately (where possible).',
 				'This will also determine what "Thank You" page the user sees upon completion of a donation at the gateway.' ),
