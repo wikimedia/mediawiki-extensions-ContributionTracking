@@ -917,6 +917,7 @@ $messages['ms'] = array(
 $messages['mt'] = array(
 	'contrib-tracking-error' => 'Żball',
 	'contrib-tracking-error-text' => 'Żball fis-sottomissjoni tal-formola',
+	'contrib-tracking-continue' => 'Jekk mintix awtomatikament rindirizzat, agħfas il-buttuna sabiex tkompli d-donazzjoni.',
 	'contrib-tracking-redirect' => 'Se tiġi awtomatikament rindirizzat sabiex tkompli d-donazzjoni tiegħek.',
 	'contrib-tracking-button' => 'Kompli',
 	'contrib-tracking-item-name-onetime' => 'Donazzjoni unika',
