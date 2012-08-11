@@ -313,7 +313,7 @@ $messages['diq'] = array(
 	'contrib-tracking-error' => 'Xırab',
 	'contrib-tracking-error-text' => 'Ena form raşt niyo',
 	'contrib-tracking-submitting' => 'Processor de pere teslim keno...',
-	'contrib-tracking-continue' => 'Eka ti otomatik redirekt nibiyo, goceki rê bitexne u yardîmê pere xo ser PayPalî ra biker.',
+	'contrib-tracking-continue' => 'Eka ti şıma xob xo hetênayış nêbiyê se, bêca xo temam kerdışi rê maker pıploxnê',
 	'contrib-tracking-button' => 'Dewam bike',
 );
 
