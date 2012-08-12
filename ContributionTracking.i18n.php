@@ -1312,11 +1312,13 @@ $messages['sw'] = array(
 );
 
 /** Tamil (தமிழ்)
+ * @author Karthi.dr
  * @author TRYPPN
  */
 $messages['ta'] = array(
 	'contrib-tracking-error' => 'தவறு',
 	'contrib-tracking-button' => 'தொடரவும்',
+	'contrib-tracking-item-name-onetime' => 'ஒருதடவையிலான நன்கொடை',
 );
 
 /** Telugu (తెలుగు)
