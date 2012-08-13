@@ -84,7 +84,7 @@ $messages['ar'] = array(
 	'contrib-tracking-submitting' => 'تسليم إلى معالج الدفع...',
 	'contrib-tracking-continue' => 'إذا لم يتم توجيهها تلقائياً، انقر فوق الزر لإتمام تبرعك.',
 	'contrib-tracking-redirect' => 'سوف يتم توجيهك تلقائياً لإتمام تبرعك.',
-	'contrib-tracking-button' => 'استمر',
+	'contrib-tracking-button' => 'استمرار',
 	'contrib-tracking-item-name-onetime' => 'التبرع مرة واحدة',
 	'contrib-tracking-item-name-recurring' => 'تبرع شهري متكرر',
 );
@@ -574,6 +574,13 @@ $messages['hi'] = array(
 	'contrib-tracking-button' => 'जारी रखें',
 	'contrib-tracking-item-name-onetime' => 'एक समय दान',
 	'contrib-tracking-item-name-recurring' => 'आवर्ती मासिक दान',
+);
+
+/** Fiji Hindi (Latin script) (Fiji Hindi)
+ * @author Karthi.dr
+ */
+$messages['hif-latn'] = array(
+	'contrib-tracking-error' => 'Galti',
 );
 
 /** Croatian (hrvatski)
