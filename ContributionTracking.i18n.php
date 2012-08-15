@@ -498,6 +498,13 @@ $messages['fur'] = array(
 	'contrib-tracking-button' => 'Va indevant',
 );
 
+/** Irish (Gaeilge)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['ga'] = array(
+	'contrib-tracking-error' => 'Earráid',
+);
+
 /** Galician (galego)
  * @author Toliño
  */
@@ -745,6 +752,8 @@ $messages['ka'] = array(
 	'contrib-tracking-submitting' => 'მიმდინარეობს გადახდების დამმუშავებლისდამი გაგზავნა...',
 	'contrib-tracking-continue' => 'თუ თქვენ არ იყავით ავტომატურად გადამისამართებული, დააჭირეთ ღილაკს რათა დაასრულოთ თქვენი შემოწირულობა.',
 	'contrib-tracking-button' => 'გაგრძელება',
+	'contrib-tracking-item-name-onetime' => 'ერთჯერადი შენატანი',
+	'contrib-tracking-item-name-recurring' => 'ყოველთვიური შენატანი',
 );
 
 /** Khmer (ភាសាខ្មែរ)
@@ -922,8 +931,11 @@ $messages['ms'] = array(
  * @author Chrisportelli
  */
 $messages['mt'] = array(
+	'contributiontracking-desc' => "Moniteraġġ tad-donazzjonijiet għall-kampanja ta' ġbir ta' fondi tal-Wikimedia",
+	'contributiontracking' => 'Moniteraġġ tad-donazzjonijiet',
 	'contrib-tracking-error' => 'Żball',
 	'contrib-tracking-error-text' => 'Żball fis-sottomissjoni tal-formola',
+	'contrib-tracking-submitting' => 'Qiegħed jintbagħat għall-proċessur tal-ħlas...',
 	'contrib-tracking-continue' => 'Jekk mintix awtomatikament rindirizzat, agħfas il-buttuna sabiex tkompli d-donazzjoni.',
 	'contrib-tracking-redirect' => 'Se tiġi awtomatikament rindirizzat sabiex tkompli d-donazzjoni tiegħek.',
 	'contrib-tracking-button' => 'Kompli',
@@ -989,6 +1001,14 @@ $messages['nl'] = array(
 	'contrib-tracking-button' => 'Doorgaan',
 	'contrib-tracking-item-name-onetime' => 'Eenmalige donatie',
 	'contrib-tracking-item-name-recurring' => 'Terugkerende maandelijkse donatie',
+);
+
+/** ‪Nederlands (informeel)‬ (‪Nederlands (informeel)‬)
+ * @author Siebrand
+ */
+$messages['nl-informal'] = array(
+	'contrib-tracking-continue' => 'Als je niet automatisch wordt doorgestuurd, klik dan op de knop om je donatie te voltooien.',
+	'contrib-tracking-redirect' => 'Je wordt automatisch doorgeleid om je donatie te voltooien.',
 );
 
 /** Norwegian Nynorsk (‪norsk (nynorsk)‬)
