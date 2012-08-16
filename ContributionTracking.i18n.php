@@ -727,6 +727,7 @@ $messages['ja'] = array(
 );
 
 /** Javanese (Basa Jawa)
+ * @author NoiX180
  * @author Pras
  */
 $messages['jv'] = array(
@@ -735,8 +736,11 @@ $messages['jv'] = array(
 	'contrib-tracking-error' => 'Kasalahan',
 	'contrib-tracking-error-text' => 'Pangajuan formulir ora sah',
 	'contrib-tracking-submitting' => 'Ngirim menyang prosèsor pambayaran...',
-	'contrib-tracking-continue' => 'Yèn panjenengan ora sacara otomatis dialihaké, klik tombol kanggo ngrampungaké sumbangan panjenengan ing Paypal.',
+	'contrib-tracking-continue' => 'Yèn Sampéyan ora otomatis dialihaké, klik tombol kuwi kanggo ngrampungaké sumbangan Sampéyan.',
+	'contrib-tracking-redirect' => 'Sampéyan bakal otomatis diarahaké kanggo ngrampungaké sumbangan Sampéyan.',
 	'contrib-tracking-button' => 'Terus',
+	'contrib-tracking-item-name-onetime' => 'Sumbangan sisan-gawé',
+	'contrib-tracking-item-name-recurring' => 'Sumbangan saben sasi ajeg',
 );
 
 /** Georgian (ქართული)
@@ -1444,6 +1448,14 @@ $messages['uk'] = array(
 	'contrib-tracking-button' => 'Продовжити',
 	'contrib-tracking-item-name-onetime' => 'Одноразове пожертвування',
 	'contrib-tracking-item-name-recurring' => 'Періодичне щомісячне пожертвування',
+);
+
+/** Urdu (اردو)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['ur'] = array(
+	'contrib-tracking-error' => 'غلطی',
+	'contrib-tracking-button' => 'جاری رکھیں',
 );
 
 /** vèneto (vèneto)
