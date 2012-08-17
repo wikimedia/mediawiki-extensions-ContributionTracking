@@ -1454,8 +1454,12 @@ $messages['uk'] = array(
  * @author පසිඳු කාවින්ද
  */
 $messages['ur'] = array(
+	'contributiontracking' => 'شراکت سے باخبر رہنا',
 	'contrib-tracking-error' => 'غلطی',
+	'contrib-tracking-error-text' => 'باطل فارم پیش',
 	'contrib-tracking-button' => 'جاری رکھیں',
+	'contrib-tracking-item-name-onetime' => 'ایک ٹائم عطیہ',
+	'contrib-tracking-item-name-recurring' => 'بار بار چلنے والی ماہانہ عطیہ',
 );
 
 /** vèneto (vèneto)
