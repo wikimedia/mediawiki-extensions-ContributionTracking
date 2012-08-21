@@ -962,6 +962,7 @@ $messages['nah'] = array(
 );
 
 /** Norwegian Bokmål (‪norsk (bokmål)‬)
+ * @author Danmichaelo
  * @author Finnrind
  * @author Nghtwlkr
  */
@@ -971,8 +972,8 @@ $messages['nb'] = array(
 	'contrib-tracking-error' => 'Feil',
 	'contrib-tracking-error-text' => 'Ugyldig skjema',
 	'contrib-tracking-submitting' => 'Sender til betalingshåndtering...',
-	'contrib-tracking-continue' => 'Om du ikke omdirigeres automatisk, klikk på knappen for å gjennomføre donasjonen hos PayPal.',
-	'contrib-tracking-redirect' => 'Du vil automatisk bli omdirigert til PayPal for å fullføre donasjonen din.',
+	'contrib-tracking-continue' => 'Om du ikke omdirigeres automatisk, klikk på knappen for å gjennomføre din donasjonen.',
+	'contrib-tracking-redirect' => 'Du vil automatisk bli omdirigert for å fullføre donasjonen din.',
 	'contrib-tracking-button' => 'Fortsett',
 	'contrib-tracking-item-name-onetime' => 'Engangsdonasjon',
 	'contrib-tracking-item-name-recurring' => 'Regelmessige månedlige donasjoner',
