@@ -314,7 +314,7 @@ $messages['diq'] = array(
 	'contrib-tracking-error-text' => 'Ena form raşt niyo',
 	'contrib-tracking-submitting' => 'Processor de pere teslim keno...',
 	'contrib-tracking-continue' => 'Eka ti şıma xob xo hetênayış nêbiyê se, bêca xo temam kerdışi rê maker pıploxnê',
-	'contrib-tracking-button' => 'Dewam bike',
+	'contrib-tracking-button' => 'Dewam ke',
 );
 
 /** Lower Sorbian (dolnoserbski)
