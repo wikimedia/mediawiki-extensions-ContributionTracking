@@ -123,7 +123,7 @@ $specialPageAliases['mr'] = array(
 	'ContributionTracking' => array( 'योगदानमागमूस' ),
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬) */
+/** Norwegian Bokmål (norsk (bokmål)‎) */
 $specialPageAliases['nb'] = array(
 	'ContributionTracking' => array( 'Bidragssporing' ),
 );
@@ -168,12 +168,12 @@ $specialPageAliases['vec'] = array(
 	'ContributionTracking' => array( 'TraciamentoContributi' ),
 );
 
-/** Simplified Chinese (‪中文（简体）‬) */
+/** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = array(
 	'ContributionTracking' => array( '贡献追踪' ),
 );
 
-/** Traditional Chinese (‪中文（繁體）‬) */
+/** Traditional Chinese (中文（繁體）‎) */
 $specialPageAliases['zh-hant'] = array(
 	'ContributionTracking' => array( '跟蹤貢獻' ),
 );
