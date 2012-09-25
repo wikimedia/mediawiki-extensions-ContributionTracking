@@ -29,6 +29,7 @@ class ContributionTracking extends UnlistedSpecialPage {
 			$contribution_tracking_id = $wgRequest->getVal( 'contribution_tracking_id', 0 );
 		} else {
 			$tracked_contribution = array(
+				'form_amount' => $wgRequest->getVal('currency_code') . ' ' . $wgRequest->getVal('amount'),
 				'note' => $wgRequest->getVal( 'comment' ),
 				'referrer' => $wgRequest->getVal( 'referrer' ),
 				'utm_source' => $wgRequest->getVal( 'utm_source' ),
@@ -36,6 +37,7 @@ class ContributionTracking extends UnlistedSpecialPage {
 				'utm_campaign' => $wgRequest->getVal( 'utm_campaign' ),
 				'utm_key' => $wgRequest->getVal( 'utm_key' ),
 				'language' => $wgRequest->getVal( 'language' ),
+				'country' => $wgRequest->getVal( 'country' ),
 				'owa_session' => $wgRequest->getVal( 'owa_session' ),
 				'owa_ref' => $wgRequest->getVal( 'owa_ref', null ),
 				//'ts' => $ts,

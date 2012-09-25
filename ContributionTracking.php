@@ -88,6 +88,13 @@ $wgContributionTrackingRPPLength = '0';
 
 $wgContributionTrackingUTMKey = false;
 
+/**
+ * Temporary configuration variable.  The default value of false indicates that the
+ * required schema changes are not in place and the extension should not attempt to
+ * insert values into the new fields.
+ */
+$wgContributionTrackingAnalyticsUpgrade = false;
+
 # Unit tests
 $wgHooks['UnitTestsList'][] = 'efContributionTrackingUnitTests';
 
@@ -145,6 +152,9 @@ function efContributionTrackingLoadUpdates( $updater = null ){
 			}
 			if ( !$ctDB->fieldExists( 'contribution_tracking', 'utm_key' ) ){
 				$ctDB->sourceFile( $dir . 'patches/patch-utm_key.sql' );
+			}
+			if ( !$ctDB->fieldExists( 'contribution_tracking', 'country' ) ){
+				$ctDB->sourceFile( $dir . 'patches/20120924.new_columns.sql' );
 			}
 		}
 	}

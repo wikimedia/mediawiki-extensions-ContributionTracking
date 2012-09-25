@@ -104,10 +104,16 @@ class ContributionTrackingProcessor {
 	 * @return array Staged key-value pairs ready to be saved as a contribution.
 	 */
 	static function stage_contribution( $params ) {
-		global $wgContributionTrackingUTMKey;
+		global $wgContributionTrackingUTMKey, $wgContributionTrackingAnalyticsUpgrade;
 
 		//change the posted names to match the db where necessary
 		ContributionTrackingProcessor::rekey( $params, 'comment', 'note' );
+
+		if( !array_key_exists( 'form_amount', $params ) ){
+			if( array_key_exists( 'currency_code', $params ) && array_key_exists( 'amount', $params ) ){
+				$params['form_amount'] = $params['currency_code'] . ' ' . $params['amount'];
+			}
+		}
 
 		$tracked_contribution = ContributionTrackingProcessor::mergeArrayDefaults( $params, ContributionTrackingProcessor::getContributionDefaults(), true );
 
@@ -115,6 +121,21 @@ class ContributionTrackingProcessor {
 			// unset utm_key entries
 			if( array_key_exists( 'utm_key', $tracked_contribution ) ){
 				unset( $tracked_contribution['utm_key'] );
+			}
+		}
+		if( !$wgContributionTrackingAnalyticsUpgrade ){
+			// unset the new fields
+			if( array_key_exists( 'country', $tracked_contribution ) ){
+				unset( $tracked_contribution['country'] );
+			}
+			if( array_key_exists( 'form_amount', $tracked_contribution ) ){
+				unset( $tracked_contribution['form_amount'] );
+			}
+			if( array_key_exists( 'usd_amount', $tracked_contribution ) ){
+				unset( $tracked_contribution['usd_amount'] );
+			}
+			if( array_key_exists( 'payments_form', $tracked_contribution ) ){
+				unset( $tracked_contribution['payments_form'] );
 			}
 		}
 
@@ -225,6 +246,8 @@ class ContributionTrackingProcessor {
 	 */
 	static function getContributionDefaults() {
 		return array( //defaults
+			'form_amount' => null,
+			'usd_amount' => null,
 			'note' => null,
 			'referrer' => null,
 			'anonymous' => 0,
@@ -232,8 +255,10 @@ class ContributionTrackingProcessor {
 			'utm_medium' => null,
 			'utm_campaign' => null,
 			'utm_key' => null,
+			'payments_form' => null,
 			'optout' => 0,
 			'language' => null,
+			'country' => null,
 			'owa_session' => null,
 			'owa_ref' => null,
 			'ts' => null,
