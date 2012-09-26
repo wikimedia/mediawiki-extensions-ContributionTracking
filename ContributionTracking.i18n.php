@@ -1297,14 +1297,17 @@ $messages['sr-ec'] = array(
 	'contrib-tracking-item-name-recurring' => 'Месечни прилог',
 );
 
-/** Serbian (Latin script) (‪srpski (latinica)‬)
+/** Serbian (Latin script) (srpski (latinica)‎)
  * @author Michaello
  */
 $messages['sr-el'] = array(
+	'contributiontracking-desc' => 'Praćenje darovanih priloga za program prikupljanja sredstava Vikimedije',
 	'contributiontracking' => 'Praćenje doprinosa',
 	'contrib-tracking-error' => 'Greška',
 	'contrib-tracking-error-text' => 'Neispravno podnošenje obrasca',
 	'contrib-tracking-submitting' => 'Šaljem obrascu za plaćanje…',
+	'contrib-tracking-continue' => 'Ako ne budete preusmereni, kliknite na dugme da završite davanje priloga.',
+	'contrib-tracking-redirect' => 'Bićete preusmereni da biste završili davanje priloga.',
 	'contrib-tracking-button' => 'Nastavi',
 	'contrib-tracking-item-name-onetime' => 'Jednokratan prilog',
 	'contrib-tracking-item-name-recurring' => 'Mesečni prilog',
