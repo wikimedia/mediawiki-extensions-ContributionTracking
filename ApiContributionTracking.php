@@ -79,6 +79,9 @@ class ApiContributionTracking extends ApiBase {
 			'comment' => array(
 				ApiBase::PARAM_TYPE => 'string',
 			),
+			'comment-option' => array(
+				ApiBase::PARAM_TYPE => 'boolean',
+			),
 			'utm_source' => array(
 				ApiBase::PARAM_TYPE => 'string',
 			),
@@ -91,7 +94,16 @@ class ApiContributionTracking extends ApiBase {
 			'utm_key' => array(
 				ApiBase::PARAM_TYPE => 'string',
 			),
+			'payments_form' => array(
+				ApiBase::PARAM_TYPE => 'string',
+			),
+			'email-opt' => array(
+				ApiBase::PARAM_TYPE => 'boolean',
+			),
 			'language' => array(
+				ApiBase::PARAM_TYPE => 'string',
+			),
+			'country' => array(
 				ApiBase::PARAM_TYPE => 'string',
 			),
 			'owa_session' => array(
@@ -144,13 +156,17 @@ class ApiContributionTracking extends ApiBase {
 				'String identifying the specific entity used to process this payment. ',
 				'Probably "paypal". (required)' ),
 			'comment' => 'String with a comment. Actually saved as "note" in the database',
+			'comment-option' => 'Boolean assumed to be from a checkbox. This is actually the inverse of the anonymous flag.',
 			'utm_source' => 'String identifying "utm_source"',
 			'utm_medium' => 'String identifying "utm_medium"',
 			'utm_campaign' => 'String identifying "utm_campaign"',
 			'utm_key' => 'String identifying "utm_key"',
+			'payments_form' => 'String identifying the form on the payments cluster through which the donation was made',
+			'email-opt' => 'Boolean assumed to be from a checkbox. This is actually the inverse of the E-mail opt-out checkbox.',
 			'language' => array(
 				'User language code. Messages will be translated appropriately (where possible).',
 				'This will also determine what "Thank You" page the user sees upon completion of a donation at the gateway.' ),
+			'country' => 'User country code.',
 			'owa_session' => 'String identifying the "owa_session"',
 			'owa_ref' => 'String with the referring URL.',
 			'contribution_tracking_id' => 'Our ID for the current contribution. Not supplied for new contributions.', //in fact, why is this here?
