@@ -152,7 +152,7 @@ $messages['ba'] = array(
 	'contrib-tracking-item-name-recurring' => 'Ай һайын ҡабатланған иғәнә',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Red Winged Duck
@@ -294,7 +294,7 @@ $messages['de'] = array(
 	'contrib-tracking-item-name-recurring' => 'Monatlich wiederholende Spende',
 );
 
-/** German (formal address) (‪Deutsch (Sie-Form)‬)
+/** German (formal address) (Deutsch (Sie-Form)‎)
  * @author Imre
  * @author Kghbln
  */
@@ -808,7 +808,7 @@ $messages['ksh'] = array(
 	'contrib-tracking-item-name-recurring' => 'Moonatlesch_Spänd',
 );
 
-/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
+/** Kurdish (Latin script) (Kurdî (latînî)‎)
  * @author George Animal
  */
 $messages['ku-latn'] = array(
@@ -962,7 +962,7 @@ $messages['nah'] = array(
 	'contrib-tracking-error' => 'Ahcuallōtl',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬)
+/** Norwegian Bokmål (norsk (bokmål)‎)
  * @author Danmichaelo
  * @author Finnrind
  * @author Nghtwlkr
@@ -1009,7 +1009,7 @@ $messages['nl'] = array(
 	'contrib-tracking-item-name-recurring' => 'Terugkerende maandelijkse donatie',
 );
 
-/** ‪Nederlands (informeel)‬ (‪Nederlands (informeel)‬)
+/** Nederlands (informeel)‎ (Nederlands (informeel)‎)
  * @author Siebrand
  */
 $messages['nl-informal'] = array(
@@ -1017,7 +1017,7 @@ $messages['nl-informal'] = array(
 	'contrib-tracking-redirect' => 'Je wordt automatisch doorgeleid om je donatie te voltooien.',
 );
 
-/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
+/** Norwegian Nynorsk (norsk (nynorsk)‎)
  * @author Finnrind
  * @author Harald Khan
  * @author Njardarlogar
@@ -1280,7 +1280,7 @@ $messages['sl'] = array(
 	'contrib-tracking-item-name-recurring' => 'Ponavljajoči se mesečni prispevki',
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Rancher
  * @author Јованвб
  */
@@ -1531,7 +1531,7 @@ $messages['yi'] = array(
 	'contrib-tracking-button' => 'פֿארזעצן',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Chenzw
  * @author Hydra
  * @author Liangent
@@ -1550,7 +1550,7 @@ $messages['zh-hans'] = array(
 	'contrib-tracking-item-name-recurring' => '每月定期捐款',
 );
 
-/** Traditional Chinese (‪中文（繁體）‬)
+/** Traditional Chinese (中文（繁體）‎)
  * @author Liangent
  * @author Mark85296341
  */
