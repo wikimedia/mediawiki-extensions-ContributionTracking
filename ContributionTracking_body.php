@@ -1,45 +1,47 @@
 <?php
 
 class ContributionTracking extends UnlistedSpecialPage {
+	public $lang;
 
 	function __construct() {
 		parent::__construct( 'ContributionTracking' );
 	}
 
 	function execute( $language ) {
-		global $wgRequest, $wgOut, $wgContributionTrackingReturnToURLDefault;
+		$request = $this->getRequest();
+
+		$gateway = $request->getText( 'gateway' );
+		if ( !in_array( $gateway, array( 'paypal', 'moneybookers' ) ) ) {
+			$this->getOutput()->showErrorPage( 'contrib-tracking-error', 'contrib-tracking-error-text' );
+			return;
+		}
 
 		if ( !preg_match( '/^[a-z-]+$/', $language ) ) {
 			$language = 'en';
 		}
-		$this->lang = Language::factory( $language );
 
+		$this->lang = Language::factory( $language );
 		$this->setHeaders();
 
-		$wgOut->setPageTitle('');
-
-		$gateway = $wgRequest->getText( 'gateway' );
-		if ( !in_array( $gateway, array( 'paypal', 'moneybookers' ) ) ) {
-			$wgOut->showErrorPage( 'contrib-tracking-error', 'contrib-tracking-error-text' );
-			return;
-		}
+		$out = $this->getOutput();
+		$out->setPageTitle('');
 
 		// Store the contribution data
-		if ( $wgRequest->getVal( 'contribution_tracking_id' ) ) {
-			$contribution_tracking_id = $wgRequest->getVal( 'contribution_tracking_id', 0 );
+		if ( $request->getVal( 'contribution_tracking_id' ) ) {
+			$contribution_tracking_id = $request->getVal( 'contribution_tracking_id', 0 );
 		} else {
 			$tracked_contribution = array(
-				'form_amount' => $wgRequest->getVal('currency_code') . ' ' . $wgRequest->getVal('amount'),
-				'note' => $wgRequest->getVal( 'comment' ),
-				'referrer' => $wgRequest->getVal( 'referrer' ),
-				'utm_source' => $wgRequest->getVal( 'utm_source' ),
-				'utm_medium' => $wgRequest->getVal( 'utm_medium' ),
-				'utm_campaign' => $wgRequest->getVal( 'utm_campaign' ),
-				'utm_key' => $wgRequest->getVal( 'utm_key' ),
-				'language' => $wgRequest->getVal( 'language' ),
-				'country' => $wgRequest->getVal( 'country' ),
-				'owa_session' => $wgRequest->getVal( 'owa_session' ),
-				'owa_ref' => $wgRequest->getVal( 'owa_ref', null ),
+				'form_amount' => $request->getVal('currency_code') . ' ' . $request->getVal('amount'),
+				'note' => $request->getVal( 'comment' ),
+				'referrer' => $request->getVal( 'referrer' ),
+				'utm_source' => $request->getVal( 'utm_source' ),
+				'utm_medium' => $request->getVal( 'utm_medium' ),
+				'utm_campaign' => $request->getVal( 'utm_campaign' ),
+				'utm_key' => $request->getVal( 'utm_key' ),
+				'language' => $request->getVal( 'language' ),
+				'country' => $request->getVal( 'country' ),
+				'owa_session' => $request->getVal( 'owa_session' ),
+				'owa_ref' => $request->getVal( 'owa_ref', null ),
 				//'ts' => $ts,
 			);
 			$contribution_tracking_id = ContributionTrackingProcessor::saveNewContribution( $tracked_contribution );
@@ -47,28 +49,28 @@ class ContributionTracking extends UnlistedSpecialPage {
 
 		$params = array(
 			'gateway' => $gateway,
-			'tshirt' => $wgRequest->getVal( 'tshirt' ),
-			'return' => $wgRequest->getText( 'returnto', "Donate-thanks/$language" ),
-			'currency_code' => $wgRequest->getText( 'currency_code', 'USD' ),
-			'fname' => $wgRequest->getText( 'fname', null ),
-			'lname' => $wgRequest->getText( 'lname', null ),
-			'email' => $wgRequest->getText( 'email', null ),
-			'address1' => $wgRequest->getText( 'address1', null ),
-			'city' => $wgRequest->getText( 'city', null ),			
-			'state' => $wgRequest->getText( 'state', null ),
-			'zip' => $wgRequest->getText( 'zip', null ),
-			'country' => $wgRequest->getText( 'country', null ),
-			'address_override' => $wgRequest->getText( 'address_override', '0' ),
-			'recurring_paypal' => $wgRequest->getText( 'recurring_paypal' ),
-			'amount' => $wgRequest->getVal( 'amount' ),
-			'amount_given' => $wgRequest->getVal( 'amountGiven' ),
+			'tshirt' => $request->getVal( 'tshirt' ),
+			'return' => $request->getText( 'returnto', "Donate-thanks/$language" ),
+			'currency_code' => $request->getText( 'currency_code', 'USD' ),
+			'fname' => $request->getText( 'fname', null ),
+			'lname' => $request->getText( 'lname', null ),
+			'email' => $request->getText( 'email', null ),
+			'address1' => $request->getText( 'address1', null ),
+			'city' => $request->getText( 'city', null ),
+			'state' => $request->getText( 'state', null ),
+			'zip' => $request->getText( 'zip', null ),
+			'country' => $request->getText( 'country', null ),
+			'address_override' => $request->getText( 'address_override', '0' ),
+			'recurring_paypal' => $request->getText( 'recurring_paypal' ),
+			'amount' => $request->getVal( 'amount' ),
+			'amount_given' => $request->getVal( 'amountGiven' ),
 			'contribution_tracking_id' => $contribution_tracking_id,
 			'language' => $language,
 		);
 
 		if ( $params['tshirt'] ) {
-			$params['size'] = $wgRequest->getText( 'size' );
-			$params['premium_language'] = $wgRequest->getText( 'premium_language' );
+			$params['size'] = $request->getText( 'size' );
+			$params['premium_language'] = $request->getText( 'premium_language' );
 		}
 
 		foreach ( $params as $key => $value ) {
@@ -79,8 +81,7 @@ class ContributionTracking extends UnlistedSpecialPage {
 
 		$repost = ContributionTrackingProcessor::getRepostFields( $params );
 
-		#$wgOut->addWikiText( "{{2009/Donate-banner/$language}}" );
-		$wgOut->addHTML( $this->ct_msgWiki( 'contrib-tracking-submitting' ) );
+		$out->addHTML( $this->ct_msgWiki( 'contrib-tracking-submitting' ) );
 
 		// Output the repost form
 		$output = '<form method="post" name="contributiontracking" action="' . $repost['action'] . '">';
@@ -99,18 +100,17 @@ class ContributionTracking extends UnlistedSpecialPage {
 
 		$output .= '</form>';
 
-		$wgOut->addHTML( $output );
+		$out->addHTML( $output );
 
-		// Automatically post the form if the user has Javascript support
-		$wgOut->addHTML( '<script type="text/javascript">document.contributiontracking.submit();</script>' );
+		// Automatically post the form if the user has JavaScript support
+		$out->addHTML( '<script type="text/javascript">document.contributiontracking.submit();</script>' );
 	}
 
 	function ct_msg() {
-		return wfMsgExt( func_get_arg( 0 ), array( 'escape', 'language' => $this->lang ) );
+		return $this->msg( func_get_arg( 0 ) )->inLanguage( $this->lang )->escaped();
 	}
 
 	function ct_msgWiki( $key ) {
-		return wfMsgExt( $key, array( 'parse', 'language' => $this->lang ) );
+		return $this->msg( $key )->inLanguage( $this->lang )->parseAsBlock();
 	}
-
 }

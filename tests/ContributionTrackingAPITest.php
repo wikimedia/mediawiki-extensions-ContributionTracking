@@ -17,7 +17,6 @@
  * @author Katie Horn <khorn@wikimedia.org>
  */
 class ContributionTrackingAPITest extends MediaWikiTestCase {
-
 	/**
 	 * Takes $request parameters and checks them against $expected parameters in
 	 * the data about to be returned by ApiContributionTracking.
@@ -32,8 +31,6 @@ class ContributionTrackingAPITest extends MediaWikiTestCase {
 	function assertExecute_responseAsExpected( $request, $expected, $message_prefix ) {
 		$result = $this->getAPIResultData( $request );
 		$result = $result['returns'];
-
-		$reposters = array( );
 
 		foreach ( $expected['fields'] as $name => $value ) {
 			if ( $name === 'custom' ) {
@@ -136,8 +133,8 @@ class ContributionTrackingAPITest extends MediaWikiTestCase {
 				'srt' => '12',
 				'src' => '1',
 				'sra' => '1',
-				'cmd' => '_xclick-subscriptions',
-				'item_name' => 'Recurring monthly donation',
+				'cmd' => '_xclick-subscriptions', /* @todo FIXME: Duplicate array key */
+				'item_name' => 'Recurring monthly donation', /* @todo FIXME: Duplicate array key */
 			)
 		);
 
@@ -282,5 +279,3 @@ class ContributionTrackingAPITest extends MediaWikiTestCase {
 	}
 
 }
-
-?>

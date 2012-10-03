@@ -12,7 +12,6 @@
  * @author Katie Horn <khorn@wikimedia.org>
  */
 class ApiContributionTracking extends ApiBase {
-
 	public function execute( $params = null ) {
 		if ( $params === null ) {
 			$params = $this->extractRequestParams();
@@ -201,5 +200,4 @@ class ApiContributionTracking extends ApiBase {
 	public function getVersion() {
 		return __CLASS__ . ': $Id$';
 	}
-
 }

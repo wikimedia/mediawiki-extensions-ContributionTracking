@@ -10,6 +10,7 @@
  * This page is only visible to sysops.
  */
 class ContributionTrackingTester extends UnlistedSpecialPage {
+	public $lang;
 
 	function __construct() {
 		parent::__construct( 'ContributionTrackingTester', 'ViewContributionTrackingTester' );
@@ -22,7 +23,7 @@ class ContributionTrackingTester extends UnlistedSpecialPage {
 			return;
 		}
 
-		global $wgRequest, $wgOut, $wgContributionTrackingReturnToURLDefault;
+		global $wgOut;
 
 		$wgOut->addModules( 'jquery.contributionTracking' );
 
@@ -61,7 +62,6 @@ class ContributionTrackingTester extends UnlistedSpecialPage {
 	}
 
 	function msgWiki( $key ) {
-		return wfMsgExt( $key, array( 'parse', 'language' => $this->lang ) );
+		return $this->msg( $key )->inLanguage( $this->lang )->parseAsBlock();
 	}
-
 }

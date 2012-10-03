@@ -428,5 +428,3 @@ class ContributionTrackingProcessorTest extends MediaWikiTestCase {
 	}
 
 }
-
-?>

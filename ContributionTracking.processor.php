@@ -5,7 +5,6 @@
  * @author Katie Horn <khorn@wikimedia.org>
  */
 class ContributionTrackingProcessor {
-
 	/**
 	 * If a database connection has already been established, it returns that
 	 * connection. Otherwise, it establishes one, and returns that.
@@ -323,12 +322,13 @@ class ContributionTrackingProcessor {
 	/**
 	 * Takes staged transaction data, and constructs the key/value pairs
 	 * formatted to be reposted to the gateway specified in $input['gateway']
+	 * @param array $input The staged data to repost to a gateway.
+	 * @throws MWException
 	 * @global string $wgContributionTrackingPayPalBusiness 'Business' string
 	 * for PayPal: Defined in ContributionTracking.php
 	 * @global string $wgContributionTrackingReturnToURLDefault Default URL to
 	 * return to after the transaction was processed by the gateway. Used if
 	 * none supplied.
-	 * @param array $input The staged data to repost to a gateway.
 	 * @return array Key/value pairs, ready to be reposted to the specified
 	 * gateway to complete the transaction.
 	 */
@@ -456,10 +456,9 @@ class ContributionTrackingProcessor {
 	/**
 	 * Sets any language that is expressly specified in the posted parameters.
 	 * If no language is expressly set, it gets the global language code.
-	 * @global Language $wgLang
-	 * @staticvar string $language The language code currently in use
-	 * @param array $params Request parameters that may or may not contain a
+	 * @param array|string $params Request parameters that may or may not contain a
 	 * 'language' key.
+	 * @staticvar string $language The language code currently in use
 	 * @return string A valid language code
 	 */
 	static function getLanguage( $params = '' ) {
@@ -484,7 +483,6 @@ class ContributionTrackingProcessor {
 	 * @return string translated message
 	 */
 	static function msg( $key ) {
-		return wfMsgExt( $key, array( 'escape', 'language' => ContributionTrackingProcessor::getLanguage() ) );
+		return wfMessage( $key )->inLanguage( ContributionTrackingProcessor::getLanguage() )->escaped();
 	}
-
 }

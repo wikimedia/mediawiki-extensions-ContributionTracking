@@ -26,7 +26,7 @@
 			//TODO: Think about the button disabling and enabling.
 			//TODO: also think about a barber pole. That would go here.
 		});
-	}
+	};
 
 	/**
 	 * Turns the first parent form from the passing object, to an object we can
@@ -46,7 +46,7 @@
 			}
 		}
 		return finalObj;
-	}
+	};
 
 	/**
 	 * Sends the formatted ajax request to the API, turns the result into a
@@ -89,14 +89,14 @@
 			}
 			$('#immediate_repost').submit();
 
-		}
+		};
 
 		$.post(
 			mw.config.get('wgScriptPath') + '/api.php',
 			postData,
 			processAjaxReturn,
 			'json');
-	}
+	};
 
 	/**
 	 * Just for easy debugging. Should not actually be called anywhere.
