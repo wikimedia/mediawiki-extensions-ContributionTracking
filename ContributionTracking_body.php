@@ -40,9 +40,6 @@ class ContributionTracking extends UnlistedSpecialPage {
 				'utm_key' => $request->getVal( 'utm_key' ),
 				'language' => $request->getVal( 'language' ),
 				'country' => $request->getVal( 'country' ),
-				'owa_session' => $request->getVal( 'owa_session' ),
-				'owa_ref' => $request->getVal( 'owa_ref', null ),
-				//'ts' => $ts,
 			);
 			$contribution_tracking_id = ContributionTrackingProcessor::saveNewContribution( $tracked_contribution );
 		}

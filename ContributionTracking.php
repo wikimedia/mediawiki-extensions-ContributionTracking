@@ -81,20 +81,6 @@ $wgContributionTrackingPayPalBusiness = 'donations@wikimedia.org';
 
 $wgContributionTrackingRPPLength = '0';
 
-/**
- * The default of false means that contribution tracking ignores and does not
- * attempt to insert utm_key columns into the database.
- */
-
-$wgContributionTrackingUTMKey = false;
-
-/**
- * Temporary configuration variable.  The default value of false indicates that the
- * required schema changes are not in place and the extension should not attempt to
- * insert values into the new fields.
- */
-$wgContributionTrackingAnalyticsUpgrade = false;
-
 # Unit tests
 $wgHooks['UnitTestsList'][] = 'efContributionTrackingUnitTests';
 
