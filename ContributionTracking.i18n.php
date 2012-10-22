@@ -66,7 +66,7 @@ $messages['an'] = array(
 	'contrib-tracking-error' => 'Error',
 	'contrib-tracking-error-text' => 'Error en o formulario',
 	'contrib-tracking-submitting' => 'Ninviando ta o procesador de pagos...',
-	'contrib-tracking-continue' => 'Si ye endrezato automaticament, faiga click en o botón ta rematar a suya donación en PayPal.',
+	'contrib-tracking-continue' => 'Si ye endrezato automaticament, faiga click en o botón ta rematar a suya donación en PayPal.', # Fuzzy
 	'contrib-tracking-button' => 'Continar',
 );
 
@@ -107,7 +107,7 @@ $messages['arz'] = array(
 	'contrib-tracking-error' => 'غلط',
 	'contrib-tracking-error-text' => 'استمارة التقديم مش صحيحة',
 	'contrib-tracking-submitting' => 'تقديم لمعالج الدفع ...',
-	'contrib-tracking-continue' => 'لو ما اتحولتش اوتوماتيكى، دوس على الزرار علشان تكمل التبرع بتاعك على الباى بال',
+	'contrib-tracking-continue' => 'لو ما اتحولتش اوتوماتيكى، دوس على الزرار علشان تكمل التبرع بتاعك على الباى بال', # Fuzzy
 	'contrib-tracking-button' => 'استمر',
 );
 
@@ -145,8 +145,8 @@ $messages['ba'] = array(
 	'contrib-tracking-error' => 'Хата',
 	'contrib-tracking-error-text' => 'Форманы ебәреү хатаһы',
 	'contrib-tracking-submitting' => 'Түләүҙәрҙе эшкәртеү ҡоралына ебәреү...',
-	'contrib-tracking-continue' => 'Әгәр һеҙ автоматик рәүештә йүнәлтелгән булмаһағыҙ, PayPal сайтында иғәнә биреүҙе тамамлау өсөн, төймәгә баҫығыҙ.',
-	'contrib-tracking-redirect' => 'Һеҙ иғәнә биреүҙе тамамлау өсөн автоматик рәүештә PayPal  сайтына йүнәлтеләсәкһегеҙ.',
+	'contrib-tracking-continue' => 'Әгәр һеҙ автоматик рәүештә йүнәлтелгән булмаһағыҙ, PayPal сайтында иғәнә биреүҙе тамамлау өсөн, төймәгә баҫығыҙ.', # Fuzzy
+	'contrib-tracking-redirect' => 'Һеҙ иғәнә биреүҙе тамамлау өсөн автоматик рәүештә PayPal  сайтына йүнәлтеләсәкһегеҙ.', # Fuzzy
 	'contrib-tracking-button' => 'Дауам итергә',
 	'contrib-tracking-item-name-onetime' => 'Бер тапҡыр булған иғәнә',
 	'contrib-tracking-item-name-recurring' => 'Ай һайын ҡабатланған иғәнә',
@@ -182,7 +182,7 @@ $messages['bg'] = array(
 	'contrib-tracking-error' => 'Грешка',
 	'contrib-tracking-error-text' => 'Неправилно изпратена форма',
 	'contrib-tracking-submitting' => 'Изпращане за обработка на плащането...',
-	'contrib-tracking-continue' => 'Ако не бъдете пренасочени автоматично, натиснете бутона, за да завършите дарението през PayPal.',
+	'contrib-tracking-continue' => 'Ако не бъдете пренасочени автоматично, натиснете бутона, за да завършите дарението през PayPal.', # Fuzzy
 	'contrib-tracking-button' => 'Продължаване',
 	'contrib-tracking-item-name-onetime' => 'Еднократно дарение',
 	'contrib-tracking-item-name-recurring' => 'Ежемесечно дарение',
@@ -197,8 +197,8 @@ $messages['bn'] = array(
 	'contrib-tracking-error' => 'ত্রুটি',
 	'contrib-tracking-error-text' => 'অগ্রহণযোগ্য ফর্ম জমা',
 	'contrib-tracking-submitting' => 'পেমেন্ট প্রসেসরের কাছে প্রদান করা হচ্ছে...',
-	'contrib-tracking-continue' => 'আপনাকে যদি স্বয়ংক্রিয়ভাবে পুনর্নির্দেশিত করা না হয়, তবে পেপ্যাল-এ আপনার অনুদান সম্পন্ন করতে নিচের বাটনে ক্লিক করুন।',
-	'contrib-tracking-redirect' => 'অনুদান সম্পূর্ণ করতে আপনাকে স্বয়ংক্রিয়ভাবে পেপ্যালে পুনর্নির্দেশ করা হবে।',
+	'contrib-tracking-continue' => 'আপনাকে যদি স্বয়ংক্রিয়ভাবে পুনর্নির্দেশিত করা না হয়, তবে পেপ্যাল-এ আপনার অনুদান সম্পন্ন করতে নিচের বাটনে ক্লিক করুন।', # Fuzzy
+	'contrib-tracking-redirect' => 'অনুদান সম্পূর্ণ করতে আপনাকে স্বয়ংক্রিয়ভাবে পেপ্যালে পুনর্নির্দেশ করা হবে।', # Fuzzy
 	'contrib-tracking-button' => 'অগ্রসর হোন',
 	'contrib-tracking-item-name-onetime' => 'একক-সময় অনুদান',
 );
@@ -228,8 +228,8 @@ $messages['bs'] = array(
 	'contrib-tracking-error' => 'Greška',
 	'contrib-tracking-error-text' => 'Slanje nevaljanog obrasca',
 	'contrib-tracking-submitting' => 'Šaljem za proces plaćanja...',
-	'contrib-tracking-continue' => 'Ako niste automatski preusmjereni, kliknite na dugme da završite Vašu donaciju putem PayPala.',
-	'contrib-tracking-redirect' => 'Bit ćete automatski preusmjereni na PayPal da dovršite vašu donaciju.',
+	'contrib-tracking-continue' => 'Ako niste automatski preusmjereni, kliknite na dugme da završite Vašu donaciju putem PayPala.', # Fuzzy
+	'contrib-tracking-redirect' => 'Bit ćete automatski preusmjereni na PayPal da dovršite vašu donaciju.', # Fuzzy
 	'contrib-tracking-button' => 'nastavi',
 	'contrib-tracking-item-name-onetime' => 'Jednokratna donacija',
 	'contrib-tracking-item-name-recurring' => 'Mjesečna ponavljajuća donacija',
@@ -246,7 +246,7 @@ $messages['ca'] = array(
 	'contrib-tracking-error' => 'Error',
 	'contrib-tracking-error-text' => 'Enviament de formulari no vàlid',
 	'contrib-tracking-submitting' => 'Enviant al processador de pagaments...',
-	'contrib-tracking-continue' => 'Si no sou automàticament redirigit, clicau el botó per completar la vostra donació a PayPal.',
+	'contrib-tracking-continue' => 'Si no sou automàticament redirigit, clicau el botó per completar la vostra donació a PayPal.', # Fuzzy
 	'contrib-tracking-button' => 'Continua',
 );
 
@@ -333,7 +333,8 @@ $messages['dsb'] = array(
 	'contrib-tracking-item-name-recurring' => 'Wóspjetujucy se mjasecny dar',
 );
 
-/** Ewe (eʋegbe) */
+/** Ewe (eʋegbe)
+ */
 $messages['ee'] = array(
 	'contrib-tracking-error' => 'Vodada',
 );
@@ -601,8 +602,8 @@ $messages['hr'] = array(
 	'contrib-tracking-error' => 'Pogrješka',
 	'contrib-tracking-error-text' => 'Neispravno podnošenje obrasca',
 	'contrib-tracking-submitting' => 'Podnošenje obrascu za plaćanje...',
-	'contrib-tracking-continue' => 'Ako niste automatski preusmjereni, kliknite na tipku kako biste dovršili svoju donaciju s PayPalom.',
-	'contrib-tracking-redirect' => 'Bit ćete automatski preusmjereni na PayPal za dovršetak vaše donacije.',
+	'contrib-tracking-continue' => 'Ako niste automatski preusmjereni, kliknite na tipku kako biste dovršili svoju donaciju s PayPalom.', # Fuzzy
+	'contrib-tracking-redirect' => 'Bit ćete automatski preusmjereni na PayPal za dovršetak vaše donacije.', # Fuzzy
 	'contrib-tracking-button' => 'Nastavi',
 	'contrib-tracking-item-name-onetime' => 'Jednokratna donacija',
 	'contrib-tracking-item-name-recurring' => 'Mjesečna ponavljajuća donacija',
@@ -668,14 +669,15 @@ $messages['id'] = array(
 	'contrib-tracking-error' => 'Galat',
 	'contrib-tracking-error-text' => 'Pengiriman formulir tidak sah',
 	'contrib-tracking-submitting' => 'Mengirimkan ke pemroses pembayaran...',
-	'contrib-tracking-continue' => 'Jika halaman ini tidak otomatis dialihkan, klik tombol ini untuk menyelesaikan sumbangan Anda lewat PayPal.',
-	'contrib-tracking-redirect' => 'Anda akan otomatis diarahkan ke PayPal untuk menyelesaikan sumbangan Anda.',
+	'contrib-tracking-continue' => 'Jika halaman ini tidak otomatis dialihkan, klik tombol ini untuk menyelesaikan sumbangan Anda lewat PayPal.', # Fuzzy
+	'contrib-tracking-redirect' => 'Anda akan otomatis diarahkan ke PayPal untuk menyelesaikan sumbangan Anda.', # Fuzzy
 	'contrib-tracking-button' => 'Lanjutkan',
 	'contrib-tracking-item-name-onetime' => 'Sumbangan satu kali',
 	'contrib-tracking-item-name-recurring' => 'Sumbangan bulanan berulang',
 );
 
-/** Igbo (Igbo) */
+/** Igbo (Igbo)
+ */
 $messages['ig'] = array(
 	'contrib-tracking-error' => 'Nsogbú',
 );
@@ -767,8 +769,8 @@ $messages['ka'] = array(
  */
 $messages['km'] = array(
 	'contrib-tracking-error' => 'កំហុស',
-	'contrib-tracking-continue' => 'ប្រសិនបើអ្នកមិនត្រូវបានបញ្ជូនបន្តដោយស្វ័យប្រវត្តិទេ សូចចុចប៊ូតុងដើម្បីសំរេចការបរិច្ចាគរបស់អ្នកនៅ PayPal។',
-	'contrib-tracking-redirect' => 'អ្នកនឹងត្រូវបញ្ជូនបន្តដោយស្វ័យប្រវត្តិទៅកាន់ PayPal ដើម្បីសំរេចការបរិច្ចាគរបស់អ្នក។',
+	'contrib-tracking-continue' => 'ប្រសិនបើអ្នកមិនត្រូវបានបញ្ជូនបន្តដោយស្វ័យប្រវត្តិទេ សូចចុចប៊ូតុងដើម្បីសំរេចការបរិច្ចាគរបស់អ្នកនៅ PayPal។', # Fuzzy
+	'contrib-tracking-redirect' => 'អ្នកនឹងត្រូវបញ្ជូនបន្តដោយស្វ័យប្រវត្តិទៅកាន់ PayPal ដើម្បីសំរេចការបរិច្ចាគរបស់អ្នក។', # Fuzzy
 	'contrib-tracking-button' => 'បន្ត',
 	'contrib-tracking-item-name-onetime' => 'ការបរិច្ចាគសំរាប់តែមួយលើក',
 	'contrib-tracking-item-name-recurring' => 'ការបរិច្ចាគប្រចាំខែ',
@@ -848,7 +850,7 @@ $messages['li'] = array(
 	'contrib-tracking-error' => 'Fout',
 	'contrib-tracking-error-text' => 'Óngèldige formuleerinveur',
 	'contrib-tracking-submitting' => "Bezig mit 't oetveure venne betaling...",
-	'contrib-tracking-continue' => 'Es se neet automatisch wörs doorgestuurdj, klik den óp de knoep óm dien gif via PayPal aaf te make.',
+	'contrib-tracking-continue' => 'Es se neet automatisch wörs doorgestuurdj, klik den óp de knoep óm dien gif via PayPal aaf te make.', # Fuzzy
 	'contrib-tracking-button' => 'Doorgaon',
 	'contrib-tracking-item-name-onetime' => 'Einsige donatie',
 );
@@ -861,8 +863,8 @@ $messages['lt'] = array(
 	'contrib-tracking-error' => 'Klaida',
 	'contrib-tracking-error-text' => 'Neteisingas formos pateikimas',
 	'contrib-tracking-submitting' => 'Pateikiama mokėjimo procesoriui...',
-	'contrib-tracking-continue' => 'Jei nebūsite automatiškai nukreiptas, paspauskite mygtuką, kad galėtumėte užbaigti savo aukojimą PayPal.',
-	'contrib-tracking-redirect' => 'Jūs būsite automatiškai nukreipti į PayPal sistemą, kad užbaigtumėte aukojimo procesą.',
+	'contrib-tracking-continue' => 'Jei nebūsite automatiškai nukreiptas, paspauskite mygtuką, kad galėtumėte užbaigti savo aukojimą PayPal.', # Fuzzy
+	'contrib-tracking-redirect' => 'Jūs būsite automatiškai nukreipti į PayPal sistemą, kad užbaigtumėte aukojimo procesą.', # Fuzzy
 	'contrib-tracking-button' => 'Tęsti',
 	'contrib-tracking-item-name-onetime' => 'Vienkartinės auka',
 	'contrib-tracking-item-name-recurring' => 'Kas mėnesinė auka',
@@ -989,7 +991,7 @@ $messages['nds'] = array(
 	'contrib-tracking-error' => 'Fehler',
 	'contrib-tracking-error-text' => 'Ungüllig Formularöverdragung',
 	'contrib-tracking-submitting' => 'An’t Överdragen an Betahl-Provider ...',
-	'contrib-tracking-continue' => 'Wenn du nich automaatsch wiederleidt warrst, denn klick op „Wieder“, dat du diene Spenn över PayPal afsluten kannst.',
+	'contrib-tracking-continue' => 'Wenn du nich automaatsch wiederleidt warrst, denn klick op „Wieder“, dat du diene Spenn över PayPal afsluten kannst.', # Fuzzy
 	'contrib-tracking-button' => 'Wiedermaken',
 );
 
@@ -1028,7 +1030,7 @@ $messages['nn'] = array(
 	'contrib-tracking-error' => 'Feil',
 	'contrib-tracking-error-text' => 'Ugyldig skjema',
 	'contrib-tracking-submitting' => 'Sender til betalingshandtering...',
-	'contrib-tracking-continue' => 'Om du ikkje blir omdirigert automatisk, klikk på knappen for å gjennomføra donasjonen hjå PayPal.',
+	'contrib-tracking-continue' => 'Om du ikkje blir omdirigert automatisk, klikk på knappen for å gjennomføra donasjonen hjå PayPal.', # Fuzzy
 	'contrib-tracking-button' => 'Hald fram',
 );
 
@@ -1041,7 +1043,7 @@ $messages['oc'] = array(
 	'contrib-tracking-error' => 'Error',
 	'contrib-tracking-error-text' => 'Error dins lo formulari',
 	'contrib-tracking-submitting' => 'Mandadís al sistèma de pagament...',
-	'contrib-tracking-continue' => 'Clicatz sul boton per acabar vòstre don amb Paypal.',
+	'contrib-tracking-continue' => 'Clicatz sul boton per acabar vòstre don amb Paypal.', # Fuzzy
 	'contrib-tracking-button' => 'Contunhar',
 );
 
@@ -1118,8 +1120,8 @@ $messages['pt'] = array(
 	'contrib-tracking-error' => 'Erro',
 	'contrib-tracking-error-text' => 'Envio de formulário inválido',
 	'contrib-tracking-submitting' => 'A enviar ao processador de pagamentos...',
-	'contrib-tracking-continue' => 'Se não for redireccionado automaticamente, clique no botão para completar o seu donativo no PayPal.',
-	'contrib-tracking-redirect' => 'Será reencaminhado automaticamente para o Paypal para terminar o donativo.',
+	'contrib-tracking-continue' => 'Se não for redireccionado automaticamente, clique no botão para completar o seu donativo no PayPal.', # Fuzzy
+	'contrib-tracking-redirect' => 'Será reencaminhado automaticamente para o Paypal para terminar o donativo.', # Fuzzy
 	'contrib-tracking-button' => 'Continuar',
 	'contrib-tracking-item-name-onetime' => 'Donativo único',
 	'contrib-tracking-item-name-recurring' => 'Donativo mensal recorrente',
@@ -1135,8 +1137,8 @@ $messages['pt-br'] = array(
 	'contrib-tracking-error' => 'Erro',
 	'contrib-tracking-error-text' => 'Submissão de formulário inválida',
 	'contrib-tracking-submitting' => 'Submetendo ao processador de pagamentos...',
-	'contrib-tracking-continue' => 'Se você não for redirecionado automaticamente, clique no botão para completar a sua doação no PayPal.',
-	'contrib-tracking-redirect' => 'Será reencaminhado automaticamente para o Paypal para terminar a sua doação.',
+	'contrib-tracking-continue' => 'Se você não for redirecionado automaticamente, clique no botão para completar a sua doação no PayPal.', # Fuzzy
+	'contrib-tracking-redirect' => 'Será reencaminhado automaticamente para o Paypal para terminar a sua doação.', # Fuzzy
 	'contrib-tracking-button' => 'Continuar',
 	'contrib-tracking-item-name-onetime' => 'Doação única',
 	'contrib-tracking-item-name-recurring' => 'Doação mensal recorrente',
@@ -1201,8 +1203,8 @@ $messages['rue'] = array(
 	'contrib-tracking-error' => 'Хыба',
 	'contrib-tracking-error-text' => 'Одосланый формуларь не быв правилно выповненый',
 	'contrib-tracking-submitting' => 'Платба ся одосылать про спрацованя ...',
-	'contrib-tracking-continue' => 'Як не будете автоматічно напрамленый(а), кликните на клапку, жебы сьте міг(ла) докінчіти свій приспевок за помочі службы PayPal.',
-	'contrib-tracking-redirect' => 'Про докібчіня приспевку будете автоматічно напрамлены на PayPal.',
+	'contrib-tracking-continue' => 'Як не будете автоматічно напрамленый(а), кликните на клапку, жебы сьте міг(ла) докінчіти свій приспевок за помочі службы PayPal.', # Fuzzy
+	'contrib-tracking-redirect' => 'Про докібчіня приспевку будете автоматічно напрамлены на PayPal.', # Fuzzy
 	'contrib-tracking-button' => 'Продовжовати',
 	'contrib-tracking-item-name-onetime' => 'Єдноразове пожертвованя',
 	'contrib-tracking-item-name-recurring' => 'Періодічне штомісячне пожертвованя',
@@ -1217,8 +1219,8 @@ $messages['sah'] = array(
 	'contrib-tracking-error' => 'Алҕас',
 	'contrib-tracking-error-text' => 'Форма сыыһа сигэнэр',
 	'contrib-tracking-submitting' => 'Төлөбүрү таҥастааччыга ыытыы...',
-	'contrib-tracking-continue' => 'Аптамаатынан наадалаах сиргэ тиийбэтэх буоллаххына, тимэҕи баттаан PayPal тиһилигин көмөтүнэн сиэртибэлээһиҥҥин түмүктээ.',
-	'contrib-tracking-redirect' => 'Сиэртибэлээһиҥҥин түмүктүүргэ аптамаатынан PayPal саайтыгар утаарыллыаҥ.',
+	'contrib-tracking-continue' => 'Аптамаатынан наадалаах сиргэ тиийбэтэх буоллаххына, тимэҕи баттаан PayPal тиһилигин көмөтүнэн сиэртибэлээһиҥҥин түмүктээ.', # Fuzzy
+	'contrib-tracking-redirect' => 'Сиэртибэлээһиҥҥин түмүктүүргэ аптамаатынан PayPal саайтыгар утаарыллыаҥ.', # Fuzzy
 	'contrib-tracking-button' => 'Салгыы',
 	'contrib-tracking-item-name-onetime' => 'Биир төлөбүрүнэн',
 	'contrib-tracking-item-name-recurring' => 'Ый аайы төлөбүр',
@@ -1389,7 +1391,7 @@ $messages['tg-latn'] = array(
 $messages['th'] = array(
 	'contrib-tracking-error' => 'เกิดความผิดพลาด',
 	'contrib-tracking-submitting' => 'กำลังส่งไปยังผู้ดำเนินการจ่ายเงิน...',
-	'contrib-tracking-continue' => 'ถ้าคุณยังไม่ได้ถูกนำทางไปหน้าอื่นโดยอัตโนมัติ คลิกที่ปุ่มเพื่อเสร็จสิ้นการบริจาคที่ PayPal',
+	'contrib-tracking-continue' => 'ถ้าคุณยังไม่ได้ถูกนำทางไปหน้าอื่นโดยอัตโนมัติ คลิกที่ปุ่มเพื่อเสร็จสิ้นการบริจาคที่ PayPal', # Fuzzy
 	'contrib-tracking-button' => 'ดำเนินการต่อ',
 );
 
@@ -1402,7 +1404,7 @@ $messages['tk'] = array(
 	'contrib-tracking-error' => 'Säwlik',
 	'contrib-tracking-error-text' => 'Nädogry form tabşyrmasy',
 	'contrib-tracking-submitting' => 'Töleg işleýjä tabşyrylýar...',
-	'contrib-tracking-continue' => 'Eger awtomatik gönükdirilmeseňiz, PayPal-däki bagyşyňyzy tamamlamak üçin düwmäni tykladyň.',
+	'contrib-tracking-continue' => 'Eger awtomatik gönükdirilmeseňiz, PayPal-däki bagyşyňyzy tamamlamak üçin düwmäni tykladyň.', # Fuzzy
 	'contrib-tracking-button' => 'Dowam et',
 );
 
@@ -1476,7 +1478,7 @@ $messages['vec'] = array(
 	'contrib-tracking-error' => 'Eròr',
 	'contrib-tracking-error-text' => 'Invio de modulo mia valido',
 	'contrib-tracking-submitting' => "So' drio contatar el processador del pagamento...",
-	'contrib-tracking-continue' => 'Se no te vien reindirissà automaticamente, struca el boton par conpletar la to donassion su PayPal.',
+	'contrib-tracking-continue' => 'Se no te vien reindirissà automaticamente, struca el boton par conpletar la to donassion su PayPal.', # Fuzzy
 	'contrib-tracking-button' => 'Và vanti',
 );
 
@@ -1566,4 +1568,3 @@ $messages['zh-hant'] = array(
 	'contrib-tracking-item-name-onetime' => '一次性捐助',
 	'contrib-tracking-item-name-recurring' => '每月定期捐款',
 );
-
