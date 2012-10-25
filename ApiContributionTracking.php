@@ -166,8 +166,6 @@ class ApiContributionTracking extends ApiBase {
 				'User language code. Messages will be translated appropriately (where possible).',
 				'This will also determine what "Thank You" page the user sees upon completion of a donation at the gateway.' ),
 			'country' => 'User country code.',
-			'owa_session' => 'String identifying the "owa_session"',
-			'owa_ref' => 'String with the referring URL.',
 			'contribution_tracking_id' => 'Our ID for the current contribution. Not supplied for new contributions.', //in fact, why is this here?
 			'returnto' => 'String identifying an alternate "Thank You" page to show the user on completion of their transaction.',
 			'tshirt' => 'Boolean indicating whether or not there is a t-shirt involved.',
