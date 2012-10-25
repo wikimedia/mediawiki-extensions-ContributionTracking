@@ -30,8 +30,14 @@ class ContributionTracking extends UnlistedSpecialPage {
 		if ( $request->getVal( 'contribution_tracking_id' ) ) {
 			$contribution_tracking_id = $request->getVal( 'contribution_tracking_id', 0 );
 		} else {
+			$amount = $request->getVal('amount');
+
+			if( $amount == "Other" && is_numeric( $request->getVal('amountGiven') )){
+				$amount = floatval( $request->getVal('amountGiven') );
+			}
+
 			$tracked_contribution = array(
-				'form_amount' => $request->getVal('currency_code') . ' ' . $request->getVal('amount'),
+				'form_amount' => $request->getVal('currency_code') . ' ' . $amount,
 				'note' => $request->getVal( 'comment' ),
 				'referrer' => $request->getVal( 'referrer' ),
 				'utm_source' => $request->getVal( 'utm_source' ),
