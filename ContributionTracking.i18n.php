@@ -305,6 +305,7 @@ $messages['de-formal'] = array(
 
 /** Zazaki (Zazaki)
  * @author Erdemaslancan
+ * @author Mirzali
  * @author Xoser
  */
 $messages['diq'] = array(
@@ -315,7 +316,7 @@ $messages['diq'] = array(
 	'contrib-tracking-submitting' => 'Processor de pere teslim keno...',
 	'contrib-tracking-continue' => 'Eka ti şıma xob xo hetênayış nêbiyê se, bêca xo temam kerdışi rê maker pıploxnê',
 	'contrib-tracking-button' => 'Dewam ke',
-	'contrib-tracking-item-name-onetime' => 'Tım u tım bêc dayış',
+	'contrib-tracking-item-name-onetime' => 'Yew raye bacdayış',
 );
 
 /** Lower Sorbian (dolnoserbski)
