@@ -317,6 +317,7 @@ $messages['diq'] = array(
 	'contrib-tracking-continue' => 'Eka ti şıma xob xo hetênayış nêbiyê se, bêca xo temam kerdışi rê maker pıploxnê',
 	'contrib-tracking-button' => 'Dewam ke',
 	'contrib-tracking-item-name-onetime' => 'Yew raye bacdayış',
+	'contrib-tracking-item-name-recurring' => 'Meng meng bêcdayış',
 );
 
 /** Lower Sorbian (dolnoserbski)
