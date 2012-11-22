@@ -148,6 +148,11 @@ $specialPageAliases['sa'] = array(
 	'ContributionTracking' => array( 'योगदानउन्नयति' ),
 );
 
+/** Sicilian (sicilianu) */
+$specialPageAliases['scn'] = array(
+	'ContributionTracking' => array( 'TracciaEdit' ),
+);
+
 /** Slovak (slovenčina) */
 $specialPageAliases['sk'] = array(
 	'ContributionTracking' => array( 'SledovaniePríspevkov' ),
