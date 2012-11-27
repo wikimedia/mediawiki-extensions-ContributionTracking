@@ -128,7 +128,7 @@ $specialPageAliases['nb'] = array(
 	'ContributionTracking' => array( 'Bidragssporing' ),
 );
 
-/** Nedersaksisch (Nedersaksisch) */
+/** Nedersaksies (Nedersaksies) */
 $specialPageAliases['nds-nl'] = array(
 	'ContributionTracking' => array( 'Donasies_volgen' ),
 );
