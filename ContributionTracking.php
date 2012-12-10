@@ -27,6 +27,9 @@ $wgSpecialPages['ContributionTracking'] = 'ContributionTracking';
 $wgAutoloadClasses['ContributionTrackingTester'] = $dir . 'ContributionTracking_Tester.php';
 $wgSpecialPages['ContributionTrackingTester'] = 'ContributionTrackingTester';
 
+$wgAutoloadClasses['SpecialFundraiserMaintenance'] = $dir . 'special/SpecialFundraiserMaintenance.php';
+$wgSpecialPages['FundraiserMaintenance'] = 'SpecialFundraiserMaintenance';
+
 //give sysops access to the tracking tester form.
 $wgGroupPermissions['sysop']['ViewContributionTrackingTester'] = true;
 $wgAvailableRights[] = 'ViewContributionTrackingTester';
@@ -47,6 +50,11 @@ $wgResourceModules['jquery.contributionTracking'] = array(
 	'dependencies' => 'jquery.json',
 ) + $ctResourceTemplate;
 
+$wgResourceModules['contributionTracking.fundraiserMaintenance'] = array(
+	'styles' => array('skinOverride.css',),
+	'scripts' => array(),
+	'position' => 'top',
+) + $ctResourceTemplate;
 
 /**
  * The default 'return to' URL for a thank you page after posting to the contribution
@@ -80,6 +88,17 @@ $wgContributionTrackingPayPalBusiness = 'donations@wikimedia.org';
  */
 
 $wgContributionTrackingRPPLength = '0';
+
+/**
+ * Shows a scheduled maintenance notification instead of the interstitial page
+ */
+$wgContributionTrackingFundraiserMaintenance = false;
+
+/**
+ * Shows an unscheduled maintenance notification instead of the interstitial page
+ */
+$wgContributionTrackingFundraiserMaintenanceUnsched = false;
+
 
 # Unit tests
 $wgHooks['UnitTestsList'][] = 'efContributionTrackingUnitTests';

@@ -8,6 +8,16 @@ class ContributionTracking extends UnlistedSpecialPage {
 	}
 
 	function execute( $language ) {
+		global $wgContributionTrackingFundraiserMaintenance,
+			   $wgContributionTrackingFundraiserMaintenanceUnsched;
+
+		if( $wgContributionTrackingFundraiserMaintenance
+			|| $wgContributionTrackingFundraiserMaintenanceUnsched ){
+			$this->getOutput()->redirect(
+				Title::newFromText("Special:FundraiserMaintenance")->getFullURL(), "302"
+			);
+		}
+
 		$request = $this->getRequest();
 
 		$gateway = $request->getText( 'gateway' );
