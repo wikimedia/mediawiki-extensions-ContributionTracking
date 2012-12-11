@@ -40,10 +40,8 @@ $messages['qqq'] = array(
 	'contributiontracking-desc' => '{{desc}}',
 	'contrib-tracking-error' => '{{Identical|Error}}',
 	'contrib-tracking-button' => '{{Identical|Continue}}',
-
-	'contrib-tracking-fundraiser-maintenance-header' => "Header for maintenance notification page",
-	'contrib-tracking-fundraiser-maintenance-notice' => "Message indicating that we are currently performing scheduled maintenance and are not currently able to process donations",
-	'contrib-tracking-fundraiser-maintenance-unsched' => "Message indicated that we are unable to accept donations due to unscheduled maintenance",
+	'contrib-tracking-fundraiser-maintenance-header' => 'Header for maintenance notification page',
+	'contrib-tracking-fundraiser-maintenance-notice' => 'Message indicating that we are currently performing scheduled maintenance and are not currently able to process donations',
 );
 
 /** Afrikaans (Afrikaans)
@@ -285,6 +283,7 @@ $messages['da'] = array(
 /** German (Deutsch)
  * @author Imre
  * @author Kghbln
+ * @author Metalhead64
  * @author The Evil IP address
  */
 $messages['de'] = array(
@@ -298,6 +297,8 @@ $messages['de'] = array(
 	'contrib-tracking-button' => 'Weiter',
 	'contrib-tracking-item-name-onetime' => 'Einmalige Spende',
 	'contrib-tracking-item-name-recurring' => 'Monatlich wiederholende Spende',
+	'contrib-tracking-fundraiser-maintenance-header' => 'Derzeit wegen Wartung nicht erreichbar',
+	'contrib-tracking-fundraiser-maintenance-notice' => 'Wir führen derzeit geplante Wartungsarbeiten durch und können keine Spenden entgegennehmen. Bitte versuche es später erneut. Falls du irgendwelche Fragen hast, sende bitte eine E-Mail an $1.',
 );
 
 /** German (formal address) (Deutsch (Sie-Form)‎)
@@ -467,6 +468,7 @@ $messages['fi'] = array(
 
 /** French (français)
  * @author DavidL
+ * @author Gomoko
  * @author Korrigan
  * @author Peter17
  * @author PieRRoMaN
@@ -483,6 +485,8 @@ $messages['fr'] = array(
 	'contrib-tracking-button' => 'Continuer',
 	'contrib-tracking-item-name-onetime' => 'Don unique',
 	'contrib-tracking-item-name-recurring' => 'Don mensuel récurrent',
+	'contrib-tracking-fundraiser-maintenance-header' => 'Arrêté momentanément pour maintenance',
+	'contrib-tracking-fundraiser-maintenance-notice' => 'Nous effectuons actuellement une maintenance programmée et ne pouvons pas accepter les dons. Veuillez réessayer prochainement. Si vous avez des question, veuillez envoyer un courriel à $1.',
 );
 
 /** Franco-Provençal (arpetan)
@@ -801,6 +805,8 @@ $messages['ko'] = array(
 	'contrib-tracking-button' => '계속',
 	'contrib-tracking-item-name-onetime' => '한 번 기부',
 	'contrib-tracking-item-name-recurring' => '매월 정기 기부',
+	'contrib-tracking-fundraiser-maintenance-header' => '유시 보수를 위해 일시적으로 멈춤',
+	'contrib-tracking-fundraiser-maintenance-notice' => '현재 유지 보수가 예정되어 있어 기부를 받아줄 수 없습니다. 잠시 뒤 다시 시도해주세요. 질문이 있다면 $1 (으)로 이메일을 보내세요.',
 );
 
 /** Colognian (Ripoarisch)
@@ -1078,6 +1084,7 @@ $messages['pdc'] = array(
 /** Polish (polski)
  * @author Beau
  * @author Leinad
+ * @author Odie2
  * @author Olgak85
  * @author Sp5uhe
  */
@@ -1092,6 +1099,8 @@ $messages['pl'] = array(
 	'contrib-tracking-button' => 'Kontynuuj',
 	'contrib-tracking-item-name-onetime' => 'Jednorazowa darowizna',
 	'contrib-tracking-item-name-recurring' => 'Powtarzająca się comiesięczna darowizna',
+	'contrib-tracking-fundraiser-maintenance-header' => 'Tymczasowo wyłączone z powodu konserwacji',
+	'contrib-tracking-fundraiser-maintenance-notice' => 'Jesteśmy w trakcie wykonywania zaplanowanych konserwacji i nie jesteśmy w stanie przyjmować darowizn. Proszę spróbować ponownie później.  Jeżeli masz pytania napisz na e-mail $1',
 );
 
 /** Piedmontese (Piemontèis)
@@ -1522,6 +1531,8 @@ $messages['vi'] = array(
 	'contrib-tracking-button' => 'Tiếp tục',
 	'contrib-tracking-item-name-onetime' => 'Quyên góp một lần',
 	'contrib-tracking-item-name-recurring' => 'Quyên góp định kỳ hàng tháng',
+	'contrib-tracking-fundraiser-maintenance-header' => 'Tạm ngừng hoạt động để bảo trì',
+	'contrib-tracking-fundraiser-maintenance-notice' => 'Chúng tôi hiện đang thực hiện những công việc bảo trì định kỳ nên không nhận được tiền đóng góp. Xin vui lòng thử lại sau. Nếu bạn có thắc mắc, xin gửi thư điện tử cho $1.',
 );
 
 /** Volapük (Volapük)
