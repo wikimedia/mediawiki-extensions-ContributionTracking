@@ -719,6 +719,7 @@ $messages['it'] = array(
 	'contrib-tracking-button' => 'Continua',
 	'contrib-tracking-item-name-onetime' => 'Donazione singola',
 	'contrib-tracking-item-name-recurring' => 'Donazione ricorrente mensile',
+	'contrib-tracking-fundraiser-maintenance-notice' => 'Stiamo al momento effettuando la manutenzione programmata e non siamo in grado di accettare donazioni. Si prega di riprovare fra poco. Per qualsiasi domanda potete scriverci a $1.',
 );
 
 /** Japanese (日本語)
@@ -914,6 +915,8 @@ $messages['mk'] = array(
 	'contrib-tracking-button' => 'Продолжи',
 	'contrib-tracking-item-name-onetime' => 'Еднократен прилог',
 	'contrib-tracking-item-name-recurring' => 'Месечен прилог',
+	'contrib-tracking-fundraiser-maintenance-header' => 'Привремено недостапно поради одржување',
+	'contrib-tracking-fundraiser-maintenance-notice' => 'Во моментов вршиме планирано одржување и не можеме да прифаќаме уплати. Вратете се малку подоцна. Ако имате некакви прашања, обратете се на $1.',
 );
 
 /** Malayalam (മലയാളം)
@@ -1024,6 +1027,8 @@ $messages['nl'] = array(
 	'contrib-tracking-button' => 'Doorgaan',
 	'contrib-tracking-item-name-onetime' => 'Eenmalige donatie',
 	'contrib-tracking-item-name-recurring' => 'Terugkerende maandelijkse donatie',
+	'contrib-tracking-fundraiser-maintenance-header' => 'Tijdelijk niet beschikbaar tijdens onderhoudswerkzaamheden',
+	'contrib-tracking-fundraiser-maintenance-notice' => 'Op het moment wordt onderhoud uitgevoerd en kunnen we helaas geen donaties verwerken. Probeer het alstublieft snel opnieuw. Stuur een e-mail naar $1 als u vragen hebt.',
 );
 
 /** Nederlands (informeel)‎ (Nederlands (informeel)‎)
