@@ -129,6 +129,8 @@ $messages['ast'] = array(
 	'contrib-tracking-button' => 'Siguir',
 	'contrib-tracking-item-name-onetime' => 'Donación única',
 	'contrib-tracking-item-name-recurring' => 'Donación mensual repetida',
+	'contrib-tracking-fundraiser-maintenance-header' => 'Zarráu temporalmente por mantenimientu',
+	'contrib-tracking-fundraiser-maintenance-notice' => 'Nesti momentu tamos faciendo un mantenimientu programáu y nun somos a aceutar donativos. Por favor, vuelvi a intentalo ceo. Si tienes dalguna entruga, manda un corréu a $1.',
 );
 
 /** Azerbaijani (azərbaycanca)
@@ -950,6 +952,8 @@ $messages['ms'] = array(
 	'contrib-tracking-button' => 'Teruskan',
 	'contrib-tracking-item-name-onetime' => 'Dermaan sekali',
 	'contrib-tracking-item-name-recurring' => 'Dermaan berulang bulanan',
+	'contrib-tracking-fundraiser-maintenance-header' => 'Ditutup Buat Sementara untuk Kerja Penyelenggaraan',
+	'contrib-tracking-fundraiser-maintenance-notice' => 'Kami sedang melakukan kerja penyelenggaraan berjadual, oleh itu kami tidak dapat menerima dermaan. Sila cuba lagi nanti. Jika anda ada apa-apa soalan, sila e-melkan ke $1.',
 );
 
 /** Maltese (Malti)
