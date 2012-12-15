@@ -404,6 +404,8 @@ $messages['es'] = array(
 	'contrib-tracking-button' => 'Continuar',
 	'contrib-tracking-item-name-onetime' => 'Donación única',
 	'contrib-tracking-item-name-recurring' => 'Donación mensual recurrente',
+	'contrib-tracking-fundraiser-maintenance-header' => 'Parado temporalmente por mantenimiento',
+	'contrib-tracking-fundraiser-maintenance-notice' => 'Actualmente estamos realizando mantenimiento programado y somos incapaces de aceptar donaciones. Inténtalo de nuevo en otro momento.  Si tienes alguna pregunta, por favor, envíanos un correo electrónico a $1.',
 );
 
 /** Estonian (eesti)
