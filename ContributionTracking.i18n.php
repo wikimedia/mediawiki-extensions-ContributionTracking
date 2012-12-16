@@ -27,7 +27,7 @@ $messages['en'] = array(
 	'contrib-tracking-item-name-onetime' => 'One-time donation',
 	'contrib-tracking-item-name-recurring' => 'Recurring monthly donation',
 
-	'contrib-tracking-fundraiser-maintenance-header' => "Temporarily Down for Maintenance",
+	'contrib-tracking-fundraiser-maintenance-header' => "Temporarily down for maintenance",
 	'contrib-tracking-fundraiser-maintenance-notice' => "We are currently performing scheduled maintenance and are unable to accept donations.  Please try again soon.  If you have any questions, please email $1.",
 );
 
@@ -41,7 +41,7 @@ $messages['qqq'] = array(
 	'contrib-tracking-error' => '{{Identical|Error}}',
 	'contrib-tracking-button' => '{{Identical|Continue}}',
 	'contrib-tracking-fundraiser-maintenance-header' => 'Header for maintenance notification page',
-	'contrib-tracking-fundraiser-maintenance-notice' => 'Message indicating that we are currently performing scheduled maintenance and are not currently able to process donations',
+	'contrib-tracking-fundraiser-maintenance-notice' => 'Message indicating that we are currently performing scheduled maintenance and are not currently able to process donations. Parameters: * $1 is an email address where questions about the maintenance downtime should be sent.',
 );
 
 /** Afrikaans (Afrikaans)
