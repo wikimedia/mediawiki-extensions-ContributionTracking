@@ -537,6 +537,8 @@ $messages['gl'] = array(
 	'contrib-tracking-button' => 'Continuar',
 	'contrib-tracking-item-name-onetime' => 'Doazón única',
 	'contrib-tracking-item-name-recurring' => 'Doazón mensual recorrente',
+	'contrib-tracking-fundraiser-maintenance-header' => 'Fóra de servizo temporalmente por mantemento',
+	'contrib-tracking-fundraiser-maintenance-notice' => 'Estamos levando a cabo tarefas programadas de mantemento e non podemos aceptar doazóns. Inténtao de novo máis tarde. Se tes algunha pregunta, envía un correo ao enderezo $1.',
 );
 
 /** Ancient Greek (Ἀρχαία ἑλληνικὴ)
