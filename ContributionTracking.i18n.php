@@ -1131,6 +1131,8 @@ $messages['pms'] = array(
 	'contrib-tracking-button' => 'Continua',
 	'contrib-tracking-item-name-onetime' => 'Donassion sìngola',
 	'contrib-tracking-item-name-recurring' => 'Donassion arcorenta mensil',
+	'contrib-tracking-fundraiser-maintenance-header' => 'Temporaneament giù për manutension',
+	'contrib-tracking-fundraiser-maintenance-notice' => "I soma an camin ch'i foma na manutension pianificà e i podoma pa aceté dle donassion. Për piasì ch'a preuva torna tòst. S'a l'ha dle chestion, për piasì ch'a scriva a $1.",
 );
 
 /** Pashto (پښتو)
