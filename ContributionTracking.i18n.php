@@ -34,10 +34,11 @@ $messages['en'] = array(
 /** Message documentation (Message documentation)
  * @author Bennylin
  * @author Darth Kule
+ * @author Shirayuki
  * @author Umherirrender
  */
 $messages['qqq'] = array(
-	'contributiontracking-desc' => '{{desc}}',
+	'contributiontracking-desc' => '{{desc|name=Contribution Tracking|url=http://www.mediawiki.org/wiki/Extension:ContributionTracking}}',
 	'contrib-tracking-error' => '{{Identical|Error}}',
 	'contrib-tracking-button' => '{{Identical|Continue}}',
 	'contrib-tracking-fundraiser-maintenance-header' => 'Header for maintenance notification page',
@@ -275,11 +276,14 @@ $messages['cs'] = array(
 
 /** Danish (dansk)
  * @author Peter Alberti
+ * @author Tjernobyl
  */
 $messages['da'] = array(
 	'contrib-tracking-error' => 'Fejl',
+	'contrib-tracking-error-text' => 'Ugyldig formularafsendelse',
 	'contrib-tracking-button' => 'Fortsæt',
 	'contrib-tracking-item-name-onetime' => 'Engangsdonation',
+	'contrib-tracking-fundraiser-maintenance-header' => 'Midlertidig nedetid for vedligeholdelse',
 );
 
 /** German (Deutsch)
@@ -385,6 +389,7 @@ $messages['eo'] = array(
 	'contrib-tracking-button' => 'Daŭrigi',
 	'contrib-tracking-item-name-onetime' => 'Unuopa donaco',
 	'contrib-tracking-item-name-recurring' => 'Ĉiumonata donaco',
+	'contrib-tracking-fundraiser-maintenance-header' => 'Provizore ŝalta por riparado',
 );
 
 /** Spanish (español)
@@ -680,6 +685,7 @@ $messages['ia'] = array(
 
 /** Indonesian (Bahasa Indonesia)
  * @author Bennylin
+ * @author Farras
  * @author IvanLanin
  */
 $messages['id'] = array(
@@ -688,11 +694,13 @@ $messages['id'] = array(
 	'contrib-tracking-error' => 'Galat',
 	'contrib-tracking-error-text' => 'Pengiriman formulir tidak sah',
 	'contrib-tracking-submitting' => 'Mengirimkan ke pemroses pembayaran...',
-	'contrib-tracking-continue' => 'Jika halaman ini tidak otomatis dialihkan, klik tombol ini untuk menyelesaikan sumbangan Anda lewat PayPal.', # Fuzzy
-	'contrib-tracking-redirect' => 'Anda akan otomatis diarahkan ke PayPal untuk menyelesaikan sumbangan Anda.', # Fuzzy
+	'contrib-tracking-continue' => 'Jika halaman ini tidak otomatis dialihkan, klik tombol ini untuk menyelesaikan sumbangan Anda.',
+	'contrib-tracking-redirect' => 'Anda akan otomatis dialihkan untuk menyelesaikan sumbangan Anda.',
 	'contrib-tracking-button' => 'Lanjutkan',
 	'contrib-tracking-item-name-onetime' => 'Sumbangan satu kali',
 	'contrib-tracking-item-name-recurring' => 'Sumbangan bulanan berulang',
+	'contrib-tracking-fundraiser-maintenance-header' => 'Dimatikan sementara untuk pemeliharaan',
+	'contrib-tracking-fundraiser-maintenance-notice' => 'Kami sedang melakukan pemeliharaan terjadwal dan tidak dapat menerima sumbangan. Silakan coba lagi nanti. Jika Anda memiliki pertanyaan, silakan kirim surel ke $1.',
 );
 
 /** Igbo (Igbo)
@@ -706,6 +714,14 @@ $messages['ig'] = array(
  */
 $messages['io'] = array(
 	'contrib-tracking-error' => 'Eroro',
+);
+
+/** Icelandic (íslenska)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['is'] = array(
+	'contrib-tracking-error' => 'Villa',
+	'contrib-tracking-button' => 'Halda áfram',
 );
 
 /** Italian (italiano)
@@ -1364,6 +1380,7 @@ $messages['sv'] = array(
 	'contrib-tracking-button' => 'Fortsätt',
 	'contrib-tracking-item-name-onetime' => 'Engångs-donation',
 	'contrib-tracking-item-name-recurring' => 'Återkommande månatlig donation',
+	'contrib-tracking-fundraiser-maintenance-header' => 'Tillfälligt nere för underhåll',
 );
 
 /** Swahili (Kiswahili)
