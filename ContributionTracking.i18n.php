@@ -276,6 +276,7 @@ $messages['cs'] = array(
 
 /** Danish (dansk)
  * @author Peter Alberti
+ * @author Sarrus
  * @author Tjernobyl
  */
 $messages['da'] = array(
@@ -283,7 +284,7 @@ $messages['da'] = array(
 	'contrib-tracking-error-text' => 'Ugyldig formularafsendelse',
 	'contrib-tracking-button' => 'Fortsæt',
 	'contrib-tracking-item-name-onetime' => 'Engangsdonation',
-	'contrib-tracking-fundraiser-maintenance-header' => 'Midlertidig nedetid for vedligeholdelse',
+	'contrib-tracking-fundraiser-maintenance-header' => 'Midlertidigt nede pga. vedligeholdelse',
 );
 
 /** German (Deutsch)
@@ -665,6 +666,7 @@ $messages['hu'] = array(
 	'contrib-tracking-button' => 'Folytatás',
 	'contrib-tracking-item-name-onetime' => 'Egyszeri adományozás',
 	'contrib-tracking-item-name-recurring' => 'Havonta ismétlődő adományozás',
+	'contrib-tracking-fundraiser-maintenance-header' => 'Karbantartás miatt időlegesen leállítva',
 );
 
 /** Interlingua (interlingua)
