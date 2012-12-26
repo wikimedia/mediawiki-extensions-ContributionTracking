@@ -1212,6 +1212,7 @@ $messages['ro'] = array(
 	'contrib-tracking-button' => 'Continuă',
 	'contrib-tracking-item-name-onetime' => 'Donație unică',
 	'contrib-tracking-item-name-recurring' => 'Donație lunară recurentă',
+	'contrib-tracking-fundraiser-maintenance-header' => 'Închis temporar pentru mentenanță',
 );
 
 /** tarandíne (tarandíne)
@@ -1230,6 +1231,7 @@ $messages['roa-tara'] = array(
  * @author DCamer
  * @author Eleferen
  * @author Kaganer
+ * @author Ole Yves
  * @author Александр Сигачёв
  */
 $messages['ru'] = array(
@@ -1243,6 +1245,8 @@ $messages['ru'] = array(
 	'contrib-tracking-button' => 'Продолжить',
 	'contrib-tracking-item-name-onetime' => 'Единовременный взнос',
 	'contrib-tracking-item-name-recurring' => 'Ежемесячный взнос',
+	'contrib-tracking-fundraiser-maintenance-header' => 'Временно отключён для технического обслуживания',
+	'contrib-tracking-fundraiser-maintenance-notice' => 'В настоящее время происходит техническое обслуживание и мы не способны принимать пожертвования. Пожалуйста, попробуйте позже. Если у вас есть какие-либо вопросы, напишите по адресу $1.',
 );
 
 /** Rusyn (русиньскый)
@@ -1298,6 +1302,7 @@ $messages['si'] = array(
 	'contrib-tracking-button' => 'ඉදිරියට යන්න',
 	'contrib-tracking-item-name-onetime' => 'එක්-වතාවක පරිත්‍යාගය',
 	'contrib-tracking-item-name-recurring' => 'ප්‍රත්‍යාවර්තී මාසික පරිත්‍යාගය',
+	'contrib-tracking-fundraiser-maintenance-header' => 'නඩත්තුව සඳහා තාවකාලිකව මැඩපවත්වා ඇත',
 );
 
 /** Slovak (slovenčina)
