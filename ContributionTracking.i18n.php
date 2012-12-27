@@ -462,6 +462,7 @@ $messages['fa'] = array(
  * @author Nike
  * @author Olli
  * @author Tarmo
+ * @author VezonThunder
  */
 $messages['fi'] = array(
 	'contributiontracking-desc' => 'Lahjoitusseuranta Wikimedian rahankeräykseen.',
@@ -474,6 +475,8 @@ $messages['fi'] = array(
 	'contrib-tracking-button' => 'Jatka',
 	'contrib-tracking-item-name-onetime' => 'Kertaluonteinen lahjoitus',
 	'contrib-tracking-item-name-recurring' => 'Jatkuva kuukausilahjoitus',
+	'contrib-tracking-fundraiser-maintenance-header' => 'Väliaikaisesti ei käytettävissä huoltotöiden vuoksi',
+	'contrib-tracking-fundraiser-maintenance-notice' => 'Suoritamme parhaillaan aikataulun mukaisia huoltotöitä emmekä voi ottaa lahjoituksia vastaan. Yritä pian uudelleen. Jos sinulla on kysyttävää, lähetä sähköpostia osoitteeseen $1.',
 );
 
 /** French (français)
