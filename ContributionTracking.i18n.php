@@ -143,6 +143,14 @@ $messages['az'] = array(
 	'contrib-tracking-button' => 'Davam et',
 );
 
+/** South Azerbaijani (تورکجه)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['azb'] = array(
+	'contrib-tracking-error' => 'خطا',
+	'contrib-tracking-button' => 'داوام ائت',
+);
+
 /** Bashkir (башҡортса)
  * @author Assele
  */
