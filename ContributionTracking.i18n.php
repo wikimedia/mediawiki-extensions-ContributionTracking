@@ -251,6 +251,7 @@ $messages['bs'] = array(
 );
 
 /** Catalan (català)
+ * @author Arnaugir
  * @author Davidpar
  * @author Paucabot
  * @author Solde
@@ -263,6 +264,8 @@ $messages['ca'] = array(
 	'contrib-tracking-submitting' => 'Enviant al processador de pagaments...',
 	'contrib-tracking-continue' => 'Si no sou automàticament redirigit, clicau el botó per completar la vostra donació a PayPal.', # Fuzzy
 	'contrib-tracking-button' => 'Continua',
+	'contrib-tracking-item-name-onetime' => 'Donació única',
+	'contrib-tracking-item-name-recurring' => 'Donació mensual periòdica',
 );
 
 /** Czech (česky)
@@ -1074,6 +1077,7 @@ $messages['nl'] = array(
 $messages['nl-informal'] = array(
 	'contrib-tracking-continue' => 'Als je niet automatisch wordt doorgestuurd, klik dan op de knop om je donatie te voltooien.',
 	'contrib-tracking-redirect' => 'Je wordt automatisch doorgeleid om je donatie te voltooien.',
+	'contrib-tracking-fundraiser-maintenance-notice' => 'Op het moment wordt onderhoud uitgevoerd en kunnen we helaas geen donaties verwerken. Probeer het alsjeblieft snel opnieuw. Stuur een e-mail naar $1 als je vragen hebt.',
 );
 
 /** Norwegian Nynorsk (norsk (nynorsk)‎)
