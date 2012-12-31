@@ -1368,6 +1368,7 @@ $messages['sr-ec'] = array(
 	'contrib-tracking-button' => 'Настави',
 	'contrib-tracking-item-name-onetime' => 'Једнократан прилог',
 	'contrib-tracking-item-name-recurring' => 'Месечни прилог',
+	'contrib-tracking-fundraiser-maintenance-header' => 'Привремено недоступно ради одржавања',
 );
 
 /** Serbian (Latin script) (srpski (latinica)‎)
@@ -1510,6 +1511,14 @@ $messages['tr'] = array(
 	'contrib-tracking-continue' => 'Otomatik olarak yönlendirilmediyseniz, bağışınızı tamamlamak için düğmeye tıklayın.',
 	'contrib-tracking-redirect' => 'Bağışınızı tamamlamak üzere otomatik olarak yönlendirileceksiniz.',
 	'contrib-tracking-button' => 'Devam et',
+);
+
+/** Uyghur (Arabic script) (ئۇيغۇرچە)
+ * @author Sahran
+ */
+$messages['ug-arab'] = array(
+	'contrib-tracking-error' => 'خاتالىق',
+	'contrib-tracking-button' => 'داۋاملاشتۇر',
 );
 
 /** Ukrainian (українська)
