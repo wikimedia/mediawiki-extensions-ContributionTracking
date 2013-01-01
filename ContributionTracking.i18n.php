@@ -384,6 +384,7 @@ $messages['el'] = array(
 	'contrib-tracking-button' => 'Συνέχεια',
 	'contrib-tracking-item-name-onetime' => 'Εφάπαξ δωρεά',
 	'contrib-tracking-item-name-recurring' => 'Επαναλαμβανόμενη μηνιαία δωρεά',
+	'contrib-tracking-fundraiser-maintenance-header' => 'Προσωρινά εκτός λειτουργίας για συντήρηση',
 );
 
 /** Esperanto (Esperanto)
@@ -745,6 +746,7 @@ $messages['is'] = array(
  * @author BrokenArrow
  * @author Darth Kule
  * @author Rippitippi
+ * @author Vituzzu
  */
 $messages['it'] = array(
 	'contributiontracking-desc' => 'Monitoraggio donazioni per la raccolta fondi Wikimedia',
@@ -757,6 +759,7 @@ $messages['it'] = array(
 	'contrib-tracking-button' => 'Continua',
 	'contrib-tracking-item-name-onetime' => 'Donazione singola',
 	'contrib-tracking-item-name-recurring' => 'Donazione ricorrente mensile',
+	'contrib-tracking-fundraiser-maintenance-header' => 'Temporaneamente fuori servizio per manutenzione',
 	'contrib-tracking-fundraiser-maintenance-notice' => 'Stiamo al momento effettuando la manutenzione programmata e non siamo in grado di accettare donazioni. Si prega di riprovare fra poco. Per qualsiasi domanda potete scriverci a $1.',
 );
 
