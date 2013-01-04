@@ -1354,6 +1354,8 @@ $messages['sl'] = array(
 	'contrib-tracking-button' => 'Nadaljuj',
 	'contrib-tracking-item-name-onetime' => 'Enkratni prispevek',
 	'contrib-tracking-item-name-recurring' => 'Ponavljajoči se mesečni prispevki',
+	'contrib-tracking-fundraiser-maintenance-header' => 'Trenutno ne deluje zaradi vzdrževalnih del',
+	'contrib-tracking-fundraiser-maintenance-notice' => 'Trenutno izvajamo načrtovana vzdrževalna dela in ne moremo sprejemati donacij.  Prosimo, kmalu poskusite znova.  Če imate kakršna koli vprašanja, nam pišite na $1.',
 );
 
 /** Serbian (Cyrillic script) (српски (ћирилица)‎)
