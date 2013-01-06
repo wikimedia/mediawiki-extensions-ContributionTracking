@@ -610,6 +610,8 @@ $messages['he'] = array(
 	'contrib-tracking-button' => 'המשך',
 	'contrib-tracking-item-name-onetime' => 'תרומה חד־פעמית',
 	'contrib-tracking-item-name-recurring' => 'תרומה חודשית חוזרת',
+	'contrib-tracking-fundraiser-maintenance-header' => 'השירות אינו פעיל באופן זמני לצורך תחזוקה',
+	'contrib-tracking-fundraiser-maintenance-notice' => 'אנחנו עושים פעולות תחזוקה מתוכננות ואיננו יכולים לקבל עכשיו תקומות. נא לנסות שוב בקרוב. אם יש לך שאלות כלשהן, אפשר לשלוח אותן לכתובת $1.',
 );
 
 /** Hindi (हिन्दी)
