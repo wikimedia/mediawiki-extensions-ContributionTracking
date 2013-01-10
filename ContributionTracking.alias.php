@@ -97,6 +97,7 @@ $specialPageAliases['ja'] = array(
 /** Korean (한국어) */
 $specialPageAliases['ko'] = array(
 	'ContributionTracking' => array( '기여추적' ),
+	'FundraiserMaintenance' => array( '기금마련유지보수' ),
 );
 
 /** Colognian (Ripoarisch) */
