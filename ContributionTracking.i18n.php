@@ -1245,6 +1245,7 @@ $messages['roa-tara'] = array(
 	'contrib-tracking-button' => 'Condinue',
 	'contrib-tracking-item-name-onetime' => "Donazione de 'na vote",
 	'contrib-tracking-item-name-recurring' => "Ste arrive 'a donazzione mensile",
+	'contrib-tracking-fundraiser-maintenance-header' => 'Temboraneamende abbasce pe manutenzione',
 );
 
 /** Russian (русский)
