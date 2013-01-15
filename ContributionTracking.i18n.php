@@ -1531,6 +1531,7 @@ $messages['ug-arab'] = array(
 
 /** Ukrainian (українська)
  * @author Aleksandrit
+ * @author Ата
  * @author Тест
  */
 $messages['uk'] = array(
@@ -1544,6 +1545,8 @@ $messages['uk'] = array(
 	'contrib-tracking-button' => 'Продовжити',
 	'contrib-tracking-item-name-onetime' => 'Одноразове пожертвування',
 	'contrib-tracking-item-name-recurring' => 'Періодичне щомісячне пожертвування',
+	'contrib-tracking-fundraiser-maintenance-header' => 'Тимчасово відключений для технічного обслуговування',
+	'contrib-tracking-fundraiser-maintenance-notice' => 'Ми зараз виконуємо заплановане обслуговування і не в змозі прийняти пожертвувань. Будь ласка, спробуйте ще раз трохи згодом. Якщо у Вас є якісь запитання, будь ласка, напишіть на $1 .',
 );
 
 /** Urdu (اردو)
