@@ -976,6 +976,7 @@ $messages['ml'] = array(
 	'contrib-tracking-button' => 'തുടരുക',
 	'contrib-tracking-item-name-onetime' => 'ഒറ്റത്തവണ സംഭാവന',
 	'contrib-tracking-item-name-recurring' => 'ആവർത്തിക്കുന്ന മാസംതോറുമുള്ള സംഭാവന',
+	'contrib-tracking-fundraiser-maintenance-header' => 'പരിപാലനത്തിനായി താത്കാലികമായി പ്രവർത്തനരഹിതമാക്കിയിരിക്കുന്നു',
 );
 
 /** Malay (Bahasa Melayu)
