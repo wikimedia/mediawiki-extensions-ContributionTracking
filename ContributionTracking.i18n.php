@@ -184,6 +184,7 @@ $messages['be-tarask'] = array(
 	'contrib-tracking-button' => 'Працягваць',
 	'contrib-tracking-item-name-onetime' => 'Аднаразовае ахвяраваньне',
 	'contrib-tracking-item-name-recurring' => 'Паўтараючаяся штомесячнае ахвяраваньне',
+	'contrib-tracking-fundraiser-maintenance-header' => 'Часава выключана для тэхнічнага абслугоўваньня',
 );
 
 /** Bulgarian (български)
