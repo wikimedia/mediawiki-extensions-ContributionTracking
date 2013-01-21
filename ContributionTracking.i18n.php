@@ -1634,6 +1634,7 @@ $messages['yi'] = array(
  * @author Hydra
  * @author Liangent
  * @author Wilsonmess
+ * @author Yfdyh000
  */
 $messages['zh-hans'] = array(
 	'contributiontracking-desc' => '跟踪维基媒体筹款的贡献',
@@ -1646,6 +1647,8 @@ $messages['zh-hans'] = array(
 	'contrib-tracking-button' => '继续',
 	'contrib-tracking-item-name-onetime' => '一次性捐赠',
 	'contrib-tracking-item-name-recurring' => '每月定期捐款',
+	'contrib-tracking-fundraiser-maintenance-header' => '暂时停机维护',
+	'contrib-tracking-fundraiser-maintenance-notice' => '我们目前正在进行计划性的维护，因此目前不能接受捐赠。请稍后再试。如果您有任何疑问，请发邮件到$1。',
 );
 
 /** Traditional Chinese (中文（繁體）‎)
