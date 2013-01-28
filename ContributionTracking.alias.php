@@ -130,7 +130,7 @@ $specialPageAliases['nb'] = array(
 	'ContributionTracking' => array( 'Bidragssporing' ),
 );
 
-/** Nedersaksies (Nedersaksies) */
+/** Low Saxon (Netherlands) (Nedersaksies) */
 $specialPageAliases['nds-nl'] = array(
 	'ContributionTracking' => array( 'Donasies_volgen' ),
 );
@@ -138,6 +138,7 @@ $specialPageAliases['nds-nl'] = array(
 /** Dutch (Nederlands) */
 $specialPageAliases['nl'] = array(
 	'ContributionTracking' => array( 'DonatiesVolgen' ),
+	'FundraiserMaintenance' => array( 'Fondsenwervingsbeheer' ),
 );
 
 /** Polish (polski) */
