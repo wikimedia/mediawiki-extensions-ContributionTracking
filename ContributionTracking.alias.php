@@ -32,6 +32,7 @@ $specialPageAliases['bs'] = array(
 /** German (Deutsch) */
 $specialPageAliases['de'] = array(
 	'ContributionTracking' => array( 'Beiträge_verfolgen', 'Beitragstracking', 'Beitragsverfolgung' ),
+	'FundraiserMaintenance' => array( 'Kampagnenverwaltung' ),
 );
 
 /** Zazaki (Zazaki) */
