@@ -126,7 +126,7 @@ $specialPageAliases['mr'] = array(
 	'ContributionTracking' => array( 'योगदानमागमूस' ),
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎) */
+/** Norwegian Bokmål (norsk bokmål) */
 $specialPageAliases['nb'] = array(
 	'ContributionTracking' => array( 'Bidragssporing' ),
 );
