@@ -1398,6 +1398,7 @@ $messages['sr-el'] = array(
 );
 
 /** Swedish (svenska)
+ * @author Ainali
  * @author Boivie
  * @author Tobulos1
  * @author WikiPhoenix
@@ -1414,6 +1415,7 @@ $messages['sv'] = array(
 	'contrib-tracking-item-name-onetime' => 'Engångs-donation',
 	'contrib-tracking-item-name-recurring' => 'Återkommande månatlig donation',
 	'contrib-tracking-fundraiser-maintenance-header' => 'Tillfälligt nere för underhåll',
+	'contrib-tracking-fundraiser-maintenance-notice' => 'Vi utför planerat underhåll och inte kan ta emot donationer.  Försök igen snart.  Om du har några frågor, vänligen maila $1.',
 );
 
 /** Swahili (Kiswahili)
