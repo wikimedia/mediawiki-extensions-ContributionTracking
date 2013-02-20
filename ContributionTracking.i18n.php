@@ -666,6 +666,8 @@ $messages['hsb'] = array(
 	'contrib-tracking-button' => 'Dale',
 	'contrib-tracking-item-name-onetime' => 'Jónkrócny dar',
 	'contrib-tracking-item-name-recurring' => 'Wospjetowacy so měsačny dar',
+	'contrib-tracking-fundraiser-maintenance-header' => 'Nachwilu wothladowanja dla njedocpějomny',
+	'contrib-tracking-fundraiser-maintenance-notice' => 'Přewjedźemy tuchwilu planowane wothladowanje a njemóžemy dary akceptować. prošu spytaj hišće raz. Jeli maš prašenja, pósćel prošu e-mejlku na $1.',
 );
 
 /** Hungarian (magyar)
