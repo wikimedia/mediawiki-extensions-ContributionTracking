@@ -161,7 +161,7 @@ class ApiContributionTracking extends ApiBase {
 			'utm_campaign' => 'String identifying "utm_campaign"',
 			'utm_key' => 'String identifying "utm_key"',
 			'payments_form' => 'String identifying the form on the payments cluster through which the donation was made',
-			'email-opt' => 'Boolean assumed to be from a checkbox. This is actually the inverse of the E-mail opt-out checkbox.',
+			'email-opt' => 'Boolean assumed to be from a checkbox. This is actually the inverse of the email opt-out checkbox.',
 			'language' => array(
 				'User language code. Messages will be translated appropriately (where possible).',
 				'This will also determine what "Thank You" page the user sees upon completion of a donation at the gateway.' ),
