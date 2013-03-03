@@ -1089,7 +1089,7 @@ $messages['nl-informal'] = array(
 	'contrib-tracking-fundraiser-maintenance-notice' => 'Op het moment wordt onderhoud uitgevoerd en kunnen we helaas geen donaties verwerken. Probeer het alsjeblieft snel opnieuw. Stuur een e-mail naar $1 als je vragen hebt.',
 );
 
-/** Norwegian Nynorsk (norsk (nynorsk)‎)
+/** Norwegian Nynorsk (norsk nynorsk)
  * @author Finnrind
  * @author Harald Khan
  * @author Njardarlogar
@@ -1100,7 +1100,7 @@ $messages['nn'] = array(
 	'contrib-tracking-error' => 'Feil',
 	'contrib-tracking-error-text' => 'Ugyldig skjema',
 	'contrib-tracking-submitting' => 'Sender til betalingshandtering...',
-	'contrib-tracking-continue' => 'Om du ikkje blir omdirigert automatisk, klikk på knappen for å gjennomføra donasjonen hjå PayPal.', # Fuzzy
+	'contrib-tracking-continue' => 'Vert du ikkje omdirigert automatisk, klikk på knappen for å gjennomføra donasjonen.',
 	'contrib-tracking-button' => 'Hald fram',
 );
 
