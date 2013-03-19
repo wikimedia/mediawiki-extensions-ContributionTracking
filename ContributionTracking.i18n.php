@@ -188,6 +188,7 @@ $messages['be-tarask'] = array(
 	'contrib-tracking-item-name-onetime' => 'Аднаразовае ахвяраваньне',
 	'contrib-tracking-item-name-recurring' => 'Паўтараючаяся штомесячнае ахвяраваньне',
 	'contrib-tracking-fundraiser-maintenance-header' => 'Часава выключана для тэхнічнага абслугоўваньня',
+	'contrib-tracking-fundraiser-maintenance-notice' => 'У гэты час вы выконваем плянаванае тэхнічнае абслугоўваньне і ня можам прымаць ахвяраваньні. Калі ласка, паспрабуйце пазьней. Калі ў вас ёсьць пытаньні, дасылайце іх на $1.',
 );
 
 /** Bulgarian (български)
@@ -790,6 +791,8 @@ $messages['ja'] = array(
 	'contrib-tracking-button' => '続行',
 	'contrib-tracking-item-name-onetime' => '1回だけ寄付',
 	'contrib-tracking-item-name-recurring' => '月ごとに定期寄付',
+	'contrib-tracking-fundraiser-maintenance-header' => 'メンテナンスのため一時的に停止中',
+	'contrib-tracking-fundraiser-maintenance-notice' => '現在、定期的なメンテナンス作業を行っているため寄付を受け付けることができません。ご質問があれば、$1 にメールをください。',
 );
 
 /** Javanese (Basa Jawa)
