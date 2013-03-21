@@ -1249,6 +1249,7 @@ $messages['ro'] = array(
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
+	'contributiontracking' => 'Tracciamende de le condrebbute',
 	'contrib-tracking-error' => 'Errore',
 	'contrib-tracking-error-text' => 'Module de sottomissione invalide',
 	'contrib-tracking-submitting' => "Stoche a conferme 'u processe de pajamende...",
