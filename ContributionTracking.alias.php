@@ -47,7 +47,7 @@ $specialPageAliases['dsb'] = array(
 
 /** Esperanto (Esperanto) */
 $specialPageAliases['eo'] = array(
-	'ContributionTracking' => array( 'Kontribukontado' ),
+	'ContributionTracking' => array( 'Spurado_de_kontribuoj', 'Kontribukontado' ),
 );
 
 /** Persian (فارسی) */
