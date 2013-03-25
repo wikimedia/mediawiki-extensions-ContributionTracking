@@ -114,6 +114,7 @@ $specialPageAliases['lad'] = array(
 /** Macedonian (македонски) */
 $specialPageAliases['mk'] = array(
 	'ContributionTracking' => array( 'СледењеНаПридонесите' ),
+	'FundraiserMaintenance' => array( 'ОдржувањеПрибирањеСредства' ),
 );
 
 /** Malayalam (മലയാളം) */

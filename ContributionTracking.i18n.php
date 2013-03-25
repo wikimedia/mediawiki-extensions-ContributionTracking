@@ -39,8 +39,36 @@ $messages['en'] = array(
  */
 $messages['qqq'] = array(
 	'contributiontracking-desc' => '{{desc|name=Contribution Tracking|url=http://www.mediawiki.org/wiki/Extension:ContributionTracking}}',
-	'contrib-tracking-error' => '{{Identical|Error}}',
-	'contrib-tracking-button' => '{{Identical|Continue}}',
+	'contributiontracking' => '{{doc-special|ContributionTracking|unlisted=1}}',
+	'contrib-tracking-error' => 'Used as error page title.
+
+The page body for this title is {{msg-mw|Contrib-tracking-error-text}}.
+{{Identical|Error}}',
+	'contrib-tracking-error-text' => 'Used as error message.
+
+The page title for this message is {{msg-mw|Contrib-tracking-error}}.',
+	'contrib-tracking-submitting' => 'Used as status message.
+
+This message is followed by the repost form.',
+	'contrib-tracking-continue' => 'Used in HTML <code><nowiki><noscript></nowiki></code> tag.
+
+This message is followed by the Submit button {{msg-mw|contrib-tracking-button}}.',
+	'contrib-tracking-redirect' => 'This message follows the repost form.
+
+This message is followed by HTML <code><nowiki><noscript></nowiki></code> (and the message {{msg-mw|contrib-tracking-continue}}).',
+	'contrib-tracking-button' => 'Used as Submit button text in HTML <code><nowiki><noscript></nowiki></code>.
+
+This message follows the following message:
+* {{msg-mw|contrib-tracking-continue}}.
+{{Identical|Continue}}',
+	'contrib-tracking-item-name-onetime' => 'Used if a one-time donation.
+
+See also:
+* {{msg-mw|Contrib-tracking-item-name-recurring}}',
+	'contrib-tracking-item-name-recurring' => 'Used if a recurring donation.
+
+See also:
+* {{msg-mw|Contrib-tracking-item-name-onetime}}',
 	'contrib-tracking-fundraiser-maintenance-header' => 'Header for maintenance notification page',
 	'contrib-tracking-fundraiser-maintenance-notice' => 'Message indicating that we are currently performing scheduled maintenance and are not currently able to process donations.
 
@@ -784,7 +812,7 @@ $messages['ja'] = array(
 	'contributiontracking-desc' => 'ウィキメディア資金調達者向け寄付追跡',
 	'contributiontracking' => '寄付追跡',
 	'contrib-tracking-error' => 'エラー',
-	'contrib-tracking-error-text' => 'フォーム送信が無効',
+	'contrib-tracking-error-text' => 'フォーム送信が無効です',
 	'contrib-tracking-submitting' => '決済処理者に提出中...',
 	'contrib-tracking-continue' => '自動的に転送されない場合、ボタンを押して寄付を完了させてください。',
 	'contrib-tracking-redirect' => 'あなたの寄付を完了させるため、自動的にリダイレクトします。',
