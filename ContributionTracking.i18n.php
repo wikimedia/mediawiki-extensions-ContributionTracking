@@ -1277,6 +1277,7 @@ $messages['ro'] = array(
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
+	'contributiontracking-desc' => "Tracciamende d'u condrebbute pe le taccoglieture de fonde pe Uicchimedia",
 	'contributiontracking' => 'Tracciamende de le condrebbute',
 	'contrib-tracking-error' => 'Errore',
 	'contrib-tracking-error-text' => 'Module de sottomissione invalide',
