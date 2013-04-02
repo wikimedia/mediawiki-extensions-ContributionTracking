@@ -904,6 +904,8 @@ $messages['ksh'] = array(
 	'contrib-tracking-button' => 'Wigger',
 	'contrib-tracking-item-name-onetime' => 'Eimohl_Spänd',
 	'contrib-tracking-item-name-recurring' => 'Moonatlesch_Spänd',
+	'contrib-tracking-fundraiser-maintenance-header' => 'Jraad em Momang erongerjefahre för de Waadong',
+	'contrib-tracking-fundraiser-maintenance-notice' => 'Mer sin jraad en jeplante Waadong am Maache, un künne dröm kein Schpände aannämme. Bes esu jood un versöhg et bald wider. Schegg en <i lang="en">e-mail</i> aan di Addräß $1 wann De Froore häs.',
 );
 
 /** Kurdish (Latin script) (Kurdî (latînî)‎)
