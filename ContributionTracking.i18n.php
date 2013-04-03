@@ -316,6 +316,8 @@ $messages['cs'] = array(
 	'contrib-tracking-button' => 'Pokračovat',
 	'contrib-tracking-item-name-onetime' => 'Jednorázový dar',
 	'contrib-tracking-item-name-recurring' => 'Pravidelný měsíční příspěvek',
+	'contrib-tracking-fundraiser-maintenance-header' => 'Kvůli údržbě dočasně mimo provoz',
+	'contrib-tracking-fundraiser-maintenance-notice' => 'V současné chvíli provádíme plánovanou údržbu a nejsme schopni přijímat dary. Zkuste to prosím znovu později. Pokud máte jakékoli dotazy, napište na $1.',
 );
 
 /** Danish (dansk)
