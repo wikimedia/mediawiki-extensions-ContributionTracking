@@ -1698,6 +1698,7 @@ $messages['zh-hans'] = array(
 /** Traditional Chinese (中文（繁體）‎)
  * @author Liangent
  * @author Mark85296341
+ * @author Simon Shek
  */
 $messages['zh-hant'] = array(
 	'contributiontracking-desc' => '追蹤維基媒體籌款的貢獻',
@@ -1710,4 +1711,6 @@ $messages['zh-hant'] = array(
 	'contrib-tracking-button' => '繼續',
 	'contrib-tracking-item-name-onetime' => '一次性捐助',
 	'contrib-tracking-item-name-recurring' => '每月定期捐款',
+	'contrib-tracking-fundraiser-maintenance-header' => '暫時停機維護',
+	'contrib-tracking-fundraiser-maintenance-notice' => '我們目前正在進行定期維護，因此不能接受的捐贈。請稍後再試。如果您有任何疑問，請電子郵件往$1 。',
 );
