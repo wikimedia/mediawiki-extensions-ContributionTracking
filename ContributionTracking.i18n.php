@@ -1115,7 +1115,7 @@ $messages['nl'] = array(
 	'contrib-tracking-item-name-onetime' => 'Eenmalige donatie',
 	'contrib-tracking-item-name-recurring' => 'Terugkerende maandelijkse donatie',
 	'contrib-tracking-fundraiser-maintenance-header' => 'Tijdelijk niet beschikbaar tijdens onderhoudswerkzaamheden',
-	'contrib-tracking-fundraiser-maintenance-notice' => 'Op het moment wordt onderhoud uitgevoerd en kunnen we helaas geen donaties verwerken. Probeer het alstublieft snel opnieuw. Stuur een e-mail naar $1 als u vragen hebt.',
+	'contrib-tracking-fundraiser-maintenance-notice' => 'Op het moment wordt onderhoud uitgevoerd en kunnen we helaas geen donaties verwerken. Probeer het snel opnieuw. Stuur een e-mail naar $1 als u vragen hebt.',
 );
 
 /** Nederlands (informeel)‎ (Nederlands (informeel)‎)
@@ -1124,7 +1124,7 @@ $messages['nl'] = array(
 $messages['nl-informal'] = array(
 	'contrib-tracking-continue' => 'Als je niet automatisch wordt doorgestuurd, klik dan op de knop om je donatie te voltooien.',
 	'contrib-tracking-redirect' => 'Je wordt automatisch doorgeleid om je donatie te voltooien.',
-	'contrib-tracking-fundraiser-maintenance-notice' => 'Op het moment wordt onderhoud uitgevoerd en kunnen we helaas geen donaties verwerken. Probeer het alsjeblieft snel opnieuw. Stuur een e-mail naar $1 als je vragen hebt.',
+	'contrib-tracking-fundraiser-maintenance-notice' => 'Op het moment wordt onderhoud uitgevoerd en kunnen we helaas geen donaties verwerken. Probeer het snel opnieuw. Stuur een e-mail naar $1 als je vragen hebt.',
 );
 
 /** Norwegian Nynorsk (norsk nynorsk)
@@ -1286,10 +1286,13 @@ $messages['roa-tara'] = array(
 	'contrib-tracking-error' => 'Errore',
 	'contrib-tracking-error-text' => 'Module de sottomissione invalide',
 	'contrib-tracking-submitting' => "Stoche a conferme 'u processe de pajamende...",
+	'contrib-tracking-continue' => "Ce non ge sì automaticamende ridirezionate, cazze 'u buttone pe combletà 'a donaziona toje.",
+	'contrib-tracking-redirect' => "Tu a essere automaticamende redirezionate pe combletà 'a donaziona toje.",
 	'contrib-tracking-button' => 'Condinue',
 	'contrib-tracking-item-name-onetime' => "Donazione de 'na vote",
 	'contrib-tracking-item-name-recurring' => "Ste arrive 'a donazzione mensile",
 	'contrib-tracking-fundraiser-maintenance-header' => 'Temboraneamende abbasce pe manutenzione',
+	'contrib-tracking-fundraiser-maintenance-notice' => "Nuje ste facime mo 'na manutenzione schedulate e non ge putime accettà dunazziune. Pe piacere pruève cchiù tarde. Ce tìne domande da fà, manne 'n'email a $1.",
 );
 
 /** Russian (русский)
