@@ -354,13 +354,22 @@ $messages['de'] = array(
 	'contrib-tracking-fundraiser-maintenance-notice' => 'Wir führen derzeit geplante Wartungsarbeiten durch und können keine Spenden entgegennehmen. Bitte versuche es später erneut. Falls du irgendwelche Fragen hast, sende bitte eine E-Mail an $1.',
 );
 
+/** Swiss High German (Schweizer Hochdeutsch)
+ * @author Geitost
+ */
+$messages['de-ch'] = array(
+	'contrib-tracking-fundraiser-maintenance-notice' => 'Wir führen derzeit geplante Wartungsarbeiten durch und können keine Spenden entgegennehmen. Bitte versuche es später erneut. Falls du irgendwelche Fragen hast, sende bitte ein E-Mail an $1.',
+);
+
 /** German (formal address) (Deutsch (Sie-Form)‎)
+ * @author Geitost
  * @author Imre
  * @author Kghbln
  */
 $messages['de-formal'] = array(
 	'contrib-tracking-continue' => 'Sofern Sie nicht automatisch weitergeleitet werden, klicken Sie bitte auf „{{int:contrib-tracking-button}}“, um Ihre Spende abzuschließen.',
 	'contrib-tracking-redirect' => 'Sie werden automatisch weitergeleitet, um Ihre Spende abzuschließen zu können.',
+	'contrib-tracking-fundraiser-maintenance-notice' => 'Wir führen derzeit geplante Wartungsarbeiten durch und können keine Spenden entgegennehmen. Bitte versuchen Sie es später erneut. Falls Sie irgendwelche Fragen haben, senden Sie bitte eine E-Mail an $1.',
 );
 
 /** Zazaki (Zazaki)
