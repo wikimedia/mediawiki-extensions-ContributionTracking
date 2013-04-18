@@ -898,7 +898,7 @@ $messages['ko'] = array(
 	'contrib-tracking-item-name-onetime' => '한 번 기부',
 	'contrib-tracking-item-name-recurring' => '매월 정기 기부',
 	'contrib-tracking-fundraiser-maintenance-header' => '유시 보수를 위해 일시적으로 멈춤',
-	'contrib-tracking-fundraiser-maintenance-notice' => '현재 유지 보수가 예정되어 있어 기부를 받아줄 수 없습니다. 잠시 뒤 다시 시도해주세요. 질문이 있다면 $1 (으)로 이메일을 보내세요.',
+	'contrib-tracking-fundraiser-maintenance-notice' => '현재 유지 보수가 예정되어 있어 기부를 받아줄 수 없습니다. 잠시 후에 다시 시도하세요. 질문이 있다면 $1 (으)로 이메일을 보내세요.',
 );
 
 /** Colognian (Ripoarisch)
