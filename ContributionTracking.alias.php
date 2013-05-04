@@ -93,6 +93,7 @@ $specialPageAliases['it'] = array(
 /** Japanese (日本語) */
 $specialPageAliases['ja'] = array(
 	'ContributionTracking' => array( '寄付追跡' ),
+	'FundraiserMaintenance' => array( '資金調達保守' ),
 );
 
 /** Korean (한국어) */
