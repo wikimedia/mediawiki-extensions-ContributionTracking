@@ -947,6 +947,8 @@ $messages['lb'] = array(
 	'contrib-tracking-button' => 'Weider',
 	'contrib-tracking-item-name-onetime' => 'Eemolegen Don',
 	'contrib-tracking-item-name-recurring' => 'Don deen all Mount widderholl gëtt',
+	'contrib-tracking-fundraiser-maintenance-header' => 'Temporär net disponibel wéint Maintenance',
+	'contrib-tracking-fundraiser-maintenance-notice' => 'Mir maachen elo eng geplangte Maintenance a kënne keng Donen unhuelen. Probéiert w.e.g. geschwënn nach eng Kéier. Wann Dir Froen hutt da schéckt eis e n E-Mail op $1.',
 );
 
 /** Limburgish (Limburgs)
