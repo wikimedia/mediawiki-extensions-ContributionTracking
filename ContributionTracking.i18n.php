@@ -1080,7 +1080,7 @@ $messages['nah'] = array(
 	'contrib-tracking-error' => 'Ahcuallōtl',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎)
+/** Norwegian Bokmål (norsk bokmål)
  * @author Danmichaelo
  * @author Finnrind
  * @author Nghtwlkr
@@ -1166,7 +1166,7 @@ $messages['oc'] = array(
 	'contrib-tracking-button' => 'Contunhar',
 );
 
-/** Oriya (ଓଡ଼ିଆ)
+/** Oriya (ଓଡ଼ିଆ)
  * @author Ansumang
  * @author Odisha1
  * @author Psubhashish
