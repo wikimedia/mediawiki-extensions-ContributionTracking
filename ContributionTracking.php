@@ -140,7 +140,12 @@ function efContributionTrackingLoadUpdates( $updater = null ){
 			$updater->addExtensionUpdate( array( 'addField', 'contribution_tracking', 'owa_session',
 				$dir . 'patches/patch-owa.sql', true ) );
 			$updater->addExtensionUpdate( array( 'addField', 'contribution_tracking', 'utm_key',
-			   $dir . 'patches/patch-owa.sql', true ) );
+				$dir . 'patches/patch-owa.sql', true ) );
+
+			// Not sure how to do this in the other configurations, but I guess
+			// "manually" might be the answer.
+			$updater->addExtensionUpdate( array( 'modifyField', 'contribution_tracking', 'anonymous',
+				$dir . 'patches/make-null.patch.sql' ) );
 		} else { //We are configured not to use the main mediawiki db.
 			//Unless the updater is modified not to run
 			//'LoadExtensionSchemaUpdates' hooks in its constructor (or do so
