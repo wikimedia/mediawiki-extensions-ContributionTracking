@@ -37,7 +37,7 @@ $specialPageAliases['de'] = array(
 
 /** Zazaki (Zazaki) */
 $specialPageAliases['diq'] = array(
-	'ContributionTracking' => array( 'Taqibêİştiraqan' ),
+	'ContributionTracking' => array( 'TaqibéDekerdışan' ),
 );
 
 /** Lower Sorbian (dolnoserbski) */
