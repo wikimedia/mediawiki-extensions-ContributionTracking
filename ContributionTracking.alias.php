@@ -136,6 +136,7 @@ $specialPageAliases['nb'] = array(
 /** Low Saxon (Netherlands) (Nedersaksies) */
 $specialPageAliases['nds-nl'] = array(
 	'ContributionTracking' => array( 'Donasies_volgen' ),
+	'FundraiserMaintenance' => array( 'Fondsenwarvingsbeheer' ),
 );
 
 /** Dutch (Nederlands) */
