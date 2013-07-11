@@ -497,6 +497,7 @@ $messages['eu'] = array(
  * @author Huji
  * @author Komeil 4life
  * @author Mjbmr
+ * @author Reza1615
  * @author ZxxZxxZ
  */
 $messages['fa'] = array(
@@ -510,6 +511,8 @@ $messages['fa'] = array(
 	'contrib-tracking-button' => 'ادامه',
 	'contrib-tracking-item-name-onetime' => 'یک بار کمک مالی',
 	'contrib-tracking-item-name-recurring' => 'دورهٔ اهدای کمک مالی ماهانه',
+	'contrib-tracking-fundraiser-maintenance-header' => 'به صورت موقف خاموش برای تعمیر و نگهداری',
+	'contrib-tracking-fundraiser-maintenance-notice' => 'درحال حاضر برای تعمیر و نگهداری امکان قبول کمک‌های مالی مقدور نیستو لطفا بعد از مدتی تلاش کنید. در صورتی که سوال دارید به  $1 ایمیل بزنید.',
 );
 
 /** Finnish (suomi)

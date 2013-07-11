@@ -53,6 +53,7 @@ $specialPageAliases['eo'] = array(
 /** Persian (فارسی) */
 $specialPageAliases['fa'] = array(
 	'ContributionTracking' => array( 'ردگیری_مشارکت' ),
+	'FundraiserMaintenance' => array( 'نگهداری_پایه‌ای' ),
 );
 
 /** Finnish (suomi) */
