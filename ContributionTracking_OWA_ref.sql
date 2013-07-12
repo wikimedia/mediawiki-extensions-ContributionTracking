@@ -9,6 +9,6 @@ CREATE TABLE IF NOT EXISTS /*_*/contribution_tracking_owa_ref (
 	url VARBINARY(255) unique,
 
 	-- event ID
-	id INTEGER AUTO_INCREMENT PRIMARY KEY
+	id INTEGER PRIMARY KEY AUTO_INCREMENT
 ) /*$wgDBTableOptions*/;
 

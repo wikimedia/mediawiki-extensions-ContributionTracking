@@ -99,17 +99,6 @@ $wgContributionTrackingFundraiserMaintenance = false;
  */
 $wgContributionTrackingFundraiserMaintenanceUnsched = false;
 
-
-# Unit tests
-$wgHooks['UnitTestsList'][] = 'efContributionTrackingUnitTests';
-
-function efContributionTrackingUnitTests( &$files ) {
-	$files[] = dirname( __FILE__ ) . '/tests/ContributionTrackingTest.php';
-	$files[] = dirname( __FILE__ ) . '/tests/ContributionTrackingProcessorTest.php';
-	$files[] = dirname( __FILE__ ) . '/tests/ContributionTrackingAPITest.php';
-	return true;
-}
-
 // api modules
 $wgAPIModules['contributiontracking'] = 'ApiContributionTracking';
 

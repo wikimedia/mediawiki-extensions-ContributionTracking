@@ -16,22 +16,29 @@ class ContributionTrackingProcessor {
 	 * ContributionTracking.php
 	 * @global string $wgContributionTrackingDBpassword : Database password,
 	 * defined in ContributionTracking.php
-	 * @staticvar DatabaseMysql $db
-	 * @return DatabaseMysql The established database connection
+	 * @staticvar DatabaseBase $db
+	 * @return DatabaseBase The established database connection
 	 */
 	static function contributionTrackingConnection() {
 		global $wgContributionTrackingDBserver, $wgContributionTrackingDBname;
 		global $wgContributionTrackingDBuser, $wgContributionTrackingDBpassword;
+		global $wgDBserver, $wgDBname;
 
 		static $db;
 
 		if ( !$db ) {
-			$db = new DatabaseMysql(
+			if ( $wgContributionTrackingDBserver === $wgDBserver &&
+				$wgContributionTrackingDBname === $wgDBname
+			) {
+				$db = wfGetDB( DB_MASTER );
+			} else {
+				$db = new DatabaseMysql(
 					$wgContributionTrackingDBserver,
 					$wgContributionTrackingDBuser,
 					$wgContributionTrackingDBpassword,
-					$wgContributionTrackingDBname );
-			$db->query( "SET names utf8" );
+					$wgContributionTrackingDBname
+				);
+			}
 		}
 
 		return $db;
