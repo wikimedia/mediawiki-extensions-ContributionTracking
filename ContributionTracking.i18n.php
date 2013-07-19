@@ -320,6 +320,13 @@ $messages['cs'] = array(
 	'contrib-tracking-fundraiser-maintenance-notice' => 'V současné chvíli provádíme plánovanou údržbu a nejsme schopni přijímat dary. Zkuste to prosím znovu později. Pokud máte jakékoli dotazy, napište na $1.',
 );
 
+/** Church Slavic (словѣ́ньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
+ * @author ОйЛ
+ */
+$messages['cu'] = array(
+	'contrib-tracking-error' => 'блаꙁна',
+);
+
 /** Danish (dansk)
  * @author Peter Alberti
  * @author Sarrus
@@ -982,6 +989,7 @@ $messages['lt'] = array(
 	'contrib-tracking-button' => 'Tęsti',
 	'contrib-tracking-item-name-onetime' => 'Vienkartinės auka',
 	'contrib-tracking-item-name-recurring' => 'Kas mėnesinė auka',
+	'contrib-tracking-fundraiser-maintenance-header' => 'Laikinai neprieinamas dėl priežiūros',
 );
 
 /** Latvian (latviešu)
