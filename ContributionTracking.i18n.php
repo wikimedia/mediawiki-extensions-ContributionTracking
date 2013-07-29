@@ -756,6 +756,8 @@ $messages['ia'] = array(
 	'contrib-tracking-button' => 'Continuar',
 	'contrib-tracking-item-name-onetime' => 'Donation unic',
 	'contrib-tracking-item-name-recurring' => 'Donation periodic mensual',
+	'contrib-tracking-fundraiser-maintenance-header' => 'Temporarimente foras de servicio pro mantenentia',
+	'contrib-tracking-fundraiser-maintenance-notice' => 'In iste momento, nos exeque un mantenentia programmate e non pote acceptar donationes. Per favor reproba bentosto. Si tu ha questiones, per favor invia e-mail a $1.',
 );
 
 /** Indonesian (Bahasa Indonesia)
@@ -1123,6 +1125,7 @@ $messages['nds'] = array(
 );
 
 /** Dutch (Nederlands)
+ * @author McDutchie
  * @author Siebrand
  */
 $messages['nl'] = array(
@@ -1136,7 +1139,7 @@ $messages['nl'] = array(
 	'contrib-tracking-button' => 'Doorgaan',
 	'contrib-tracking-item-name-onetime' => 'Eenmalige donatie',
 	'contrib-tracking-item-name-recurring' => 'Terugkerende maandelijkse donatie',
-	'contrib-tracking-fundraiser-maintenance-header' => 'Tijdelijk niet beschikbaar tijdens onderhoudswerkzaamheden',
+	'contrib-tracking-fundraiser-maintenance-header' => 'Tijdelijk niet beschikbaar wegens onderhoudswerkzaamheden',
 	'contrib-tracking-fundraiser-maintenance-notice' => 'Op het moment wordt onderhoud uitgevoerd en kunnen we helaas geen donaties verwerken. Probeer het snel opnieuw. Stuur een e-mail naar $1 als u vragen hebt.',
 );
 
