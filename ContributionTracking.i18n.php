@@ -301,6 +301,13 @@ $messages['ca'] = array(
 	'contrib-tracking-item-name-recurring' => 'Donació mensual periòdica',
 );
 
+/** Chechen (нохчийн)
+ * @author Умар
+ */
+$messages['ce'] = array(
+	'contrib-tracking-button' => 'Кхин дӀа',
+);
+
 /** Czech (česky)
  * @author Mormegil
  * @author Tchoř
