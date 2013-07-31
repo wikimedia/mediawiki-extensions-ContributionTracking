@@ -113,6 +113,11 @@ $specialPageAliases['lad'] = array(
 	'ContributionTracking' => array( 'PerseguirAjustamientos' ),
 );
 
+/** Minangkabau (Baso Minangkabau) */
+$specialPageAliases['min'] = array(
+	'ContributionTracking' => array( 'LacakJariah' ),
+);
+
 /** Macedonian (македонски) */
 $specialPageAliases['mk'] = array(
 	'ContributionTracking' => array( 'СледењеНаПридонесите' ),
