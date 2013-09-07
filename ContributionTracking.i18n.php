@@ -1273,6 +1273,7 @@ $messages['pt'] = array(
 );
 
 /** Brazilian Portuguese (português do Brasil)
+ * @author Cainamarques
  * @author Eduardo.mps
  * @author Giro720
  */
@@ -1282,8 +1283,8 @@ $messages['pt-br'] = array(
 	'contrib-tracking-error' => 'Erro',
 	'contrib-tracking-error-text' => 'Submissão de formulário inválida',
 	'contrib-tracking-submitting' => 'Submetendo ao processador de pagamentos...',
-	'contrib-tracking-continue' => 'Se você não for redirecionado automaticamente, clique no botão para completar a sua doação no PayPal.', # Fuzzy
-	'contrib-tracking-redirect' => 'Será reencaminhado automaticamente para o Paypal para terminar a sua doação.', # Fuzzy
+	'contrib-tracking-continue' => 'Se você não for redirecionado automaticamente, clique no botão para completar a sua doação.',
+	'contrib-tracking-redirect' => 'Será redirecionado automaticamente para completar a sua doação.',
 	'contrib-tracking-button' => 'Continuar',
 	'contrib-tracking-item-name-onetime' => 'Doação única',
 	'contrib-tracking-item-name-recurring' => 'Doação mensal recorrente',
