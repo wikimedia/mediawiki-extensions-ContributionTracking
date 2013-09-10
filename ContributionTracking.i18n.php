@@ -1288,6 +1288,7 @@ $messages['pt-br'] = array(
 	'contrib-tracking-button' => 'Continuar',
 	'contrib-tracking-item-name-onetime' => 'Doação única',
 	'contrib-tracking-item-name-recurring' => 'Doação mensal recorrente',
+	'contrib-tracking-fundraiser-maintenance-header' => 'Temporariamente indisponível para manutenção',
 );
 
 /** Romanian (română)
