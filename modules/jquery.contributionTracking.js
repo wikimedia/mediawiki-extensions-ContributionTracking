@@ -83,9 +83,16 @@
 			} else {
 				$('<div id="hideyform"></div>').appendTo('body');
 			}
-			$('<form id="immediate_repost" action="' + data["returns"]["action"]["url"] + '"></form>').appendTo('#hideyform');
-			for (key in data["returns"]["fields"]) {
-				$('<input type="hidden" id="' + key +'" name="' + key +'" value="' + data["returns"]["fields"][key] +'">').appendTo('#immediate_repost');
+			$( '#hideyform' ).append( $( '<form></form>', {
+				'id': 'immediate-repost',
+				'action': data["returns"]["action"]["url"],
+			} ) );
+			for ( key in data["returns"]["fields"] ) {
+				$( '#immediate_repost' ).append( $( '<input>', {
+					'id': key,
+					'name': key,
+					'value': data["returns"]["fields"][key],
+				} ) );
 			}
 			$('#immediate_repost').submit();
 
@@ -98,17 +105,6 @@
 			'json');
 	};
 
-	/**
-	 * Just for easy debugging. Should not actually be called anywhere.
-	 * TODO: Take this out when we know we're done here.
-	 */
-	$.debugPostObjectWithAlert = function(object){
-		var contents = "";
-		for (key in object){
-			contents += key + " = " + object[key] + "\r\n";
-		}
-		window.alert(contents);
-	}
 
 } )( jQuery );
 
