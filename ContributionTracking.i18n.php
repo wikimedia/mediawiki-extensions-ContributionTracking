@@ -508,6 +508,7 @@ $messages['eu'] = array(
 );
 
 /** Persian (فارسی)
+ * @author Ebraminio
  * @author Huji
  * @author Komeil 4life
  * @author Mjbmr
@@ -518,7 +519,7 @@ $messages['fa'] = array(
 	'contributiontracking-desc' => 'پی‌گیری کمک‌های انجام شده به جذب سرمایهٔ ویکی‌مدیا',
 	'contributiontracking' => 'پی‌گیری کمک‌ها',
 	'contrib-tracking-error' => 'خطا',
-	'contrib-tracking-error-text' => 'اطلاعات ارسالی فرم غیر مجاز است',
+	'contrib-tracking-error-text' => 'اطلاعات ارسالی فرم نامجاز است',
 	'contrib-tracking-submitting' => 'ارسال به پردازش کنندهٔ پرداخت...',
 	'contrib-tracking-continue' => 'اگر به طور خودکار به صفحهٔ مورد نظر هدایت نشدید، برای تکمیل کمک مالی خود بر روی دکمه کلیک کنید.',
 	'contrib-tracking-redirect' => 'شما به طور خودکار برای تکمیل کمک مالی‌تان تغییرمسیر داده خواهید شد.',
