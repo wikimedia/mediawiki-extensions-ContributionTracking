@@ -1184,8 +1184,10 @@ $messages['oc'] = array(
 	'contrib-tracking-error' => 'Error',
 	'contrib-tracking-error-text' => 'Error dins lo formulari',
 	'contrib-tracking-submitting' => 'Mandadís al sistèma de pagament...',
-	'contrib-tracking-continue' => 'Clicatz sul boton per acabar vòstre don amb Paypal.', # Fuzzy
+	'contrib-tracking-continue' => 'Se sètz pas redirigit automaticament, clicatz aqueste boton per completar vòstre don.',
 	'contrib-tracking-button' => 'Contunhar',
+	'contrib-tracking-item-name-onetime' => 'Don unic',
+	'contrib-tracking-item-name-recurring' => 'Don mesadièr recurrent',
 );
 
 /** Oriya (ଓଡ଼ିଆ)
