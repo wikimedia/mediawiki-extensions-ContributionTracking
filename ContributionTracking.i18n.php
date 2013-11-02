@@ -955,12 +955,13 @@ $messages['kw'] = array(
 
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
+ * @author Soued031
  */
 $messages['lb'] = array(
 	'contributiontracking-desc' => 'Suivi vun den Donen vun der Wikimedia-Spendenakioun',
 	'contributiontracking' => 'Iwwersiicht vun den Donen',
 	'contrib-tracking-error' => 'Feeler',
-	'contrib-tracking-error-text' => 'Feeler bäi der Iwwermëttlung vum Formulaire',
+	'contrib-tracking-error-text' => 'Feeler bei der Iwwermëttlung vum Formulaire',
 	'contrib-tracking-submitting' => 'Weiderschécken op de System fir ze bezuelen ...',
 	'contrib-tracking-continue' => 'Wann Dir net automatesch virugeleet gitt, da klickt w.e.g. op de Knäppchen fir ären Don ofzeschléissen.',
 	'contrib-tracking-redirect' => 'Dir gitt automatesch virugeleet fir Ären Don ofzeschléissen.',
