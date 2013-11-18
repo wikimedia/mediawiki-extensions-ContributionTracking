@@ -28,7 +28,7 @@ $messages['en'] = array(
 	'contrib-tracking-item-name-recurring' => 'Recurring monthly donation',
 
 	'contrib-tracking-fundraiser-maintenance-header' => "Temporarily down for maintenance",
-	'contrib-tracking-fundraiser-maintenance-notice' => "We are currently performing scheduled maintenance and are unable to accept donations.  Please try again soon.  If you have any questions, please email $1.",
+	'contrib-tracking-fundraiser-maintenance-notice' => "We are currently performing scheduled maintenance and are unable to accept donations. Please try again soon. If you have any questions, please email $1.",
 );
 
 /** Message documentation (Message documentation)
