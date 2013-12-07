@@ -308,7 +308,7 @@ $messages['ce'] = array(
 	'contrib-tracking-button' => 'Кхин дӀа',
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Mormegil
  * @author Tchoř
  */
@@ -327,7 +327,7 @@ $messages['cs'] = array(
 	'contrib-tracking-fundraiser-maintenance-notice' => 'V současné chvíli provádíme plánovanou údržbu a nejsme schopni přijímat dary. Zkuste to prosím znovu později. Pokud máte jakékoli dotazy, napište na $1.',
 );
 
-/** Church Slavic (словѣ́ньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
+/** Church Slavic (словѣньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
  * @author ОйЛ
  */
 $messages['cu'] = array(
