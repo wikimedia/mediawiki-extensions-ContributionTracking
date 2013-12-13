@@ -335,16 +335,24 @@ $messages['cu'] = array(
 );
 
 /** Danish (dansk)
+ * @author Christian List
  * @author Peter Alberti
  * @author Sarrus
  * @author Tjernobyl
  */
 $messages['da'] = array(
+	'contributiontracking-desc' => 'Sporing af bidrag for Wikimedia indsamlingen',
+	'contributiontracking' => 'Sporing af bidrag',
 	'contrib-tracking-error' => 'Fejl',
 	'contrib-tracking-error-text' => 'Ugyldig formularafsendelse',
+	'contrib-tracking-submitting' => 'Sender til betalingshåndtering...',
+	'contrib-tracking-continue' => 'Hvis du ikke automatisk bliver omdirigeret, skal du klikke på knappen for at fuldføre din donation.',
+	'contrib-tracking-redirect' => 'Du vil automatisk blive omdirigeret for at fuldføre din donation.',
 	'contrib-tracking-button' => 'Fortsæt',
 	'contrib-tracking-item-name-onetime' => 'Engangsdonation',
+	'contrib-tracking-item-name-recurring' => 'Tilbagevendende månedlig donation',
 	'contrib-tracking-fundraiser-maintenance-header' => 'Midlertidigt nede pga. vedligeholdelse',
+	'contrib-tracking-fundraiser-maintenance-notice' => 'Vi udfører i øjeblikket planlagt vedligeholdelse og er ude af stand til at acceptere donationer. Prøv venligst igen snart. Hvis du har spørgsmål, bedes du e-maile $1.',
 );
 
 /** German (Deutsch)
