@@ -18,6 +18,7 @@ $specialPageAliases['en'] = array(
 /** Arabic (العربية) */
 $specialPageAliases['ar'] = array(
 	'ContributionTracking' => array( 'تتبع_المساهمة' ),
+	'FundraiserMaintenance' => array( 'صيانة_التبرع' ),
 );
 
 /** Egyptian Spoken Arabic (مصرى) */
