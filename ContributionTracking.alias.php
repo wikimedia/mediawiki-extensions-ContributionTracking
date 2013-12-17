@@ -191,6 +191,7 @@ $specialPageAliases['vec'] = array(
 /** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = array(
 	'ContributionTracking' => array( '资助追踪', '贡献追踪' ),
+	'FundraiserMaintenance' => array( '募捐工具维护' ),
 );
 
 /** Traditional Chinese (中文（繁體）‎) */
