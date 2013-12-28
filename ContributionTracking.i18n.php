@@ -915,7 +915,7 @@ $messages['km'] = array(
  * @author 아라
  */
 $messages['ko'] = array(
-	'contributiontracking-desc' => '위키미디어 모금을 위한 기부 추적',
+	'contributiontracking-desc' => '위키미디어 기금 모금을 위한 기부 추적',
 	'contributiontracking' => '기부 추적',
 	'contrib-tracking-error' => '오류',
 	'contrib-tracking-error-text' => '부적절한 양식 제출',
