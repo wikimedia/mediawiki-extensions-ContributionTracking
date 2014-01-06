@@ -305,6 +305,7 @@ $messages['ca'] = array(
  * @author Умар
  */
 $messages['ce'] = array(
+	'contrib-tracking-error' => 'ГӀалат',
 	'contrib-tracking-button' => 'Кхин дӀа',
 );
 
