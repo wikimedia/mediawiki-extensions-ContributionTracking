@@ -536,7 +536,7 @@ $messages['fa'] = array(
 	'contrib-tracking-item-name-onetime' => 'یک بار کمک مالی',
 	'contrib-tracking-item-name-recurring' => 'دورهٔ اهدای کمک مالی ماهانه',
 	'contrib-tracking-fundraiser-maintenance-header' => 'به صورت موقف خاموش برای تعمیر و نگهداری',
-	'contrib-tracking-fundraiser-maintenance-notice' => 'درحال حاضر برای تعمیر و نگهداری امکان قبول کمک‌های مالی مقدور نیستو لطفا بعد از مدتی تلاش کنید. در صورتی که سوال دارید به  $1 ایمیل بزنید.',
+	'contrib-tracking-fundraiser-maintenance-notice' => 'درحال حاضر برای تعمیر و نگهداری امکان قبول کمک‌های مالی مقدور نیستو لطفاً بعد از مدتی تلاش کنید. در صورتی که سوال دارید به $1 رایانامه بزنید.',
 );
 
 /** Finnish (suomi)
