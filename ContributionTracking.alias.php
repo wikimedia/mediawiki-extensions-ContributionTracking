@@ -24,6 +24,7 @@ $specialPageAliases['ar'] = array(
 /** Egyptian Spoken Arabic (مصرى) */
 $specialPageAliases['arz'] = array(
 	'ContributionTracking' => array( 'متابعة_المساهمه' ),
+	'FundraiserMaintenance' => array( 'صيانه_التبرع' ),
 );
 
 /** Bosnian (bosanski) */
