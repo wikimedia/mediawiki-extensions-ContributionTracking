@@ -1537,10 +1537,11 @@ $messages['ta'] = array(
 );
 
 /** Telugu (తెలుగు)
+ * @author Chaduvari
  * @author Veeven
  */
 $messages['te'] = array(
-	'contrib-tracking-error' => 'పొరపాటు',
+	'contrib-tracking-error' => 'లోపం',
 	'contrib-tracking-continue' => 'స్వయంచాలకంగా మిమ్మల్ని దారి మళ్ళించకపోతే, మీ విరాళాన్ని పూర్తిచెయ్యడానికి మీరే బొత్తాన్ని నొక్కండి.',
 	'contrib-tracking-button' => 'కొనసాగించు',
 );
