@@ -1278,11 +1278,13 @@ $messages['pt'] = array(
 	'contrib-tracking-error' => 'Erro',
 	'contrib-tracking-error-text' => 'Envio de formulário inválido',
 	'contrib-tracking-submitting' => 'A enviar ao processador de pagamentos...',
-	'contrib-tracking-continue' => 'Se não for redireccionado automaticamente, clique no botão para completar o seu donativo no PayPal.', # Fuzzy
-	'contrib-tracking-redirect' => 'Será reencaminhado automaticamente para o Paypal para terminar o donativo.', # Fuzzy
+	'contrib-tracking-continue' => 'Se não for redirecionado automaticamente, clique o botão para concluir o seu donativo.',
+	'contrib-tracking-redirect' => 'Será reencaminhado automaticamente para concluir o donativo.',
 	'contrib-tracking-button' => 'Continuar',
 	'contrib-tracking-item-name-onetime' => 'Donativo único',
 	'contrib-tracking-item-name-recurring' => 'Donativo mensal recorrente',
+	'contrib-tracking-fundraiser-maintenance-header' => 'Temporariamente indisponível para manutenção',
+	'contrib-tracking-fundraiser-maintenance-notice' => 'Estamos a executar tarefas programadas de manutenção e impedidos de receber donativos. Tente novamente em breve, por favor. Se tiver qualquer dúvida, contacte-nos no endereço $1.',
 );
 
 /** Brazilian Portuguese (português do Brasil)
