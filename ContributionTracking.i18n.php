@@ -1565,13 +1565,14 @@ $messages['tg-latn'] = array(
 );
 
 /** Thai (ไทย)
+ * @author Horus
  * @author Korrawit
  * @author Woraponboonkerd
  */
 $messages['th'] = array(
 	'contrib-tracking-error' => 'เกิดความผิดพลาด',
 	'contrib-tracking-submitting' => 'กำลังส่งไปยังผู้ดำเนินการจ่ายเงิน...',
-	'contrib-tracking-continue' => 'ถ้าคุณยังไม่ได้ถูกนำทางไปหน้าอื่นโดยอัตโนมัติ คลิกที่ปุ่มเพื่อเสร็จสิ้นการบริจาคที่ PayPal', # Fuzzy
+	'contrib-tracking-continue' => 'ถ้าคุณยังไม่ได้ถูกนำทางไปหน้าอื่นโดยอัตโนมัติ คลิกปุ่มเพื่อเสร็จสิ้นการบริจาค',
 	'contrib-tracking-button' => 'ดำเนินการต่อ',
 );
 
