@@ -1732,11 +1732,12 @@ $messages['yi'] = array(
  * @author Hydra
  * @author Liangent
  * @author Wilsonmess
+ * @author Xiaomingyan
  * @author Yfdyh000
  */
 $messages['zh-hans'] = array(
 	'contributiontracking-desc' => '跟踪维基媒体筹款的贡献',
-	'contributiontracking' => '跟踪的贡献',
+	'contributiontracking' => '贡献追踪',
 	'contrib-tracking-error' => '错误',
 	'contrib-tracking-error-text' => '无效的表单提交',
 	'contrib-tracking-submitting' => '正在提交到支付处理器……',
