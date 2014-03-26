@@ -1,0 +1,18 @@
+{
+    "@metadata": {
+        "authors": [
+            "David1010",
+            "Malafaya",
+            "გიორგიმელა"
+        ]
+    },
+    "contributiontracking-desc": "ვიკიმედიის ფონდის სასარგებლოდ შეწირულებების კონტროლი",
+    "contributiontracking": "შეწირულობების შეგროვების კონტროლი",
+    "contrib-tracking-error": "შეცდომა",
+    "contrib-tracking-error-text": "არასწორი ფორმის ნებართვა",
+    "contrib-tracking-submitting": "მიმდინარეობს გადახდების დამმუშავებლისდამი გაგზავნა...",
+    "contrib-tracking-continue": "თუ თქვენ არ იყავით ავტომატურად გადამისამართებული, დააჭირეთ ღილაკს რათა დაასრულოთ თქვენი შემოწირულობა.",
+    "contrib-tracking-button": "გაგრძელება",
+    "contrib-tracking-item-name-onetime": "ერთჯერადი შენატანი",
+    "contrib-tracking-item-name-recurring": "ყოველთვიური შენატანი"
+}

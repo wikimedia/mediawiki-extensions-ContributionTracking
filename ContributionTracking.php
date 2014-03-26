@@ -17,8 +17,9 @@ $wgExtensionCredits['specialpage'][] = array(
 	'descriptionmsg' => 'contributiontracking-desc',
 );
 
-$dir = dirname( __FILE__ ) . '/';
+$dir = __DIR__ . '/';
 
+$wgMessagesDirs['ContributionTracking'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['ContributionTracking'] = $dir . 'ContributionTracking.i18n.php';
 $wgExtensionMessagesFiles['ContributionTrackingAlias'] = $dir . 'ContributionTracking.alias.php';
 $wgAutoloadClasses['ContributionTracking'] = $dir . 'ContributionTracking_body.php';
@@ -36,7 +37,7 @@ $wgAvailableRights[] = 'ViewContributionTrackingTester';
 
 $wgAutoloadClasses['ApiContributionTracking'] = $dir . 'ApiContributionTracking.php';
 $wgAutoloadClasses['ContributionTrackingProcessor'] = $dir . 'ContributionTracking.processor.php';
- 
+
 //this only works if contribution tracking is inside a mediawiki DB, which typically it isn't.
 $wgHooks['LoadExtensionSchemaUpdates'][] = 'efContributionTrackingLoadUpdates';
 
