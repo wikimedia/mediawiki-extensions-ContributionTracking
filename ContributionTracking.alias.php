@@ -70,6 +70,12 @@ $specialPageAliases['gl'] = array(
 	'ContributionTracking' => array( 'Seguimento_das_contribucións' ),
 );
 
+/** Hebrew (עברית) */
+$specialPageAliases['he'] = array(
+	'ContributionTracking' => array( 'מעקב_תרומות' ),
+	'FundraiserMaintenance' => array( 'תחזוקת_התרמה' ),
+);
+
 /** Haitian (Kreyòl ayisyen) */
 $specialPageAliases['ht'] = array(
 	'ContributionTracking' => array( 'SwiviKontribisyon' ),
