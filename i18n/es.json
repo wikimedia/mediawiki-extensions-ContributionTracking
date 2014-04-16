@@ -1,22 +1,22 @@
 {
-    "@metadata": {
-        "authors": [
-            "Armando-Martin",
-            "Crazymadlover",
-            "MetalBrasil",
-            "Remember the dot"
-        ]
-    },
-    "contributiontracking-desc": "Contribución para el seguimiento del recaudador de fondos de Wikimedia",
-    "contributiontracking": "Seguimiento contribucional",
-    "contrib-tracking-error": "Error",
-    "contrib-tracking-error-text": "Envío de formulario inválido",
-    "contrib-tracking-submitting": "Entregando al procesador de pagos...",
-    "contrib-tracking-continue": "Si no es redirigido automáticamente, haga clic en el botón para completar su donación.",
-    "contrib-tracking-redirect": "Usted será redirigido automáticamente para completar su donación.",
-    "contrib-tracking-button": "Continuar",
-    "contrib-tracking-item-name-onetime": "Donación única",
-    "contrib-tracking-item-name-recurring": "Donación mensual recurrente",
-    "contrib-tracking-fundraiser-maintenance-header": "Parado temporalmente por mantenimiento",
-    "contrib-tracking-fundraiser-maintenance-notice": "Actualmente estamos realizando mantenimiento programado y somos incapaces de aceptar donaciones. Inténtalo de nuevo en otro momento.  Si tienes alguna pregunta, por favor, envíanos un correo electrónico a $1."
+	"@metadata": {
+		"authors": [
+			"Armando-Martin",
+			"Crazymadlover",
+			"MetalBrasil",
+			"Remember the dot"
+		]
+	},
+	"contributiontracking-desc": "Contribución para el seguimiento del recaudador de fondos de Wikimedia",
+	"contributiontracking": "Seguimiento contribucional",
+	"contrib-tracking-error": "Error",
+	"contrib-tracking-error-text": "Envío de formulario inválido",
+	"contrib-tracking-submitting": "Entregando al procesador de pagos...",
+	"contrib-tracking-continue": "Si no es redirigido automáticamente, haga clic en el botón para completar su donación.",
+	"contrib-tracking-redirect": "Usted será redirigido automáticamente para completar su donación.",
+	"contrib-tracking-button": "Continuar",
+	"contrib-tracking-item-name-onetime": "Donación única",
+	"contrib-tracking-item-name-recurring": "Donación mensual recurrente",
+	"contrib-tracking-fundraiser-maintenance-header": "Parado temporalmente por mantenimiento",
+	"contrib-tracking-fundraiser-maintenance-notice": "Actualmente estamos realizando mantenimiento programado y somos incapaces de aceptar donaciones. Inténtalo de nuevo en otro momento.  Si tienes alguna pregunta, por favor, envíanos un correo electrónico a $1."
 }

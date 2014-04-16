@@ -1,11 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "Karthi.dr",
-            "TRYPPN"
-        ]
-    },
-    "contrib-tracking-error": "தவறு",
-    "contrib-tracking-button": "தொடரவும்",
-    "contrib-tracking-item-name-onetime": "ஒருதடவையிலான நன்கொடை"
+	"@metadata": {
+		"authors": [
+			"Karthi.dr",
+			"TRYPPN"
+		]
+	},
+	"contrib-tracking-error": "தவறு",
+	"contrib-tracking-button": "தொடரவும்",
+	"contrib-tracking-item-name-onetime": "ஒருதடவையிலான நன்கொடை"
 }
