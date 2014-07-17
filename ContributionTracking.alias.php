@@ -181,6 +181,12 @@ $specialPageAliases['sk'] = array(
 	'ContributionTracking' => array( 'SledovaniePríspevkov' ),
 );
 
+/** Swedish (svenska) */
+$specialPageAliases['sv'] = array(
+	'ContributionTracking' => array( 'Bidragsspårning' ),
+	'FundraiserMaintenance' => array( 'Insamlingshantering' ),
+);
+
 /** Tagalog (Tagalog) */
 $specialPageAliases['tl'] = array(
 	'ContributionTracking' => array( 'Pagbakas_ng_ambag' ),
