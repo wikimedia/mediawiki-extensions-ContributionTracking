@@ -210,6 +210,6 @@ $specialPageAliases['zh-hans'] = array(
 
 /** Traditional Chinese (中文（繁體）‎) */
 $specialPageAliases['zh-hant'] = array(
-	'ContributionTracking' => array( '跟蹤貢獻' ),
+	'ContributionTracking' => array( '追蹤貢獻' ),
 	'FundraiserMaintenance' => array( '募捐維護' ),
 );
