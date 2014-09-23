@@ -197,7 +197,7 @@ $specialPageAliases['tr'] = array(
 	'ContributionTracking' => array( 'KatkıTakibi' ),
 );
 
-/** vèneto (vèneto) */
+/** Venetian (vèneto) */
 $specialPageAliases['vec'] = array(
 	'ContributionTracking' => array( 'TraciamentoContributi' ),
 );
