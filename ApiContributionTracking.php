@@ -147,6 +147,9 @@ class ApiContributionTracking extends ApiBase {
 		);
 	}
 
+	/**
+	 * @deprecated since MediaWiki core 1.25
+	 */
 	public function getParamDescription() {
 		return array(
 			'amount' => 'Transaction amount (required)',
@@ -180,6 +183,9 @@ class ApiContributionTracking extends ApiBase {
 		);
 	}
 
+	/**
+	 * @deprecated since MediaWiki core 1.25
+	 */
 	public function getDescription() {
 		return array(
 			'Track donor contributions via API',
@@ -189,13 +195,22 @@ class ApiContributionTracking extends ApiBase {
 		);
 	}
 
+	/**
+	 * @deprecated since MediaWiki core 1.25
+	 */
 	public function getExamples() {
 		return array(
 			'api.php?action=contributiontracking&comment=examplecomment&referrer=examplereferrer&gateway=paypal&amount=5.50',
 		);
 	}
 
-	public function getVersion() {
-		return __CLASS__ . ': $Id$';
+	/**
+	 * @see ApiBase::getExamplesMessages()
+	 */
+	protected function getExamplesMessages() {
+		return array(
+			'action=contributiontracking&comment=examplecomment&referrer=examplereferrer&gateway=paypal&amount=5.50'
+				=> 'apihelp-contributiontracking-example-1',
+		);
 	}
 }
