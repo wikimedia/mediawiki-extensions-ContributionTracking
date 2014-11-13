@@ -22,5 +22,6 @@
 	"apihelp-contributiontracking-param-comment": "Zeichenfolge mit einem Kommentar.",
 	"apihelp-contributiontracking-param-country": "Ländercode des Benutzers.",
 	"apihelp-contributiontracking-param-fname": "Vorname des Spenders.",
+	"apihelp-contributiontracking-param-lname": "Nachname des Spenders.",
 	"apihelp-contributiontracking-param-email": "E-Mail-Adresse des Spenders."
 }
