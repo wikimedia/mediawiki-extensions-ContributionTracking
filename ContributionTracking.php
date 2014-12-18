@@ -48,7 +48,6 @@ $ctResourceTemplate = array(
 );
 $wgResourceModules['jquery.contributionTracking'] = array(
 	'scripts' => 'jquery.contributionTracking.js',
-	'dependencies' => 'jquery.json',
 ) + $ctResourceTemplate;
 
 $wgResourceModules['contributionTracking.fundraiserMaintenance'] = array(
