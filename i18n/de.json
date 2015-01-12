@@ -25,5 +25,6 @@
 	"apihelp-contributiontracking-param-currency_code": "Währungscode für die aktuelle Transaktion.",
 	"apihelp-contributiontracking-param-fname": "Vorname des Spenders.",
 	"apihelp-contributiontracking-param-lname": "Nachname des Spenders.",
-	"apihelp-contributiontracking-param-email": "E-Mail-Adresse des Spenders."
+	"apihelp-contributiontracking-param-email": "E-Mail-Adresse des Spenders.",
+	"apihelp-contributiontracking-param-recurring_paypal": "Angegeben, falls dies eine wiederkehrende Spende ist."
 }
