@@ -230,7 +230,7 @@ class ContributionTrackingProcessor {
 	 * Takes staged transaction data, and constructs the key/value pairs
 	 * formatted to be reposted to the gateway specified in $input['gateway']
 	 * @param array $input The staged data to repost to a gateway.
-	 * @throws MWException
+	 * @throws Exception
 	 * @global string $wgContributionTrackingPayPalBusiness 'Business' string
 	 * for PayPal: Defined in ContributionTracking.php
 	 * @global string $wgContributionTrackingReturnToURLDefault Default URL to
@@ -342,7 +342,7 @@ class ContributionTrackingProcessor {
 			$repost['fields']['detail1_text'] = 'DONATE';
 			$repost['fields']['currency'] = $input['currency_code'];
 		} else {
-			throw new MWException( "Unknown payment gateway!" );
+			throw new Exception( "Unknown payment gateway!" );
 		}
 
 		// Normalized amount
