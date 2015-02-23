@@ -32,12 +32,12 @@ class ContributionTrackingProcessor {
 			) {
 				$db = wfGetDB( DB_MASTER );
 			} else {
-				$db = new DatabaseMysql(
-					$wgContributionTrackingDBserver,
-					$wgContributionTrackingDBuser,
-					$wgContributionTrackingDBpassword,
-					$wgContributionTrackingDBname
-				);
+				$db = DatabaseBase::factory( 'mysql', array(
+					'host' => $wgContributionTrackingDBserver,
+					'user' => $wgContributionTrackingDBuser,
+					'password' => $wgContributionTrackingDBpassword,
+					'dbname' => $wgContributionTrackingDBname
+				) );
 			}
 		}
 
