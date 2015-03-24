@@ -7,7 +7,7 @@
 			"Umherirrender"
 		]
 	},
-	"contributiontracking-desc": "{{desc|name=Contribution Tracking|url=http://www.mediawiki.org/wiki/Extension:ContributionTracking}}",
+	"contributiontracking-desc": "{{desc|name=Contribution Tracking|url=https://www.mediawiki.org/wiki/Extension:ContributionTracking}}",
 	"contributiontracking": "{{doc-special|ContributionTracking|unlisted=1}}",
 	"contrib-tracking-error": "Used as error page title.\n\nThe page body for this title is {{msg-mw|Contrib-tracking-error-text}}.\n{{Identical|Error}}",
 	"contrib-tracking-error-text": "Used as error message.\n\nThe page title for this message is {{msg-mw|Contrib-tracking-error}}.",
