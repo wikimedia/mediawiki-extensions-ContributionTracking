@@ -40,7 +40,7 @@ $specialPageAliases['de'] = array(
 
 /** Zazaki (Zazaki) */
 $specialPageAliases['diq'] = array(
-	'ContributionTracking' => array( 'TaqibéDekerdışan' ),
+	'ContributionTracking' => array( 'Teqibêİştırakan' ),
 	'FundraiserMaintenance' => array( 'WeynayışaBécan' ),
 );
 
