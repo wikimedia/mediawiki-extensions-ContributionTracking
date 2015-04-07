@@ -27,6 +27,12 @@ $specialPageAliases['arz'] = array(
 	'FundraiserMaintenance' => array( 'صيانه_التبرع' ),
 );
 
+/** Western Balochi (بلوچی رخشانی) */
+$specialPageAliases['bgn'] = array(
+	'ContributionTracking' => array( 'پدگیری_شه_شراکتان' ),
+	'FundraiserMaintenance' => array( 'بُنیادین_ساتیتین' ),
+);
+
 /** Bosnian (bosanski) */
 $specialPageAliases['bs'] = array(
 	'ContributionTracking' => array( 'DoprinosiPracenje' ),
