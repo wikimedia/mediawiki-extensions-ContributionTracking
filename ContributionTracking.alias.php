@@ -129,6 +129,11 @@ $specialPageAliases['lad'] = array(
 	'ContributionTracking' => array( 'PerseguirAjustamientos' ),
 );
 
+/** لوری (لوری) */
+$specialPageAliases['lrc'] = array(
+	'ContributionTracking' => array( 'دماگری_هومیاری' ),
+);
+
 /** Minangkabau (Baso Minangkabau) */
 $specialPageAliases['min'] = array(
 	'ContributionTracking' => array( 'LacakJariah' ),
