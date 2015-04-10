@@ -132,6 +132,7 @@ $specialPageAliases['lad'] = array(
 /** لوری (لوری) */
 $specialPageAliases['lrc'] = array(
 	'ContributionTracking' => array( 'دماگری_هومیاری' ),
+	'FundraiserMaintenance' => array( 'واداشت_پاکن_دیارکن' ),
 );
 
 /** Minangkabau (Baso Minangkabau) */
