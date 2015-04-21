@@ -27,6 +27,7 @@
 	"apihelp-contributiontracking-param-country": "Código do país do usuario.",
 	"apihelp-contributiontracking-param-contribution_tracking_id": "Identificador noso para a contribución actual. Non proporcionado para contribucións novas.",
 	"apihelp-contributiontracking-param-returnto": "Texto identificando unha páxina alternativa de \"Grazas\" para mostrar ó usuario ó rematar a súa transacción.",
+	"apihelp-contributiontracking-param-tshirt": "Onde hai implicada unha t-shirt.",
 	"apihelp-contributiontracking-param-size": "Texto indicando o tamaño desexado da camiseta de arriba (se involucrado)",
 	"apihelp-contributiontracking-param-premium_language": "Código de lingua para a camiseta. Isto non terá efecto na tradución da mensaxe fóra do aspecto físico da camiseta.",
 	"apihelp-contributiontracking-param-currency_code": "Código de divisa para a transacción actual.",
