@@ -21,5 +21,6 @@
 	"contrib-tracking-item-name-recurring": "Ежемесячный взнос",
 	"contrib-tracking-fundraiser-maintenance-header": "Временно отключён для технического обслуживания",
 	"contrib-tracking-fundraiser-maintenance-notice": "В настоящее время происходит техническое обслуживание и мы не способны принимать пожертвования. Пожалуйста, попробуйте позже. Если у вас есть какие-либо вопросы, напишите по адресу $1.",
+	"apihelp-contributiontracking-param-amount": "Сумма перевода.",
 	"apihelp-contributiontracking-param-comment": "Строка с комментарием."
 }
