@@ -4,7 +4,8 @@
 			"Ainali",
 			"Boivie",
 			"Tobulos1",
-			"WikiPhoenix"
+			"WikiPhoenix",
+			"Josve05a"
 		]
 	},
 	"contributiontracking-desc": "Bidragsspårning för Wikimedia-insamlingen",
@@ -18,5 +19,13 @@
 	"contrib-tracking-item-name-onetime": "Engångs-donation",
 	"contrib-tracking-item-name-recurring": "Återkommande månatlig donation",
 	"contrib-tracking-fundraiser-maintenance-header": "Tillfälligt nere för underhåll",
-	"contrib-tracking-fundraiser-maintenance-notice": "Vi utför planerat underhåll och inte kan ta emot donationer.  Försök igen snart.  Om du har några frågor, vänligen maila $1."
+	"contrib-tracking-fundraiser-maintenance-notice": "Vi utför planerat underhåll och inte kan ta emot donationer.  Försök igen snart.  Om du har några frågor, vänligen maila $1.",
+	"apihelp-contributiontracking-param-amount": "Transaktionsbelopp.",
+	"apihelp-contributiontracking-param-tshirt": "Om det är en t-shirt inblandad eller inte.",
+	"apihelp-contributiontracking-param-currency_code": "Valutakoden för den aktuella transaktionen.",
+	"apihelp-contributiontracking-param-fname": "Givarens förnamn.",
+	"apihelp-contributiontracking-param-lname": "Givarens efternamn.",
+	"apihelp-contributiontracking-param-email": "Givarens e-post.",
+	"apihelp-contributiontracking-param-recurring_paypal": "Anges om detta är ett återkommande donation.",
+	"apihelp-contributiontracking-example-1": "Spåra ett bidrag"
 }
