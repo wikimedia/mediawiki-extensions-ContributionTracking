@@ -21,7 +21,7 @@ $specialPageAliases['ar'] = array(
 	'FundraiserMaintenance' => array( 'صيانة_التبرع' ),
 );
 
-/** Egyptian Spoken Arabic (مصرى) */
+/** Egyptian Arabic (مصرى) */
 $specialPageAliases['arz'] = array(
 	'ContributionTracking' => array( 'متابعة_المساهمه' ),
 	'FundraiserMaintenance' => array( 'صيانه_التبرع' ),
@@ -129,7 +129,7 @@ $specialPageAliases['lad'] = array(
 	'ContributionTracking' => array( 'PerseguirAjustamientos' ),
 );
 
-/** لوری (لوری) */
+/** لوری مینجایی (لوری مینجایی) */
 $specialPageAliases['lrc'] = array(
 	'ContributionTracking' => array( 'دماگری_هومیاری' ),
 	'FundraiserMaintenance' => array( 'واداشت_پاکن_دیارکن' ),
