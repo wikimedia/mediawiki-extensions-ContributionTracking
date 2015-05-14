@@ -4,7 +4,8 @@
 			"Bennylin",
 			"Darth Kule",
 			"Shirayuki",
-			"Umherirrender"
+			"Umherirrender",
+			"Nemo bis"
 		]
 	},
 	"contributiontracking-desc": "{{desc|name=Contribution Tracking|url=https://www.mediawiki.org/wiki/Extension:ContributionTracking}}",
@@ -45,6 +46,6 @@
 	"apihelp-contributiontracking-param-lname": "{{doc-apihelp-param|contributiontracking|lname}}",
 	"apihelp-contributiontracking-param-email": "{{doc-apihelp-param|contributiontracking|email}}",
 	"apihelp-contributiontracking-param-recurring_paypal": "{{doc-apihelp-param|contributiontracking|recurring_paypal}}",
-	"apihelp-contributiontracking-param-amountGiven": "{{doc-apihelp-param|contributiontracking|amountGiven}}",
+	"apihelp-contributiontracking-param-amountGiven": "\"Normalized\" means that the amount is subject to some transformation, possibly on number of digits.\n----\n{{doc-apihelp-param|contributiontracking|amountGiven}}",
 	"apihelp-contributiontracking-example-1": "{{doc-apihelp-example|contributiontracking}}"
 }
