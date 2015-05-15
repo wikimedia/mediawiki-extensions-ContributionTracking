@@ -129,7 +129,7 @@ $specialPageAliases['lad'] = array(
 	'ContributionTracking' => array( 'PerseguirAjustamientos' ),
 );
 
-/** لوری مینجایی (لوری مینجایی) */
+/** Northern Luri (لوری مینجایی) */
 $specialPageAliases['lrc'] = array(
 	'ContributionTracking' => array( 'دماگری_هومیاری' ),
 	'FundraiserMaintenance' => array( 'واداشت_پاکن_دیارکن' ),
