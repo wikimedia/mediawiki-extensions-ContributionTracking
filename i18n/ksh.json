@@ -31,6 +31,6 @@
 	"apihelp-contributiontracking-param-lname": "Der Jävver singe Nohnahme.",
 	"apihelp-contributiontracking-param-email": "Der Jävver sing Adräß för de <i lang=\"en\" xml:lang=\"en\" dir=\"ltr\" title=\"„de eläktrohnesche Poß“\">e-mail</i>",
 	"apihelp-contributiontracking-param-recurring_paypal": "Aanjejovve, wann dadd en rejemähße Schpänd es.",
-	"apihelp-contributiontracking-param-amountGiven": "Dä Bedaach mommalesehrt.\n<!-- \nhttps://translatewiki.net/wiki/Thread:Support/About_MediaWiki:Apihelp-contributiontracking-param-amountGiven/en\n-->",
+	"apihelp-contributiontracking-param-amountGiven": "Dä Bedaach mommalesehrt.",
 	"apihelp-contributiontracking-example-1": "Donn ene Beidrahch verfollje"
 }
