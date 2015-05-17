@@ -5,7 +5,8 @@
 			"Boivie",
 			"Tobulos1",
 			"WikiPhoenix",
-			"Josve05a"
+			"Josve05a",
+			"Jopparn"
 		]
 	},
 	"contributiontracking-desc": "Bidragsspårning för Wikimedia-insamlingen",
@@ -26,6 +27,6 @@
 	"apihelp-contributiontracking-param-fname": "Givarens förnamn.",
 	"apihelp-contributiontracking-param-lname": "Givarens efternamn.",
 	"apihelp-contributiontracking-param-email": "Givarens e-post.",
-	"apihelp-contributiontracking-param-recurring_paypal": "Anges om detta är ett återkommande donation.",
+	"apihelp-contributiontracking-param-recurring_paypal": "Ange om detta är en återkommande donation.",
 	"apihelp-contributiontracking-example-1": "Spåra ett bidrag"
 }

@@ -5,7 +5,8 @@
 			"Crazymadlover",
 			"MetalBrasil",
 			"Remember the dot",
-			"Macofe"
+			"Macofe",
+			"Fitoschido"
 		]
 	},
 	"contributiontracking-desc": "Contribución para el seguimiento del recaudador de fondos de Wikimedia",
@@ -23,5 +24,8 @@
 	"apihelp-contributiontracking-param-amount": "Monto de la transacción.",
 	"apihelp-contributiontracking-param-comment": "Cadena con un comentario.",
 	"apihelp-contributiontracking-param-country": "Código del país del usuario.",
+	"apihelp-contributiontracking-param-fname": "Nombre(s) del donante.",
+	"apihelp-contributiontracking-param-lname": "Apellido(s) del donante.",
+	"apihelp-contributiontracking-param-email": "Dirección de correo electrónico del donante.",
 	"apihelp-contributiontracking-param-amountGiven": "Monto normalizado."
 }
