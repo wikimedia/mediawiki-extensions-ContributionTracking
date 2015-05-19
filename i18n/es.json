@@ -6,7 +6,8 @@
 			"MetalBrasil",
 			"Remember the dot",
 			"Macofe",
-			"Fitoschido"
+			"Fitoschido",
+			"Ryo567"
 		]
 	},
 	"contributiontracking-desc": "Contribución para el seguimiento del recaudador de fondos de Wikimedia",
@@ -27,5 +28,6 @@
 	"apihelp-contributiontracking-param-fname": "Nombre(s) del donante.",
 	"apihelp-contributiontracking-param-lname": "Apellido(s) del donante.",
 	"apihelp-contributiontracking-param-email": "Dirección de correo electrónico del donante.",
+	"apihelp-contributiontracking-param-recurring_paypal": "Especificado si es una donación recurrente.",
 	"apihelp-contributiontracking-param-amountGiven": "Monto normalizado."
 }
