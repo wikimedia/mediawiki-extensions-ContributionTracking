@@ -22,6 +22,7 @@
 	"contrib-tracking-fundraiser-maintenance-header": "Tillfälligt nere för underhåll",
 	"contrib-tracking-fundraiser-maintenance-notice": "Vi utför planerat underhåll och inte kan ta emot donationer.  Försök igen snart.  Om du har några frågor, vänligen maila $1.",
 	"apihelp-contributiontracking-param-amount": "Transaktionsbelopp.",
+	"apihelp-contributiontracking-param-comment": "Sträng med en kommentar.",
 	"apihelp-contributiontracking-param-country": "Användarens landskod.",
 	"apihelp-contributiontracking-param-tshirt": "Om det är en t-shirt inblandad eller inte.",
 	"apihelp-contributiontracking-param-premium_language": "Språkkod för tröjan. Detta kommer inte att ha någon effekt på översättningen av meddelandet utanför tröjans fysiska omfattningen.",

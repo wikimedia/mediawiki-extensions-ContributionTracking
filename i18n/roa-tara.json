@@ -20,5 +20,6 @@
 	"apihelp-contributiontracking-param-fname": "Prime nome d'u donatore.",
 	"apihelp-contributiontracking-param-lname": "Urteme nome d'u donatore.",
 	"apihelp-contributiontracking-param-email": "Email d'u donatore.",
+	"apihelp-contributiontracking-param-amountGiven": "'Mborte normalizzate.",
 	"apihelp-contributiontracking-example-1": "Tracce 'nu condrebbute"
 }
