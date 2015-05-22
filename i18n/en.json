@@ -40,7 +40,7 @@
 	"apihelp-contributiontracking-param-currency_code": "Currency code for the current transaction.",
 	"apihelp-contributiontracking-param-fname": "Donor's first name.",
 	"apihelp-contributiontracking-param-lname": "Donor's last name.",
-	"apihelp-contributiontracking-param-email": "Donor's email.",
+	"apihelp-contributiontracking-param-email": "Donor's email address.",
 	"apihelp-contributiontracking-param-recurring_paypal": "Specified if this is a recurring donation.",
 	"apihelp-contributiontracking-param-amountGiven": "Normalized amount.",
 	"apihelp-contributiontracking-example-1": "Track a contribution"
