@@ -29,5 +29,6 @@
 	"apihelp-contributiontracking-param-lname": "Apellido(s) del donante.",
 	"apihelp-contributiontracking-param-email": "Dirección de correo electrónico del donante.",
 	"apihelp-contributiontracking-param-recurring_paypal": "Especificado si es una donación recurrente.",
-	"apihelp-contributiontracking-param-amountGiven": "Monto normalizado."
+	"apihelp-contributiontracking-param-amountGiven": "Monto normalizado.",
+	"apihelp-contributiontracking-example-1": "Seguir una contribución"
 }
