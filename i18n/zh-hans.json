@@ -37,7 +37,7 @@
 	"apihelp-contributiontracking-param-currency_code": "当前交易的货币代码",
 	"apihelp-contributiontracking-param-fname": "捐赠者的名。",
 	"apihelp-contributiontracking-param-lname": "捐赠者的姓。",
-	"apihelp-contributiontracking-param-email": "捐赠者的电子邮件。",
+	"apihelp-contributiontracking-param-email": "捐赠者的电子邮件地址。",
 	"apihelp-contributiontracking-param-amountGiven": "标准化金额。",
 	"apihelp-contributiontracking-example-1": "追踪一次捐款"
 }
