@@ -27,6 +27,7 @@
 	"apihelp-contributiontracking-description": "通过API追踪捐赠者贡献。\n\n此API的存在使我们能够消除空隙页面，不然就会被用来在向捐赠者发送付款流程时追踪贡献。",
 	"apihelp-contributiontracking-param-amount": "交易金额。",
 	"apihelp-contributiontracking-param-referrer": "标识谈及实体的字符串。",
+	"apihelp-contributiontracking-param-gateway": "识别用于处理此付款的指定实体的字符串。",
 	"apihelp-contributiontracking-param-comment": "带评论的字符串。",
 	"apihelp-contributiontracking-param-comment-option": "反选匿名标识",
 	"apihelp-contributiontracking-param-email-opt": "反选电子邮件选择退出复选框。",
