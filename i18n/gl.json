@@ -24,6 +24,7 @@
 	"apihelp-contributiontracking-param-comment": "Texto cun comentario.",
 	"apihelp-contributiontracking-param-comment-option": "Inversa da bandeira de anónimo.",
 	"apihelp-contributiontracking-param-payments_form": "Texto que identifica o formulario do modo de pago a través do que foi feita a donación.",
+	"apihelp-contributiontracking-param-email-opt": "Inversa da caixa de opción de exclusión do correo electrónico.",
 	"apihelp-contributiontracking-param-language": "Código de lingua do usuario. As mensaxes serán traducidas de forma axeitada (cando sexa posible). Isto tamén determinará que páxina de \"Agradecemento\" verá o usuario cando se remate a donación a través da pasarela.",
 	"apihelp-contributiontracking-param-country": "Código do país do usuario.",
 	"apihelp-contributiontracking-param-contribution_tracking_id": "Identificador noso para a contribución actual. Non proporcionado para contribucións novas.",
