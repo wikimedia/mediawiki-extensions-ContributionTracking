@@ -131,8 +131,8 @@ $specialPageAliases['lad'] = array(
 
 /** Northern Luri (لوری مینجایی) */
 $specialPageAliases['lrc'] = array(
-	'ContributionTracking' => array( 'دماگری_هومیاری' ),
-	'FundraiserMaintenance' => array( 'واداشت_پاکن_دیارکن' ),
+	'ContributionTracking' => array( 'دئماگئری_ھومیاری' ),
+	'FundraiserMaintenance' => array( 'ڤاداشت_پاکون_دیارکون' ),
 );
 
 /** Minangkabau (Baso Minangkabau) */
