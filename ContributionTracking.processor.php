@@ -181,6 +181,7 @@ class ContributionTrackingProcessor {
 			'tshirt' => false,
 			'size' => false,
 			'premium_language' => false,
+			# FIXME: nonono!
 			'currency_code' => 'USD',
 			'return' => 'Donate-thanks/' . ContributionTrackingProcessor::getLanguage(),
 			'fname' => '',
@@ -247,6 +248,7 @@ class ContributionTrackingProcessor {
 		$repost = array( );
 		$repost['action'] = 'https://donate.wikimedia.org/';
 		$amount_field_name = 'amount'; // the amount fieldname may be different depending on the service
+		# FIXME: This usage is deprecated.
 		if ( $input['gateway'] == 'paypal' ) {
 
 			$repost['action'] = 'https://www.paypal.com/cgi-bin/webscr';
