@@ -20,7 +20,6 @@ $wgExtensionCredits['specialpage'][] = array(
 $dir = __DIR__ . '/';
 
 $wgMessagesDirs['ContributionTracking'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['ContributionTracking'] = $dir . 'ContributionTracking.i18n.php';
 $wgExtensionMessagesFiles['ContributionTrackingAlias'] = $dir . 'ContributionTracking.alias.php';
 $wgAutoloadClasses['ContributionTracking'] = $dir . 'ContributionTracking_body.php';
 $wgSpecialPages['ContributionTracking'] = 'ContributionTracking';
