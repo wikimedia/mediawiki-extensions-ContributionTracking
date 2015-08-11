@@ -68,5 +68,6 @@
 		"ContributionTracking": "ContributionTracking",
 		"ContributionTrackingTester": "ContributionTrackingTester",
 		"FundraiserMaintenance": "SpecialFundraiserMaintenance"
-	}
+	},
+	"manifest_version": 1
 }
