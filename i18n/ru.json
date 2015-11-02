@@ -24,5 +24,8 @@
 	"apihelp-contributiontracking-param-amount": "Сумма перевода.",
 	"apihelp-contributiontracking-param-comment": "Строка с комментарием.",
 	"apihelp-contributiontracking-param-country": "Код страны участника.",
+	"apihelp-contributiontracking-param-fname": "Имя пожертвовавшего.",
+	"apihelp-contributiontracking-param-lname": "Фамилия пожертвовавшего.",
+	"apihelp-contributiontracking-param-email": "Адрес электронной почты пожертвовавшего.",
 	"apihelp-contributiontracking-example-1": "Отслеживать вклад"
 }
