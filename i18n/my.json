@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Sanlinnaing",
-			"Ninjastrikers"
+			"Ninjastrikers",
+			"9.sinistra"
 		]
 	},
 	"contrib-tracking-button": "ဆက်လက်",
 	"contrib-tracking-item-name-onetime": "တစ်ကြိမ်တည်း လှူဒါန်းမှု",
-	"contrib-tracking-item-name-recurring": "လစဉ် လှူဒါန်းမှု",
+	"contrib-tracking-item-name-recurring": "ကြိမ်ဖန်များစွာ လစဉ် လှူဒါန်းမှု",
 	"apihelp-contributiontracking-param-country": "အသုံးပြုသူ၏ နိုင်ငံ ကုဒ်နံပါတ်"
 }
