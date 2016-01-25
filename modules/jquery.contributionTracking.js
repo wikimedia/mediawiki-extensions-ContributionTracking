@@ -12,7 +12,7 @@
  * @author Katie Horn <khorn@wikimedia.org>
  */
 
-( function( $ ) {
+( function( $, mw ) {
 
 	/**
 	 * Binds the onclick function to everything with a class of "ajax_me".
@@ -40,9 +40,9 @@
 		var serializedForm = form.serializeArray();
 		var finalObj = {};
 
-		for (key in serializedForm){
-			if(serializedForm[key]['value'] != ""){
-				finalObj[serializedForm[key]['name']] = serializedForm[key]['value'];
+		for (var key in serializedForm){
+			if(serializedForm[key].value !== ""){
+				finalObj[serializedForm[key].name] = serializedForm[key].value;
 			}
 		}
 		return finalObj;
@@ -63,35 +63,36 @@
 		var processAjaxReturn = function(data, status){
 			//TODO: Improve the language of the success and error dialogs.
 
-			if(status != "success"){
-				window.alert("Status: " + status);
-				$(buttonID).removeAttr("disabled");
-				$(".ajax_me:disabled").removeAttr("disabled");
+			if ( status !== "success" ) {
+				window.alert( "Status: " + status );
+				$( buttonID ).removeAttr( "disabled" );
+				$( ".ajax_me:disabled" ).removeAttr( "disabled" );
 				return;
 			}
 
-			if(data["error"]){
+			if( data.error ){
 				//TODO: localization. And i18n. And stuff.
-				window.alert("The following error has occurred:\r\n" + data["error"]["info"]);
-				$(buttonID).removeAttr("disabled");
-				$(".ajax_me:disabled").removeAttr("disabled");
+				window.alert( "The following error has occurred:\r\n" + data.error.info );
+				$( buttonID ).removeAttr( "disabled" );
+				$( ".ajax_me:disabled" ).removeAttr( "disabled" );
 				return;
 			}
 
-			if ($('#hideyform').length){
+			if ( $('#hideyform').length ){
 				$('#hideyform').empty(); //just in case something is already hiding in the hideyform.
 			} else {
 				$('<div id="hideyform"></div>').appendTo('body');
 			}
 			$( '#hideyform' ).append( $( '<form></form>', {
 				'id': 'immediate-repost',
-				'action': data["returns"]["action"]["url"],
+				'action': data.returns.action.url
 			} ) );
-			for ( key in data["returns"]["fields"] ) {
+			var key;
+			for ( key in data.returns.fields ) {
 				$( '#immediate_repost' ).append( $( '<input>', {
 					'id': key,
 					'name': key,
-					'value': data["returns"]["fields"][key],
+					'value': data.returns.fields[ key ]
 				} ) );
 			}
 			$('#immediate_repost').submit();
@@ -106,8 +107,8 @@
 	};
 
 
-} )( jQuery );
+}( jQuery, mediaWiki ) );
 
-jQuery(document).ready( function() {
-	$.bindAjaxControls();
+jQuery( document ).ready( function () {
+	jQuery.bindAjaxControls();
 } );
