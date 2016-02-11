@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Bishnu Saikia"
+			"Bishnu Saikia",
+			"Gitartha.bordoloi"
 		]
 	},
+	"contributiontracking": "বৰঙণি অনুসৰণ",
 	"apihelp-contributiontracking-param-country": "ব্যৱহাৰকাৰীৰ দেশৰ কোড।"
 }
