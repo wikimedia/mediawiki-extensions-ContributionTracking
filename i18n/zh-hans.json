@@ -36,6 +36,7 @@
 	"apihelp-contributiontracking-param-country": "使用国家代码。",
 	"apihelp-contributiontracking-param-contribution_tracking_id": "我们当前贡献的ID。不对新贡献者提供。",
 	"apihelp-contributiontracking-param-tshirt": "这里是否涉及一件T恤。",
+	"apihelp-contributiontracking-param-premium_language": "用于衬衫的语言代码。这将不会对衬衫的物理范围以外的消息翻译产生影响。",
 	"apihelp-contributiontracking-param-currency_code": "当前交易的货币代码",
 	"apihelp-contributiontracking-param-fname": "捐赠者的名。",
 	"apihelp-contributiontracking-param-lname": "捐赠者的姓。",
