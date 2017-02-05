@@ -13,6 +13,7 @@ $specialPageAliases = array();
 $specialPageAliases['en'] = array(
 	'ContributionTracking' => array( 'ContributionTracking' ),
 	'FundraiserMaintenance' => array( 'FundraiserMaintenance' ),
+	'ContributionTrackingTester' => array( 'ContributionTrackingTester' ),
 );
 
 /** Arabic (العربية) */
