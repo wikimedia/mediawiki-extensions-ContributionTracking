@@ -19,7 +19,7 @@
 	"contrib-tracking-error-text": "无效的表单提交",
 	"contrib-tracking-submitting": "正在提交到支付处理器……",
 	"contrib-tracking-continue": "若阁下没有被重定向，请点击按钮以完成您的捐助。",
-	"contrib-tracking-redirect": "您将被自动重定向来完成你的捐款。",
+	"contrib-tracking-redirect": "您将被自动重定向来完成您的捐款。",
 	"contrib-tracking-button": "继续",
 	"contrib-tracking-item-name-onetime": "一次性捐赠",
 	"contrib-tracking-item-name-recurring": "每月定期捐款",
