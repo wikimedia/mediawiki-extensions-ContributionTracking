@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Joseph",
-			"Suelnur"
+			"Suelnur",
+			"Vito Genovese"
 		]
 	},
-	"contributiontracking-desc": "Vikimedya fonsağlayıcı için katkı izlemesi",
+	"contributiontracking-desc": "Wikimedia bağış kampanyası için katkı izlemesi",
 	"contributiontracking": "Katkı izlemesi",
 	"contrib-tracking-error": "Hata",
 	"contrib-tracking-error-text": "Geçersiz form teslimi",
