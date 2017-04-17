@@ -24,11 +24,11 @@ body.ltr #footer #footer-places {
 }
 
 div#content {
-    background-color: transparent !important;
-    background-image: none !important;
+	background-color: transparent !important;
+	background-image: none !important;
 }
 
-div#mw-head-base, div#footer {
-    background-image: none;
+div#mw-head-base,
+div#footer {
+	background-image: none;
 }
-
