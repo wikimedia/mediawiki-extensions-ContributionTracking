@@ -72,8 +72,6 @@ class ContributionTrackingProcessor {
 	 * @return array Staged key-value pairs ready to be saved as a contribution.
 	 */
 	static function stage_contribution( $params ) {
-		global $wgContributionTrackingUTMKey, $wgContributionTrackingAnalyticsUpgrade;
-
 		//change the posted names to match the db where necessary
 		ContributionTrackingProcessor::rekey( $params, 'comment', 'note' );
 
@@ -90,15 +88,10 @@ class ContributionTrackingProcessor {
 
 	/**
 	 * Stages the relevent data that will be sent to the gateway
-	 * @global string $wgContributionTrackingPayPalRecurringIPN URL for paypal
-	 * recurring donations : Defined in ContributionTracking.php
-	 * @global string $wgContributionTrackingPayPalIPN URL for paypal recurring
-	 * donations : Defined in ContributionTracking.php
 	 * @param array $params Parameters to post to the gateway
 	 * @return array Staged array
 	 */
 	static function stage_repost( $params ) {
-		global $wgContributionTrackingPayPalRecurringIPN, $wgContributionTrackingPayPalIPN;
 		//TODO: assert that gateway makes The Sense here.
 		//change the posted names to match the db where necessary
 		ContributionTrackingProcessor::rekey( $params, 'amountGiven', 'amount_given' );
