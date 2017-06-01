@@ -51,13 +51,15 @@ class ContributionTrackingTester extends UnlistedSpecialPage {
 				$wgOut->addHTML( '<input type="text" id="' . $name . '" name="' . $name . '">' );
 			}
 			if ( $attribs[2] == 'boolean' ) {
-				$wgOut->addHTML( '<input type="checkbox" id="' . $name . '" name="' . $name . '">' );
+				$wgOut->addHTML( '<input type="checkbox" id="' . $name . '" name="' . $name .
+					'">' );
 			}
 
 			$wgOut->addHTML( '</td></tr>' );
 		}
 
-		$wgOut->addHTML( '<tr><td colspan=2 align=center><button id="ajax_contribution" class="ajax_me">Fire away!</button></td></tr>' );
+		$wgOut->addHTML( '<tr><td colspan=2 align=center><button id="ajax_contribution" ' .
+			'class="ajax_me">Fire away!</button></td></tr>' );
 		$wgOut->addHTML( '</table></form>' );
 	}
 

@@ -5,7 +5,8 @@ if ( function_exists( 'wfLoadExtension' ) ) {
 	$wgMessagesDirs['ContributionTracking'] = __DIR__ . '/i18n';
 	$wgExtensionMessagesFiles['ContributionTracking'] = __DIR__ . '/ContributionTracking.alias.php';
 	/* wfWarn(
-		'Deprecated PHP entry point used for ContributionTracking extension. Please use wfLoadExtension instead, ' .
+		'Deprecated PHP entry point used for ContributionTracking extension. ' .
+		'Please use wfLoadExtension instead, ' .
 		'see https://www.mediawiki.org/wiki/Extension_registration for more details.'
 	); */
 	return;
@@ -34,7 +35,8 @@ $wgSpecialPages['ContributionTracking'] = 'ContributionTracking';
 $wgAutoloadClasses['ContributionTrackingTester'] = $dir . 'ContributionTracking_Tester.php';
 $wgSpecialPages['ContributionTrackingTester'] = 'ContributionTrackingTester';
 
-$wgAutoloadClasses['SpecialFundraiserMaintenance'] = $dir . 'special/SpecialFundraiserMaintenance.php';
+$wgAutoloadClasses['SpecialFundraiserMaintenance'] =
+	$dir . 'special/SpecialFundraiserMaintenance.php';
 $wgSpecialPages['FundraiserMaintenance'] = 'SpecialFundraiserMaintenance';
 
 //give sysops access to the tracking tester form.
@@ -45,7 +47,8 @@ $wgAutoloadClasses['ApiContributionTracking'] = $dir . 'ApiContributionTracking.
 $wgAutoloadClasses['ContributionTrackingProcessor'] = $dir . 'ContributionTracking.processor.php';
 
 //this only works if contribution tracking is inside a mediawiki DB, which typically it isn't.
-$wgHooks['LoadExtensionSchemaUpdates'][] = 'ContributionTrackingHooks::onLoadExtensionSchemaUpdates';
+$wgHooks['LoadExtensionSchemaUpdates'][] =
+	'ContributionTrackingHooks::onLoadExtensionSchemaUpdates';
 
 // Resource modules
 $ctResourceTemplate = array(

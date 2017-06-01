@@ -158,27 +158,35 @@ class ApiContributionTracking extends ApiBase {
 				'String identifying the specific entity used to process this payment. ',
 				'Probably "paypal". (required)' ),
 			'comment' => 'String with a comment. Actually saved as "note" in the database',
-			'comment-option' => 'Boolean assumed to be from a checkbox. This is actually the inverse of the anonymous flag.',
+			'comment-option' => 'Boolean assumed to be from a checkbox. ' .
+				'This is actually the inverse of the anonymous flag.',
 			'utm_source' => 'String identifying "utm_source"',
 			'utm_medium' => 'String identifying "utm_medium"',
 			'utm_campaign' => 'String identifying "utm_campaign"',
 			'utm_key' => 'String identifying "utm_key"',
-			'payments_form' => 'String identifying the form on the payments cluster through which the donation was made',
-			'email-opt' => 'Boolean assumed to be from a checkbox. This is actually the inverse of the email opt-out checkbox.',
+			'payments_form' => 'String identifying the form on the payments cluster through ' .
+				'which the donation was made',
+			'email-opt' => 'Boolean assumed to be from a checkbox. This is actually the inverse ' .
+				'of the email opt-out checkbox.',
 			'language' => array(
 				'User language code. Messages will be translated appropriately (where possible).',
-				'This will also determine what "Thank You" page the user sees upon completion of a donation at the gateway.' ),
+				'This will also determine what "Thank You" page the user sees upon completion of ' .
+					'a donation at the gateway.' ),
 			'country' => 'User country code.',
-			'contribution_tracking_id' => 'Our ID for the current contribution. Not supplied for new contributions.', //in fact, why is this here?
-			'returnto' => 'String identifying an alternate "Thank You" page to show the user on completion of their transaction.',
+			'contribution_tracking_id' => 'Our ID for the current contribution. ' .
+				'Not supplied for new contributions.', //in fact, why is this here?
+			'returnto' => 'String identifying an alternate "Thank You" page to show the user ' .
+				'on completion of their transaction.',
 			'tshirt' => 'Boolean indicating whether or not there is a t-shirt involved.',
 			'size' => 'String indicating the desired size of the above t-shirt (if involved)',
-			'premium_language' => 'Language code for the shirt. This will have no effect on message translation outside of the physical scope of the shirt.',
+			'premium_language' => 'Language code for the shirt. This will have no effect on ' .
+				'message translation outside of the physical scope of the shirt.',
 			'currency_code' => 'Currency code for the current transaction.',
 			'fname' => "String: Donor's first name",
 			'lname' => "String: Donor's last name",
 			'email' => "String: Donor's email",
-			'recurring_paypal' => 'Boolean identifying a recurring donation. Do not supply at all for a one-time donation.',
+			'recurring_paypal' => 'Boolean identifying a recurring donation. ' .
+				'Do not supply at all for a one-time donation.',
 			'amountGiven' => 'Normalized amount.'
 		);
 	}
@@ -200,7 +208,8 @@ class ApiContributionTracking extends ApiBase {
 	 */
 	public function getExamples() {
 		return array(
-			'api.php?action=contributiontracking&comment=examplecomment&referrer=examplereferrer&gateway=paypal&amount=5.50',
+			'api.php?action=contributiontracking&comment=examplecomment&referrer=examplereferrer' .
+				'&gateway=paypal&amount=5.50',
 		);
 	}
 
@@ -209,8 +218,8 @@ class ApiContributionTracking extends ApiBase {
 	 */
 	protected function getExamplesMessages() {
 		return array(
-			'action=contributiontracking&comment=examplecomment&referrer=examplereferrer&gateway=paypal&amount=5.50'
-				=> 'apihelp-contributiontracking-example-1',
+			'action=contributiontracking&comment=examplecomment&referrer=examplereferrer' .
+				'&gateway=paypal&amount=5.50' => 'apihelp-contributiontracking-example-1',
 		);
 	}
 }

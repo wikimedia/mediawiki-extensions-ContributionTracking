@@ -76,12 +76,15 @@ class ContributionTrackingProcessor {
 		ContributionTrackingProcessor::rekey( $params, 'comment', 'note' );
 
 		if( !array_key_exists( 'form_amount', $params ) ){
-			if( array_key_exists( 'currency_code', $params ) && array_key_exists( 'amount', $params ) ){
+			if ( array_key_exists( 'currency_code', $params )
+				&& array_key_exists( 'amount', $params )
+			) {
 				$params['form_amount'] = $params['currency_code'] . ' ' . $params['amount'];
 			}
 		}
 
-		$tracked_contribution = ContributionTrackingProcessor::mergeArrayDefaults( $params, ContributionTrackingProcessor::getContributionDefaults(), true );
+		$tracked_contribution = ContributionTrackingProcessor::mergeArrayDefaults( $params,
+			ContributionTrackingProcessor::getContributionDefaults(), true );
 
 		return $tracked_contribution;
 	}
@@ -100,16 +103,20 @@ class ContributionTrackingProcessor {
 		//booleanize!
 		ContributionTrackingProcessor::stage_checkbox( $params, 'recurring_paypal' );
 
-		//poke our language function with the current parameters - this sets the static var correctly
+		// poke our language function with the current parameters -
+		// this sets the static var correctly
 		$params['language'] = ContributionTrackingProcessor::getLanguage( $params );
 
 		if ( array_key_exists( 'recurring_paypal', $params ) && $params['recurring_paypal'] ) {
-			$params['item_name'] = ContributionTrackingProcessor::msg( 'contrib-tracking-item-name-recurring' );
+			$params['item_name'] = ContributionTrackingProcessor::msg(
+				'contrib-tracking-item-name-recurring' );
 		} else {
-			$params['item_name'] = ContributionTrackingProcessor::msg( 'contrib-tracking-item-name-onetime' );
+			$params['item_name'] = ContributionTrackingProcessor::msg(
+				'contrib-tracking-item-name-onetime' );
 		}
 
-		$repost_params = ContributionTrackingProcessor::mergeArrayDefaults( $params, ContributionTrackingProcessor::getRepostDefaults(), true );
+		$repost_params = ContributionTrackingProcessor::mergeArrayDefaults( $params,
+			ContributionTrackingProcessor::getRepostDefaults(), true );
 		return $repost_params;
 	}
 
@@ -235,13 +242,16 @@ class ContributionTrackingProcessor {
 	 * gateway to complete the transaction.
 	 */
 	static function getRepostFields( $input ) {
-		global $wgContributionTrackingPayPalBusiness, $wgContributionTrackingReturnToURLDefault, $wgContributionTrackingRPPLength;
+		global $wgContributionTrackingPayPalBusiness, $wgContributionTrackingReturnToURLDefault,
+			$wgContributionTrackingRPPLength;
+
 		// Set the action and tracking ID fields
 		$input = ContributionTrackingProcessor::stage_repost( $input );
 
 		$repost = array( );
 		$repost['action'] = 'https://donate.wikimedia.org/';
-		$amount_field_name = 'amount'; // the amount fieldname may be different depending on the service
+		// the amount fieldname may be different depending on the service
+		$amount_field_name = 'amount';
 		# FIXME: This usage is deprecated.
 		if ( $input['gateway'] == 'paypal' ) {
 
@@ -271,7 +281,8 @@ class ContributionTrackingProcessor {
 			$repost['fields']['return'] = $returnto;
 			$repost['fields']['currency_code'] = $input['currency_code'];
 
-			// additional fields to pass to PayPal from single-step credit card form and 1st step with address fields
+			// additional fields to pass to PayPal from single-step credit card form
+			// and 1st step with address fields
 			if ( array_key_exists( 'fname', $input ) && !empty( $input['fname'] ) ) {
 				$repost['fields']['first_name'] = $input['fname'];
 			}
@@ -302,7 +313,9 @@ class ContributionTrackingProcessor {
 				$repost['fields']['country'] = $input['country'];
 			}
 
-			if ( array_key_exists( 'address_override', $input ) && !empty( $input['address_override'] ) ) {
+			if ( array_key_exists( 'address_override', $input )
+				&& !empty( $input['address_override'] )
+			) {
 				$repost['fields']['address_override'] = $input['address_override'];
 			}
 
@@ -332,7 +345,8 @@ class ContributionTrackingProcessor {
 
 			// Moneybookers
 			$repost['fields']['pay_to_email'] = 'donation@wikipedia.org';
-			$repost['fields']['status_url'] = 'https://civicrm.wikimedia.org/fundcore_gateway/moneybookers';
+			$repost['fields']['status_url'] =
+				'https://civicrm.wikimedia.org/fundcore_gateway/moneybookers';
 			$repost['fields']['language'] = 'en';
 			$repost['fields']['detail1_description'] = 'One-time donation';
 			$repost['fields']['detail1_text'] = 'DONATE';
@@ -366,7 +380,9 @@ class ContributionTrackingProcessor {
 	static function getLanguage( $params = '' ) {
 		static $language = '';
 
-		if ( is_array( $params ) && array_key_exists( 'language', $params ) && $params['language'] != null ) {
+		if ( is_array( $params ) && array_key_exists( 'language', $params )
+			&& $params['language'] != null
+		) {
 			//set/reset if something inteligable got sent.
 			$language = $params['language'];
 		}
@@ -385,6 +401,7 @@ class ContributionTrackingProcessor {
 	 * @return string translated message
 	 */
 	static function msg( $key ) {
-		return wfMessage( $key )->inLanguage( ContributionTrackingProcessor::getLanguage() )->escaped();
+		return wfMessage( $key )
+			->inLanguage( ContributionTrackingProcessor::getLanguage() )->escaped();
 	}
 }

@@ -22,7 +22,8 @@ class ContributionTracking extends UnlistedSpecialPage {
 
 		$gateway = $request->getText( 'gateway' );
 		if ( !in_array( $gateway, array( 'paypal', 'moneybookers' ) ) ) {
-			$this->getOutput()->showErrorPage( 'contrib-tracking-error', 'contrib-tracking-error-text' );
+			$this->getOutput()->showErrorPage( 'contrib-tracking-error',
+				'contrib-tracking-error-text' );
 			return;
 		}
 
@@ -57,7 +58,8 @@ class ContributionTracking extends UnlistedSpecialPage {
 				'language' => $request->getVal( 'language' ),
 				'country' => $request->getVal( 'country' ),
 			);
-			$contribution_tracking_id = ContributionTrackingProcessor::saveNewContribution( $tracked_contribution );
+			$contribution_tracking_id = ContributionTrackingProcessor::saveNewContribution(
+				$tracked_contribution );
 		}
 
 		$params = array(
@@ -97,10 +99,12 @@ class ContributionTracking extends UnlistedSpecialPage {
 		$out->addHTML( $this->ct_msgWiki( 'contrib-tracking-submitting' ) );
 
 		// Output the repost form
-		$output = '<form method="post" name="contributiontracking" action="' . $repost['action'] . '">';
+		$output = '<form method="post" name="contributiontracking" action="' .
+			$repost['action'] . '">';
 
 		foreach ( $repost['fields'] as $key => $value ) {
-			$output .= '<input type="hidden" name="' . htmlspecialchars( $key ) . '" value="' . htmlspecialchars( $value ) . '" />';
+			$output .= '<input type="hidden" name="' . htmlspecialchars( $key ) . '" value="' .
+				htmlspecialchars( $value ) . '" />';
 		}
 
 		$output .= $this->ct_msgWiki( 'contrib-tracking-redirect' );
@@ -108,7 +112,8 @@ class ContributionTracking extends UnlistedSpecialPage {
 		// Offer a button to post the form if the user has no Javascript support
 		$output .= '<noscript>';
 		$output .= $this->ct_msgWiki( 'contrib-tracking-continue' );
-		$output .= '<input type="submit" value="' . $this->ct_msg( 'contrib-tracking-button' ) . '" />';
+		$output .= '<input type="submit" value="' .
+			$this->ct_msg( 'contrib-tracking-button' ) . '" />';
 		$output .= '</noscript>';
 
 		$output .= '</form>';
@@ -116,7 +121,9 @@ class ContributionTracking extends UnlistedSpecialPage {
 		$out->addHTML( $output );
 
 		// Automatically post the form if the user has JavaScript support
-		$out->addHTML( '<script type="text/javascript">document.contributiontracking.submit();</script>' );
+		$out->addHTML(
+			'<script type="text/javascript">document.contributiontracking.submit();</script>'
+		);
 	}
 
 	function ct_msg() {

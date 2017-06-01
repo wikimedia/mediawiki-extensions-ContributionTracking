@@ -18,7 +18,8 @@ class ContributionTrackingHooks {
 			global $wgExtNewTables, $wgExtNewFields;
 
 			$wgExtNewTables[] = array( 'contribution_tracking', $dir . 'ContributionTracking.sql' );
-			$wgExtNewTables[] = array( 'contribution_tracking_owa_ref', $dir . 'ContributionTracking_OWA_ref.sql' );
+			$wgExtNewTables[] = array( 'contribution_tracking_owa_ref',
+				$dir . 'ContributionTracking_OWA_ref.sql' );
 
 			$wgExtNewFields[] = array(
 				'contribution_tracking',
@@ -29,18 +30,20 @@ class ContributionTrackingHooks {
 			global $wgContributionTrackingDBname;
 
 			if( $updater->getDB()->getDBname() === $wgContributionTrackingDBname ) {
-				$updater->addExtensionTable( 'contribution_tracking', $dir . 'ContributionTracking.sql' );
-				$updater->addExtensionTable( 'contribution_tracking_owa_ref', $dir . 'ContributionTracking_OWA_ref.sql' );
-				$updater->addExtensionUpdate( array( 'addField', 'contribution_tracking', 'owa_session',
-					$dir . 'patches/patch-owa.sql', true ) );
+				$updater->addExtensionTable( 'contribution_tracking',
+					$dir . 'ContributionTracking.sql' );
+				$updater->addExtensionTable( 'contribution_tracking_owa_ref',
+					$dir . 'ContributionTracking_OWA_ref.sql' );
+				$updater->addExtensionUpdate( array( 'addField', 'contribution_tracking',
+					'owa_session', $dir . 'patches/patch-owa.sql', true ) );
 				$updater->addExtensionUpdate( array( 'addField', 'contribution_tracking', 'utm_key',
 					$dir . 'patches/patch-owa.sql', true ) );
 
 				if ( $updater->getDB()->getType() !== 'sqlite' ) {
 					// Not sure how to do this in the other configurations, but I guess
 					// "manually" might be the answer.
-					$updater->addExtensionUpdate( array( 'modifyField', 'contribution_tracking', 'anonymous',
-						$dir . 'patches/make-null.patch.sql', true ) );
+					$updater->addExtensionUpdate( array( 'modifyField', 'contribution_tracking',
+						'anonymous', $dir . 'patches/make-null.patch.sql', true ) );
 				}
 				if ( $updater->getDB()->getType() !== 'postgres' ) {
 					$updater->addExtensionUpdate( array( 'addTable', 'contribution_tracking',
