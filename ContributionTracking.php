@@ -16,13 +16,13 @@ if ( function_exists( 'wfLoadExtension' ) ) {
  * Setup for pre-1.25 wikis. Make sure this is kept in sync with extension.json
  */
 
-$wgExtensionCredits['specialpage'][] = array(
+$wgExtensionCredits['specialpage'][] = [
 	'path'           => __FILE__,
 	'name'           => 'ContributionTracking',
 	'url'            => 'https://www.mediawiki.org/wiki/Extension:ContributionTracking',
 	'author'         => 'David Strauss',
 	'descriptionmsg' => 'contributiontracking-desc',
-);
+];
 
 $dir = __DIR__ . '/';
 
@@ -39,31 +39,31 @@ $wgAutoloadClasses['SpecialFundraiserMaintenance'] =
 	$dir . 'special/SpecialFundraiserMaintenance.php';
 $wgSpecialPages['FundraiserMaintenance'] = 'SpecialFundraiserMaintenance';
 
-//give sysops access to the tracking tester form.
+// give sysops access to the tracking tester form.
 $wgGroupPermissions['sysop']['ViewContributionTrackingTester'] = true;
 $wgAvailableRights[] = 'ViewContributionTrackingTester';
 
 $wgAutoloadClasses['ApiContributionTracking'] = $dir . 'ApiContributionTracking.php';
 $wgAutoloadClasses['ContributionTrackingProcessor'] = $dir . 'ContributionTracking.processor.php';
 
-//this only works if contribution tracking is inside a mediawiki DB, which typically it isn't.
+// this only works if contribution tracking is inside a mediawiki DB, which typically it isn't.
 $wgHooks['LoadExtensionSchemaUpdates'][] =
 	'ContributionTrackingHooks::onLoadExtensionSchemaUpdates';
 
 // Resource modules
-$ctResourceTemplate = array(
+$ctResourceTemplate = [
 	'localBasePath' => $dir . 'modules',
 	'remoteExtPath' => 'ContributionTracking/modules',
-);
-$wgResourceModules['jquery.contributionTracking'] = array(
+];
+$wgResourceModules['jquery.contributionTracking'] = [
 	'scripts' => 'jquery.contributionTracking.js',
-) + $ctResourceTemplate;
+] + $ctResourceTemplate;
 
-$wgResourceModules['contributionTracking.fundraiserMaintenance'] = array(
-	'styles' => array('skinOverride.css',),
-	'scripts' => array(),
+$wgResourceModules['contributionTracking.fundraiserMaintenance'] = [
+	'styles' => [ 'skinOverride.css', ],
+	'scripts' => [],
 	'position' => 'top',
-) + $ctResourceTemplate;
+] + $ctResourceTemplate;
 
 /**
  * The default 'return to' URL for a thank you page after posting to the contribution

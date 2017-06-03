@@ -52,7 +52,7 @@ class ContributionTrackingProcessor {
 	 * @return integer The id of the saved contribution in the
 	 * contribution_tracking table
 	 */
-	static function saveNewContribution( $params = array( ) ) {
+	static function saveNewContribution( $params = [] ) {
 		$db = ContributionTrackingProcessor::contributionTrackingConnection();
 
 		$params['ts'] = $db->timestamp();
@@ -72,10 +72,10 @@ class ContributionTrackingProcessor {
 	 * @return array Staged key-value pairs ready to be saved as a contribution.
 	 */
 	static function stage_contribution( $params ) {
-		//change the posted names to match the db where necessary
+		// change the posted names to match the db where necessary
 		ContributionTrackingProcessor::rekey( $params, 'comment', 'note' );
 
-		if( !array_key_exists( 'form_amount', $params ) ){
+		if ( !array_key_exists( 'form_amount', $params ) ){
 			if ( array_key_exists( 'currency_code', $params )
 				&& array_key_exists( 'amount', $params )
 			) {
@@ -95,12 +95,12 @@ class ContributionTrackingProcessor {
 	 * @return array Staged array
 	 */
 	static function stage_repost( $params ) {
-		//TODO: assert that gateway makes The Sense here.
-		//change the posted names to match the db where necessary
+		// TODO: assert that gateway makes The Sense here.
+		// change the posted names to match the db where necessary
 		ContributionTrackingProcessor::rekey( $params, 'amountGiven', 'amount_given' );
 		ContributionTrackingProcessor::rekey( $params, 'returnto', 'return' );
 
-		//booleanize!
+		// booleanize!
 		ContributionTrackingProcessor::stage_checkbox( $params, 'recurring_paypal' );
 
 		// poke our language function with the current parameters -
@@ -142,8 +142,8 @@ class ContributionTrackingProcessor {
 	 * @param string $key The key of a checkbox-generated value
 	 */
 	static function stage_checkbox( &$array, $key ) {
-		//apparently so far in the code, if the key exists, the value is considered true
-		//and is therefore set to "1"
+		// apparently so far in the code, if the key exists, the value is considered true
+		// and is therefore set to "1"
 		if ( array_key_exists( $key, $array ) && $array[$key] !== false ) {
 			$array[$key] = 1;
 		}
@@ -154,7 +154,7 @@ class ContributionTrackingProcessor {
 	 * @return array Default values for a new contribution.
 	 */
 	static function getContributionDefaults() {
-		return array( //defaults
+		return [ // defaults
 			'form_amount' => null,
 			'usd_amount' => null,
 			'note' => null,
@@ -169,7 +169,7 @@ class ContributionTrackingProcessor {
 			'language' => null,
 			'country' => null,
 			'ts' => null,
-		);
+		];
 	}
 
 	/**
@@ -177,7 +177,7 @@ class ContributionTrackingProcessor {
 	 * @return array Default values for a payment gateway repost
 	 */
 	static function getRepostDefaults() {
-		return array( //defaults
+		return [ // defaults
 			'gateway' => '',
 			'tshirt' => false,
 			'size' => false,
@@ -201,7 +201,7 @@ class ContributionTrackingProcessor {
 			'country' => 'US',
 			'address_override' => '0'
 
-		);
+		];
 	}
 
 	/**
@@ -248,7 +248,7 @@ class ContributionTrackingProcessor {
 		// Set the action and tracking ID fields
 		$input = ContributionTrackingProcessor::stage_repost( $input );
 
-		$repost = array( );
+		$repost = [];
 		$repost['action'] = 'https://donate.wikimedia.org/';
 		// the amount fieldname may be different depending on the service
 		$amount_field_name = 'amount';
@@ -319,7 +319,6 @@ class ContributionTrackingProcessor {
 				$repost['fields']['address_override'] = $input['address_override'];
 			}
 
-
 			// if this is a recurring donation, we have add'l fields to send to paypal
 			if ( $input['recurring_paypal'] && $input['recurring_paypal'] != 0 ) {
 
@@ -383,11 +382,11 @@ class ContributionTrackingProcessor {
 		if ( is_array( $params ) && array_key_exists( 'language', $params )
 			&& $params['language'] != null
 		) {
-			//set/reset if something inteligable got sent.
+			// set/reset if something inteligable got sent.
 			$language = $params['language'];
 		}
 
-		if ( $language == '' ) { //if we have nothing by this point...
+		if ( $language == '' ) { // if we have nothing by this point...
 			global $wgLang;
 			$language = $wgLang->getCode();
 		}
