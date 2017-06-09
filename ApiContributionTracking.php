@@ -30,7 +30,7 @@ class ApiContributionTracking extends ApiBase {
 
 		foreach ( $params as $key => $value ) {
 			if ( $value === '' ) {
-				unset( $params[$key] ); //gotcha. And might I add: BOO-URNS.
+				unset( $params[$key] ); // gotcha. And might I add: BOO-URNS.
 			}
 		}
 		return $params;
@@ -42,18 +42,18 @@ class ApiContributionTracking extends ApiBase {
 	 * @param array $params Original (staged) request paramaters.
 	 */
 	function doReturn( $id, $params ) {
-//		foreach ($params as $key=>$value){
-//			if ($value != ''){
-//				$this->getResult()->addValue(array('returns', 'parrot'), $key, $value);
-//			}
-//		}
+		// foreach ($params as $key=>$value){
+		// 	if ($value != ''){
+		// 		$this->getResult()->addValue(array('returns', 'parrot'), $key, $value);
+		// 	}
+		// }
 		$params['contribution_tracking_id'] = $id;
 
 		$repost = ContributionTrackingProcessor::getRepostFields( $params );
 
-		$this->getResult()->addValue( array( 'returns', 'action' ), 'url', $repost['action'] );
+		$this->getResult()->addValue( [ 'returns', 'action' ], 'url', $repost['action'] );
 		foreach ( $repost['fields'] as $key => $value ) {
-			$this->getResult()->addValue( array( 'returns', 'fields' ), $key, $value );
+			$this->getResult()->addValue( [ 'returns', 'fields' ], $key, $value );
 		}
 	}
 
@@ -62,101 +62,101 @@ class ApiContributionTracking extends ApiBase {
 	 * @return array An array of parameters allowed by ApiContributionTracking
 	 */
 	public function getAllowedParams() {
-		return array(
-			'amount' => array(
+		return [
+			'amount' => [
 				ApiBase::PARAM_TYPE => 'string',
 				ApiBase::PARAM_REQUIRED => true,
-			),
-			'referrer' => array(
+			],
+			'referrer' => [
 				ApiBase::PARAM_TYPE => 'string',
 				ApiBase::PARAM_REQUIRED => true,
-			),
-			'gateway' => array(
+			],
+			'gateway' => [
 				ApiBase::PARAM_TYPE => 'string',
 				ApiBase::PARAM_REQUIRED => true,
-			),
-			'comment' => array(
+			],
+			'comment' => [
 				ApiBase::PARAM_TYPE => 'string',
-			),
-			'comment-option' => array(
+			],
+			'comment-option' => [
 				ApiBase::PARAM_TYPE => 'boolean',
-			),
-			'utm_source' => array(
+			],
+			'utm_source' => [
 				ApiBase::PARAM_TYPE => 'string',
-			),
-			'utm_medium' => array(
+			],
+			'utm_medium' => [
 				ApiBase::PARAM_TYPE => 'string',
-			),
-			'utm_campaign' => array(
+			],
+			'utm_campaign' => [
 				ApiBase::PARAM_TYPE => 'string',
-			),
-			'utm_key' => array(
+			],
+			'utm_key' => [
 				ApiBase::PARAM_TYPE => 'string',
-			),
-			'payments_form' => array(
+			],
+			'payments_form' => [
 				ApiBase::PARAM_TYPE => 'string',
-			),
-			'email-opt' => array(
+			],
+			'email-opt' => [
 				ApiBase::PARAM_TYPE => 'boolean',
-			),
-			'language' => array(
+			],
+			'language' => [
 				ApiBase::PARAM_TYPE => 'string',
-			),
-			'country' => array(
+			],
+			'country' => [
 				ApiBase::PARAM_TYPE => 'string',
-			),
-			'owa_session' => array(
+			],
+			'owa_session' => [
 				ApiBase::PARAM_TYPE => 'string',
-			),
-			'owa_ref' => array(
+			],
+			'owa_ref' => [
 				ApiBase::PARAM_TYPE => 'string',
-			),
-			'contribution_tracking_id' => array(
+			],
+			'contribution_tracking_id' => [
 				ApiBase::PARAM_TYPE => 'string',
-			),
-			'returnto' => array(
+			],
+			'returnto' => [
 				ApiBase::PARAM_TYPE => 'string',
-			),
-			'tshirt' => array(
+			],
+			'tshirt' => [
 				ApiBase::PARAM_TYPE => 'boolean',
-			),
-			'size' => array(
+			],
+			'size' => [
 				ApiBase::PARAM_TYPE => 'string',
-			),
-			'premium_language' => array(
+			],
+			'premium_language' => [
 				ApiBase::PARAM_TYPE => 'string',
-			),
-			'currency_code' => array(
+			],
+			'currency_code' => [
 				ApiBase::PARAM_TYPE => 'string',
-			),
-			'fname' => array(
+			],
+			'fname' => [
 				ApiBase::PARAM_TYPE => 'string',
-			),
-			'lname' => array(
+			],
+			'lname' => [
 				ApiBase::PARAM_TYPE => 'string',
-			),
-			'email' => array(
+			],
+			'email' => [
 				ApiBase::PARAM_TYPE => 'string',
-			),
-			'recurring_paypal' => array(
+			],
+			'recurring_paypal' => [
 				ApiBase::PARAM_TYPE => 'boolean',
-			),
-			'amountGiven' => array(
+			],
+			'amountGiven' => [
 				ApiBase::PARAM_TYPE => 'string',
-			),
-		);
+			],
+		];
 	}
 
 	/**
 	 * @deprecated since MediaWiki core 1.25
 	 */
 	public function getParamDescription() {
-		return array(
+		return [
 			'amount' => 'Transaction amount (required)',
 			'referrer' => 'String identifying the referring entity (required)',
-			'gateway' => array(
+			'gateway' => [
 				'String identifying the specific entity used to process this payment. ',
-				'Probably "paypal". (required)' ),
+				'Probably "paypal". (required)' ],
 			'comment' => 'String with a comment. Actually saved as "note" in the database',
 			'comment-option' => 'Boolean assumed to be from a checkbox. ' .
 				'This is actually the inverse of the anonymous flag.',
@@ -168,13 +168,13 @@ class ApiContributionTracking extends ApiBase {
 				'which the donation was made',
 			'email-opt' => 'Boolean assumed to be from a checkbox. This is actually the inverse ' .
 				'of the email opt-out checkbox.',
-			'language' => array(
+			'language' => [
 				'User language code. Messages will be translated appropriately (where possible).',
 				'This will also determine what "Thank You" page the user sees upon completion of ' .
-					'a donation at the gateway.' ),
+					'a donation at the gateway.' ],
 			'country' => 'User country code.',
 			'contribution_tracking_id' => 'Our ID for the current contribution. ' .
-				'Not supplied for new contributions.', //in fact, why is this here?
+				'Not supplied for new contributions.', // in fact, why is this here?
 			'returnto' => 'String identifying an alternate "Thank You" page to show the user ' .
 				'on completion of their transaction.',
 			'tshirt' => 'Boolean indicating whether or not there is a t-shirt involved.',
@@ -188,38 +188,38 @@ class ApiContributionTracking extends ApiBase {
 			'recurring_paypal' => 'Boolean identifying a recurring donation. ' .
 				'Do not supply at all for a one-time donation.',
 			'amountGiven' => 'Normalized amount.'
-		);
+		];
 	}
 
 	/**
 	 * @deprecated since MediaWiki core 1.25
 	 */
 	public function getDescription() {
-		return array(
+		return [
 			'Track donor contributions via API',
 			'This API exists so we are able to eliminate the interstitial page',
 			'that would otherwise be used to track contributions before sending',
 			'the donor off to paypal (or wherever).',
-		);
+		];
 	}
 
 	/**
 	 * @deprecated since MediaWiki core 1.25
 	 */
 	public function getExamples() {
-		return array(
+		return [
 			'api.php?action=contributiontracking&comment=examplecomment&referrer=examplereferrer' .
 				'&gateway=paypal&amount=5.50',
-		);
+		];
 	}
 
 	/**
 	 * @see ApiBase::getExamplesMessages()
 	 */
 	protected function getExamplesMessages() {
-		return array(
+		return [
 			'action=contributiontracking&comment=examplecomment&referrer=examplereferrer' .
 				'&gateway=paypal&amount=5.50' => 'apihelp-contributiontracking-example-1',
-		);
+		];
 	}
 }

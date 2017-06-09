@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This is a page that exists solely for the purpose of manually testing all 
+ * This is a page that exists solely for the purpose of manually testing all
  * aspects of the ContributionTracking API: Both send (querystring) and receive
  * (jquery processing and reposting). Could also be used for browser-based
  * regression testing of these components.
@@ -37,7 +37,7 @@ class ContributionTrackingTester extends UnlistedSpecialPage {
 		$apiObj = new ApiContributionTracking( null, null );
 		$formfields = $apiObj->getFinalParams();
 
-		//$wgOut->addWikiText(print_r($formfields, true));
+		// $wgOut->addWikiText(print_r($formfields, true));
 		$wgOut->addHTML( '<form id="landingpage_submit"><table>' );
 
 		foreach ( $formfields as $name => $attribs ) {

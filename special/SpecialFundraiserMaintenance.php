@@ -23,7 +23,6 @@
 
 class SpecialFundraiserMaintenance extends UnlistedSpecialPage {
 
-
 	public function __construct() {
 		parent::__construct( 'FundraiserMaintenance' );
 	}

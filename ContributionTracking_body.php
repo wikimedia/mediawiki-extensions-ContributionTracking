@@ -9,19 +9,19 @@ class ContributionTracking extends UnlistedSpecialPage {
 
 	function execute( $language ) {
 		global $wgContributionTrackingFundraiserMaintenance,
-			   $wgContributionTrackingFundraiserMaintenanceUnsched;
+			$wgContributionTrackingFundraiserMaintenanceUnsched;
 
-		if( $wgContributionTrackingFundraiserMaintenance
+		if ( $wgContributionTrackingFundraiserMaintenance
 			|| $wgContributionTrackingFundraiserMaintenanceUnsched ){
 			$this->getOutput()->redirect(
-				Title::newFromText("Special:FundraiserMaintenance")->getFullURL(), "302"
+				Title::newFromText( "Special:FundraiserMaintenance" )->getFullURL(), "302"
 			);
 		}
 
 		$request = $this->getRequest();
 
 		$gateway = $request->getText( 'gateway' );
-		if ( !in_array( $gateway, array( 'paypal', 'moneybookers' ) ) ) {
+		if ( !in_array( $gateway, [ 'paypal', 'moneybookers' ] ) ) {
 			$this->getOutput()->showErrorPage( 'contrib-tracking-error',
 				'contrib-tracking-error-text' );
 			return;
@@ -35,20 +35,20 @@ class ContributionTracking extends UnlistedSpecialPage {
 		$this->setHeaders();
 
 		$out = $this->getOutput();
-		$out->setPageTitle('');
+		$out->setPageTitle( '' );
 
 		// Store the contribution data
 		if ( $request->getVal( 'contribution_tracking_id' ) ) {
 			$contribution_tracking_id = $request->getVal( 'contribution_tracking_id', 0 );
 		} else {
-			$amount = $request->getVal('amount');
+			$amount = $request->getVal( 'amount' );
 
-			if( $amount == "Other" && is_numeric( $request->getVal('amountGiven') )){
-				$amount = floatval( $request->getVal('amountGiven') );
+			if ( $amount == "Other" && is_numeric( $request->getVal( 'amountGiven' ) ) ){
+				$amount = floatval( $request->getVal( 'amountGiven' ) );
 			}
 
-			$tracked_contribution = array(
-				'form_amount' => $request->getVal('currency_code') . ' ' . $amount,
+			$tracked_contribution = [
+				'form_amount' => $request->getVal( 'currency_code' ) . ' ' . $amount,
 				'note' => $request->getVal( 'comment' ),
 				'referrer' => $request->getVal( 'referrer' ),
 				'utm_source' => $request->getVal( 'utm_source' ),
@@ -57,12 +57,12 @@ class ContributionTracking extends UnlistedSpecialPage {
 				'utm_key' => $request->getVal( 'utm_key' ),
 				'language' => $request->getVal( 'language' ),
 				'country' => $request->getVal( 'country' ),
-			);
+			];
 			$contribution_tracking_id = ContributionTrackingProcessor::saveNewContribution(
 				$tracked_contribution );
 		}
 
-		$params = array(
+		$params = [
 			'gateway' => $gateway,
 			'tshirt' => $request->getVal( 'tshirt' ),
 			'return' => $request->getText( 'returnto', "Donate-thanks/$language" ),
@@ -81,7 +81,7 @@ class ContributionTracking extends UnlistedSpecialPage {
 			'amount_given' => $request->getVal( 'amountGiven' ),
 			'contribution_tracking_id' => $contribution_tracking_id,
 			'language' => $language,
-		);
+		];
 
 		if ( $params['tshirt'] ) {
 			$params['size'] = $request->getText( 'size' );
