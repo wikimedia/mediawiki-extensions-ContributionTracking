@@ -17,6 +17,8 @@
 	"contrib-tracking-fundraiser-maintenance-header": "Temporarily down for maintenance",
 	"contrib-tracking-fundraiser-maintenance-notice": "We are currently performing scheduled maintenance and are unable to accept donations. Please try again soon. If you have any questions, please email $1.",
 	"apihelp-contributiontracking-description": "Track donor contributions via API.\n\nThis API exists so we are able to eliminate the interstitial page that would otherwise be used to track contributions before sending the donor off to the payment processor.",
+	"apihelp-contributiontracking-summary": "Track donor contributions via API.",
+	"apihelp-contributiontracking-extended-description": "This API exists so we are able to eliminate the interstitial page that would otherwise be used to track contributions before sending the donor off to the payment processor.",
 	"apihelp-contributiontracking-param-amount": "Transaction amount.",
 	"apihelp-contributiontracking-param-referrer": "String identifying the referring entity.",
 	"apihelp-contributiontracking-param-gateway": "String identifying the specific entity used to process this payment.",
