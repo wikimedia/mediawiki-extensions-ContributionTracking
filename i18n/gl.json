@@ -18,6 +18,7 @@
 	"contrib-tracking-fundraiser-maintenance-header": "Fóra de servizo temporalmente por mantemento",
 	"contrib-tracking-fundraiser-maintenance-notice": "Estamos levando a cabo tarefas programadas de mantemento e non podemos aceptar doazóns. Inténtao de novo máis tarde. Se tes algunha pregunta, envía un correo ao enderezo $1.",
 	"apihelp-contributiontracking-description": "Rastrexe as constribucións dos doantes a través da API.\n\nEsta API existe para que poidamos eliminar a páxina intersticial que sería usada para rastrexar as contribucións antes de enviar ó doante ó tratamento do pago.",
+	"apihelp-contributiontracking-summary": "Seguimento das contribucións dos donantes a través da API.",
 	"apihelp-contributiontracking-param-amount": "Coste da transacción.",
 	"apihelp-contributiontracking-param-referrer": "Texto que identifica a entidade de referencia.",
 	"apihelp-contributiontracking-param-gateway": "Texto que identifica a entidade específica usada para procesar este pago.",
