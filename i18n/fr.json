@@ -24,6 +24,7 @@
 	"contrib-tracking-fundraiser-maintenance-notice": "Nous effectuons actuellement une maintenance programmée et ne pouvons pas accepter les dons. Veuillez réessayer prochainement. Si vous avez des question, veuillez envoyer un courriel à $1.",
 	"apihelp-contributiontracking-description": "Trace les contributions des donneurs via l’API.\n\nCette API existe afin que nous puissions éliminer la page interstitielle qui serait autrement utilisée pour tracer les contributions avant d’envoyer le donneur vers le traitement du paiement.",
 	"apihelp-contributiontracking-summary": "Suivre les contributions des donnateurs par API.",
+	"apihelp-contributiontracking-extended-description": "Cette API existe afin que nous puissions éliminer la page interstitielle qui serait autrement utilisée pour tracer les contributions avant d’envoyer le donneur en dehors du traitement du paiement.",
 	"apihelp-contributiontracking-param-amount": "Montant de la transaction.",
 	"apihelp-contributiontracking-param-referrer": "Chaîne identifiant l’entité de référence.",
 	"apihelp-contributiontracking-param-gateway": "Chaîne identifiant l’entité spécifique utilisée pour effectuer ce paiement.",
