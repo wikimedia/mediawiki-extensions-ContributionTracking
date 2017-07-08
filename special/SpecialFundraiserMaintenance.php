@@ -28,7 +28,6 @@ class SpecialFundraiserMaintenance extends UnlistedSpecialPage {
 	}
 
 	public function execute( $sub ) {
-
 		$request = $this->getRequest();
 		$output = $this->getOutput();
 		$this->setHeaders();

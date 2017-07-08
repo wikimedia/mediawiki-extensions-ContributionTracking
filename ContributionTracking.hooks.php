@@ -3,8 +3,8 @@
 class ContributionTrackingHooks {
 	public static function extensionFunction() {
 		global $wgDBserver, $wgDBname, $wgDBuser, $wgDBpassword,
-		       $wgContributionTrackingDBserver, $wgContributionTrackingDBname,
-		       $wgContributionTrackingDBuser, $wgContributionTrackingDBpassword;
+			$wgContributionTrackingDBserver, $wgContributionTrackingDBname,
+			$wgContributionTrackingDBuser, $wgContributionTrackingDBpassword;
 
 		$wgContributionTrackingDBserver = $wgContributionTrackingDBserver ?: $wgDBserver;
 		$wgContributionTrackingDBname = $wgContributionTrackingDBname ?: $wgDBname;
@@ -49,24 +49,25 @@ class ContributionTrackingHooks {
 					$updater->addExtensionUpdate( [ 'addTable', 'contribution_tracking',
 						$dir . 'ContributionTracking.pg.sql', true ] );
 				}
-			} else { // We are configured not to use the main mediawiki db.
+			} else {
+				// We are configured not to use the main mediawiki db.
 				// Unless the updater is modified not to run
 				// 'LoadExtensionSchemaUpdates' hooks in its constructor (or do so
 				// conditionally), we're going to have to do these manually.
 				$ctDB = ContributionTrackingProcessor::contributionTrackingConnection();
-				if ( !$ctDB->tableExists( 'contribution_tracking' ) ){
+				if ( !$ctDB->tableExists( 'contribution_tracking' ) ) {
 					$ctDB->sourceFile( $dir . 'ContributionTracking.sql' );
 				}
-				if ( !$ctDB->tableExists( 'contribution_tracking_owa_ref' ) ){
+				if ( !$ctDB->tableExists( 'contribution_tracking_owa_ref' ) ) {
 					$ctDB->sourceFile( $dir . 'ContributionTracking_OWA_ref.sql' );
 				}
-				if ( !$ctDB->fieldExists( 'contribution_tracking', 'owa_session' ) ){
+				if ( !$ctDB->fieldExists( 'contribution_tracking', 'owa_session' ) ) {
 					$ctDB->sourceFile( $dir . 'patches/patch-owa.sql' );
 				}
-				if ( !$ctDB->fieldExists( 'contribution_tracking', 'utm_key' ) ){
+				if ( !$ctDB->fieldExists( 'contribution_tracking', 'utm_key' ) ) {
 					$ctDB->sourceFile( $dir . 'patches/patch-utm_key.sql' );
 				}
-				if ( !$ctDB->fieldExists( 'contribution_tracking', 'country' ) ){
+				if ( !$ctDB->fieldExists( 'contribution_tracking', 'country' ) ) {
 					$ctDB->sourceFile( $dir . 'patches/20120924.new_columns.sql' );
 				}
 			}

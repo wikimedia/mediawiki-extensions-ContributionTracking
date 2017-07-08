@@ -75,7 +75,7 @@ class ContributionTrackingProcessor {
 		// change the posted names to match the db where necessary
 		ContributionTrackingProcessor::rekey( $params, 'comment', 'note' );
 
-		if ( !array_key_exists( 'form_amount', $params ) ){
+		if ( !array_key_exists( 'form_amount', $params ) ) {
 			if ( array_key_exists( 'currency_code', $params )
 				&& array_key_exists( 'amount', $params )
 			) {
@@ -154,7 +154,8 @@ class ContributionTrackingProcessor {
 	 * @return array Default values for a new contribution.
 	 */
 	static function getContributionDefaults() {
-		return [ // defaults
+		// defaults
+		return [
 			'form_amount' => null,
 			'usd_amount' => null,
 			'note' => null,
@@ -177,7 +178,8 @@ class ContributionTrackingProcessor {
 	 * @return array Default values for a payment gateway repost
 	 */
 	static function getRepostDefaults() {
-		return [ // defaults
+		// defaults
+		return [
 			'gateway' => '',
 			'tshirt' => false,
 			'size' => false,
@@ -254,7 +256,6 @@ class ContributionTrackingProcessor {
 		$amount_field_name = 'amount';
 		# FIXME: This usage is deprecated.
 		if ( $input['gateway'] == 'paypal' ) {
-
 			$repost['action'] = 'https://www.paypal.com/cgi-bin/webscr';
 
 			// Premiums
@@ -321,12 +322,16 @@ class ContributionTrackingProcessor {
 
 			// if this is a recurring donation, we have add'l fields to send to paypal
 			if ( $input['recurring_paypal'] && $input['recurring_paypal'] != 0 ) {
-
-				$repost['fields']['t3'] = "M"; // The unit of measurement for for p3 (M = month)
-				$repost['fields']['p3'] = '1'; // Billing cycle duration
-				$repost['fields']['srt'] = $wgContributionTrackingRPPLength; // # of billing cycles
-				$repost['fields']['src'] = '1'; // Make this 'recurring'
-				$repost['fields']['sra'] = '1'; // Turn on re-attempt on failure
+				// The unit of measurement for for p3 (M = month)
+				$repost['fields']['t3'] = "M";
+				// Billing cycle duration
+				$repost['fields']['p3'] = '1';
+				// # of billing cycles
+				$repost['fields']['srt'] = $wgContributionTrackingRPPLength;
+				// Make this 'recurring'
+				$repost['fields']['src'] = '1';
+				// Turn on re-attempt on failure
+				$repost['fields']['sra'] = '1';
 				$repost['fields']['cmd'] = '_xclick-subscriptions';
 				$amount_field_name = 'a3';
 				$repost['fields']['notify_url'] = $input['notify_url'];
@@ -386,7 +391,8 @@ class ContributionTrackingProcessor {
 			$language = $params['language'];
 		}
 
-		if ( $language == '' ) { // if we have nothing by this point...
+		// if we have nothing by this point...
+		if ( $language == '' ) {
 			global $wgLang;
 			$language = $wgLang->getCode();
 		}

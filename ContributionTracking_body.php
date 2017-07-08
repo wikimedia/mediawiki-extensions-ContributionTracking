@@ -12,7 +12,8 @@ class ContributionTracking extends UnlistedSpecialPage {
 			$wgContributionTrackingFundraiserMaintenanceUnsched;
 
 		if ( $wgContributionTrackingFundraiserMaintenance
-			|| $wgContributionTrackingFundraiserMaintenanceUnsched ){
+			|| $wgContributionTrackingFundraiserMaintenanceUnsched
+		) {
 			$this->getOutput()->redirect(
 				Title::newFromText( "Special:FundraiserMaintenance" )->getFullURL(), "302"
 			);
@@ -43,7 +44,7 @@ class ContributionTracking extends UnlistedSpecialPage {
 		} else {
 			$amount = $request->getVal( 'amount' );
 
-			if ( $amount == "Other" && is_numeric( $request->getVal( 'amountGiven' ) ) ){
+			if ( $amount == "Other" && is_numeric( $request->getVal( 'amountGiven' ) ) ) {
 				$amount = floatval( $request->getVal( 'amountGiven' ) );
 			}
 

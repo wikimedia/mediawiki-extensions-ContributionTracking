@@ -27,10 +27,9 @@ class ApiContributionTracking extends ApiBase {
 	 * @return array Paramaters ready to be sent off to the processor.
 	 */
 	function getStagedParams( $params = null ) {
-
 		foreach ( $params as $key => $value ) {
 			if ( $value === '' ) {
-				unset( $params[$key] ); // gotcha. And might I add: BOO-URNS.
+				unset( $params[$key] );
 			}
 		}
 		return $params;
@@ -43,9 +42,9 @@ class ApiContributionTracking extends ApiBase {
 	 */
 	function doReturn( $id, $params ) {
 		// foreach ($params as $key=>$value){
-		// 	if ($value != ''){
-		// 		$this->getResult()->addValue(array('returns', 'parrot'), $key, $value);
-		// 	}
+		// if ($value != ''){
+		// $this->getResult()->addValue(array('returns', 'parrot'), $key, $value);
+		// }
 		// }
 		$params['contribution_tracking_id'] = $id;
 
