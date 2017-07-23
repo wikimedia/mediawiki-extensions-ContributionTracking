@@ -49,15 +49,15 @@ class ContributionTrackingProcessor {
 	 * Saves a record of a new contribution to the contribution_tracking_table
 	 * @param array $params A staged array of parameters that can be processed
 	 * by the ContributionTrackingProcessor.
-	 * @return integer The id of the saved contribution in the
+	 * @return int The id of the saved contribution in the
 	 * contribution_tracking table
 	 */
 	static function saveNewContribution( $params = [] ) {
-		$db = ContributionTrackingProcessor::contributionTrackingConnection();
+		$db = self::contributionTrackingConnection();
 
 		$params['ts'] = $db->timestamp();
 
-		$tracked_contribution = ContributionTrackingProcessor::stage_contribution( $params );
+		$tracked_contribution = self::stage_contribution( $params );
 
 		$db->insert( 'contribution_tracking', $tracked_contribution );
 		$contribution_tracking_id = $db->insertId();
@@ -73,7 +73,7 @@ class ContributionTrackingProcessor {
 	 */
 	static function stage_contribution( $params ) {
 		// change the posted names to match the db where necessary
-		ContributionTrackingProcessor::rekey( $params, 'comment', 'note' );
+		self::rekey( $params, 'comment', 'note' );
 
 		if ( !array_key_exists( 'form_amount', $params ) ) {
 			if ( array_key_exists( 'currency_code', $params )
@@ -83,8 +83,8 @@ class ContributionTrackingProcessor {
 			}
 		}
 
-		$tracked_contribution = ContributionTrackingProcessor::mergeArrayDefaults( $params,
-			ContributionTrackingProcessor::getContributionDefaults(), true );
+		$tracked_contribution = self::mergeArrayDefaults( $params,
+			self::getContributionDefaults(), true );
 
 		return $tracked_contribution;
 	}
@@ -97,26 +97,26 @@ class ContributionTrackingProcessor {
 	static function stage_repost( $params ) {
 		// TODO: assert that gateway makes The Sense here.
 		// change the posted names to match the db where necessary
-		ContributionTrackingProcessor::rekey( $params, 'amountGiven', 'amount_given' );
-		ContributionTrackingProcessor::rekey( $params, 'returnto', 'return' );
+		self::rekey( $params, 'amountGiven', 'amount_given' );
+		self::rekey( $params, 'returnto', 'return' );
 
 		// booleanize!
-		ContributionTrackingProcessor::stage_checkbox( $params, 'recurring_paypal' );
+		self::stage_checkbox( $params, 'recurring_paypal' );
 
 		// poke our language function with the current parameters -
 		// this sets the static var correctly
-		$params['language'] = ContributionTrackingProcessor::getLanguage( $params );
+		$params['language'] = self::getLanguage( $params );
 
 		if ( array_key_exists( 'recurring_paypal', $params ) && $params['recurring_paypal'] ) {
-			$params['item_name'] = ContributionTrackingProcessor::msg(
+			$params['item_name'] = self::msg(
 				'contrib-tracking-item-name-recurring' );
 		} else {
-			$params['item_name'] = ContributionTrackingProcessor::msg(
+			$params['item_name'] = self::msg(
 				'contrib-tracking-item-name-onetime' );
 		}
 
-		$repost_params = ContributionTrackingProcessor::mergeArrayDefaults( $params,
-			ContributionTrackingProcessor::getRepostDefaults(), true );
+		$repost_params = self::mergeArrayDefaults( $params,
+			self::getRepostDefaults(), true );
 		return $repost_params;
 	}
 
@@ -186,7 +186,7 @@ class ContributionTrackingProcessor {
 			'premium_language' => false,
 			# FIXME: nonono!
 			'currency_code' => 'USD',
-			'return' => 'Donate-thanks/' . ContributionTrackingProcessor::getLanguage(),
+			'return' => 'Donate-thanks/' . self::getLanguage(),
 			'fname' => '',
 			'lname' => '',
 			'email' => '',
@@ -248,7 +248,7 @@ class ContributionTrackingProcessor {
 			$wgContributionTrackingRPPLength;
 
 		// Set the action and tracking ID fields
-		$input = ContributionTrackingProcessor::stage_repost( $input );
+		$input = self::stage_repost( $input );
 
 		$repost = [];
 		$repost['action'] = 'https://donate.wikimedia.org/';
@@ -407,6 +407,6 @@ class ContributionTrackingProcessor {
 	 */
 	static function msg( $key ) {
 		return wfMessage( $key )
-			->inLanguage( ContributionTrackingProcessor::getLanguage() )->escaped();
+			->inLanguage( self::getLanguage() )->escaped();
 	}
 }
