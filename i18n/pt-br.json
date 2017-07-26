@@ -4,7 +4,8 @@
 			"Cainamarques",
 			"Eduardo.mps",
 			"Giro720",
-			"Araceletorres"
+			"Araceletorres",
+			"Felipe L. Ewald"
 		]
 	},
 	"contributiontracking-desc": "Seguimento de doações para a coleta de fundos da Wikimedia",
@@ -20,6 +21,8 @@
 	"contrib-tracking-fundraiser-maintenance-header": "Temporariamente indisponível para manutenção",
 	"contrib-tracking-fundraiser-maintenance-notice": "Estamos no momento executando tarefas agendadas de manutenção e impedidos de receber donativos. Tente novamente em breve, por favor. Se tiver qualquer dúvida, contacte-nos pelo endereço $1.",
 	"apihelp-contributiontracking-description": "Acompanhe as contribuições dos doadores via API.\n\nEsta API existe para nós sermos capazes de eliminar a página intersticial que seria usada para rastrear as contribuições antes de enviar o doador para o processador de pagamento.",
+	"apihelp-contributiontracking-summary": "Acompanhe as contribuições dos doadores via API.",
+	"apihelp-contributiontracking-extended-description": "Esta API existe para que possamos eliminar a página intersticial que, de outra forma, seria usada para rastrear as contribuições antes de enviar o doador para o processador de pagamento.",
 	"apihelp-contributiontracking-param-amount": "Quantia da transação.",
 	"apihelp-contributiontracking-param-referrer": "String que identifica a entidade de referência.",
 	"apihelp-contributiontracking-param-gateway": "String que identifica a entidade específica utilizada para processar esse pagamento.",
