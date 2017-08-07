@@ -6,13 +6,13 @@
 		]
 	},
 	"contributiontracking-desc": "Panjejakan kontribusi kanggo pangumpul dana Wikimedia",
-	"contributiontracking": "Panglarinig sumbangan",
+	"contributiontracking": "Panglacaking pisumbang",
 	"contrib-tracking-error": "Masalah",
 	"contrib-tracking-error-text": "Pangajuan formulir ora sah",
 	"contrib-tracking-submitting": "Ngirim menyang prosèsor pambayaran...",
-	"contrib-tracking-continue": "Yèn Sampéyan ora otomatis dialihaké, klik tombol kuwi kanggo ngrampungaké sumbangan Sampéyan.",
-	"contrib-tracking-redirect": "Sampéyan bakal otomatis diarahaké kanggo ngrampungaké sumbangan Sampéyan.",
+	"contrib-tracking-continue": "Yèn panjenengan ora otomatis digawa menyang kaca parampungan, klik tombolé saperlu ngrampungaké sumbangané panjenengan.",
+	"contrib-tracking-redirect": "Panjenengan bakal otomatis digawa menyang kaca liya kanggo ngrampungaké sumbangané panjenengan.",
 	"contrib-tracking-button": "Terus",
 	"contrib-tracking-item-name-onetime": "Sumbangan sisan-gawé",
-	"contrib-tracking-item-name-recurring": "Sumbangan wulanan terusan"
+	"contrib-tracking-item-name-recurring": "Sumbangan wulanan sing mbalèni"
 }
