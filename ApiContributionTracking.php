@@ -37,7 +37,7 @@ class ApiContributionTracking extends ApiBase {
 
 	/**
 	 * Assembles the data for the API to return.
-	 * @param integer $id The Contribution Tracking ID.
+	 * @param int $id The Contribution Tracking ID.
 	 * @param array $params Original (staged) request paramaters.
 	 */
 	function doReturn( $id, $params ) {
@@ -147,6 +147,7 @@ class ApiContributionTracking extends ApiBase {
 	}
 
 	/**
+	 * @return array
 	 * @deprecated since MediaWiki core 1.25
 	 */
 	public function getParamDescription() {
@@ -191,6 +192,7 @@ class ApiContributionTracking extends ApiBase {
 	}
 
 	/**
+	 * @return array
 	 * @deprecated since MediaWiki core 1.25
 	 */
 	public function getDescription() {
@@ -203,6 +205,7 @@ class ApiContributionTracking extends ApiBase {
 	}
 
 	/**
+	 * @return array
 	 * @deprecated since MediaWiki core 1.25
 	 */
 	public function getExamples() {
@@ -214,6 +217,7 @@ class ApiContributionTracking extends ApiBase {
 
 	/**
 	 * @see ApiBase::getExamplesMessages()
+	 * @return array
 	 */
 	protected function getExamplesMessages() {
 		return [
