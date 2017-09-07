@@ -28,6 +28,8 @@
 	"apihelp-contributiontracking-param-email-opt": "Inversa da caixa de opción de exclusión do correo electrónico.",
 	"apihelp-contributiontracking-param-language": "Código de lingua do usuario. As mensaxes serán traducidas de forma axeitada (cando sexa posible). Isto tamén determinará que páxina de \"Agradecemento\" verá o usuario cando se remate a donación a través da pasarela.",
 	"apihelp-contributiontracking-param-country": "Código do país do usuario.",
+	"apihelp-contributiontracking-param-owa_session": "Nome de sesión para a ferramenta Open Web Analytics.",
+	"apihelp-contributiontracking-param-owa_ref": "Nome de referencia para a ferramenta Open Web Analytics Tool.",
 	"apihelp-contributiontracking-param-contribution_tracking_id": "Identificador noso para a contribución actual. Non proporcionado para contribucións novas.",
 	"apihelp-contributiontracking-param-returnto": "Texto identificando unha páxina alternativa de \"Grazas\" para mostrar ó usuario ó rematar a súa transacción.",
 	"apihelp-contributiontracking-param-tshirt": "Onde hai implicada unha t-shirt.",
