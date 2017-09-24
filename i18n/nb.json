@@ -20,6 +20,8 @@
 	"contrib-tracking-fundraiser-maintenance-header": "Midlertidig nede for vedlikehold",
 	"apihelp-contributiontracking-param-comment": "Streng med kommentar.",
 	"apihelp-contributiontracking-param-country": "Brukerens landskode.",
+	"apihelp-contributiontracking-param-tshirt": "Hvorvidt ei t-skjorte er involvert.",
+	"apihelp-contributiontracking-param-currency_code": "Valutakode for den gjeldende transaksjonen.",
 	"apihelp-contributiontracking-param-fname": "Giverens fornavn.",
 	"apihelp-contributiontracking-param-lname": "Giverens etternavn.",
 	"apihelp-contributiontracking-param-email": "Giverens epostadresse.",
