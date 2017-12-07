@@ -21,6 +21,7 @@
 	"contrib-tracking-fundraiser-maintenance-header": "Derzeit wegen Wartung nicht erreichbar",
 	"contrib-tracking-fundraiser-maintenance-notice": "Wir führen derzeit geplante Wartungsarbeiten durch und können keine Spenden entgegennehmen. Bitte versuche es später erneut. Falls du irgendwelche Fragen hast, sende bitte eine E-Mail an $1.",
 	"apihelp-contributiontracking-description": "Verfolgt Spendenbeiträge über die API.\n\nDiese API besteht, damit wir die interstitielle Seite beseitigen können, die sonst zur Nachverfolgung der Beiträge genutzt werden würde, bevor die Spende zum Zahlungsabwickler gesendet wird.",
+	"apihelp-contributiontracking-summary": "Verfolgt Beiträge von Spendern über die API.",
 	"apihelp-contributiontracking-param-amount": "Transaktionsbetrag.",
 	"apihelp-contributiontracking-param-referrer": "Zeichenfolge, welche das bezugnehmende Objekt identifiziert.",
 	"apihelp-contributiontracking-param-gateway": "Zeichenfolge, welche das spezielle Objekt identifiziert, das diese Zahlung bearbeitet.",
