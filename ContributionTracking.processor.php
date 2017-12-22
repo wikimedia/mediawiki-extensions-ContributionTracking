@@ -16,8 +16,8 @@ class ContributionTrackingProcessor {
 	 * ContributionTracking.php
 	 * @global string $wgContributionTrackingDBpassword : Database password,
 	 * defined in ContributionTracking.php
-	 * @staticvar DatabaseBase $db
-	 * @return DatabaseBase The established database connection
+	 * @staticvar \Wikimedia\Rdbms\IDatabase $db
+	 * @return \Wikimedia\Rdbms\IDatabase The established database connection
 	 */
 	static function contributionTrackingConnection() {
 		global $wgContributionTrackingDBserver, $wgContributionTrackingDBname;
