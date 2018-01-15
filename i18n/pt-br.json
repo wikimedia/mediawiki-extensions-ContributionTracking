@@ -5,7 +5,8 @@
 			"Eduardo.mps",
 			"Giro720",
 			"Araceletorres",
-			"Felipe L. Ewald"
+			"Felipe L. Ewald",
+			"Eduardo Addad de Oliveira"
 		]
 	},
 	"contributiontracking-desc": "Seguimento de doações para a coleta de fundos da Wikimedia",
@@ -28,10 +29,16 @@
 	"apihelp-contributiontracking-param-gateway": "String que identifica a entidade específica utilizada para processar esse pagamento.",
 	"apihelp-contributiontracking-param-comment": "String com um comentário.",
 	"apihelp-contributiontracking-param-comment-option": "Inverso da bandeira anônima.",
+	"apihelp-contributiontracking-param-utm_source": "Identifica o site que enviou o tráfego para o Módulo de Monitorização Urchin.",
+	"apihelp-contributiontracking-param-utm_medium": "Identifica o tipo de hiperligação que foi usada para o Módulo de Monitorização Urchin.",
+	"apihelp-contributiontracking-param-utm_campaign": "Identifica uma promoção de produto ou campanha estratégica específica para o Módulo de Monitorização Urchin.",
+	"apihelp-contributiontracking-param-utm_key": "Identifica uma chave específica para o Módulo de Monitorização Urchin.",
 	"apihelp-contributiontracking-param-payments_form": "String que identifica a forma de pagamento através do qual a doação foi feita.",
 	"apihelp-contributiontracking-param-email-opt": "Inverso da opção de opt-out do e-mail.",
 	"apihelp-contributiontracking-param-language": "Código de idioma do usuário. As mensagens serão traduzidas de forma adequada (quando possível). Isso também determinará que página \"Agradecimento\" o usuário vê após a conclusão de uma doação no gateway.",
 	"apihelp-contributiontracking-param-country": "Código do país do usuário.",
+	"apihelp-contributiontracking-param-owa_session": "Nome da sessão na ferramenta Open Web Analytics.",
+	"apihelp-contributiontracking-param-owa_ref": "Nome de referência para a ferramenta Open Web Analytics.",
 	"apihelp-contributiontracking-param-contribution_tracking_id": "Nossa ID para contribuição atual. Não fornecida para novas contribuições.",
 	"apihelp-contributiontracking-param-returnto": "String que identifica uma página alternativa \"Agradecimento\" para mostrar ao usuário após a conclusão de sua transação.",
 	"apihelp-contributiontracking-param-tshirt": "Se há uma camiseta envolvida.",
