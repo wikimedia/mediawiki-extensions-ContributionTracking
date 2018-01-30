@@ -3,7 +3,8 @@
 		"authors": [
 			"Hamilton Abreu",
 			"Malafaya",
-			"Waldir"
+			"Waldir",
+			"Athena in Wonderland"
 		]
 	},
 	"contributiontracking-desc": "Monitorização de donativos para a angariação de fundos da Wikimedia",
@@ -26,7 +27,7 @@
 	"apihelp-contributiontracking-param-gateway": "Texto que identifica a entidade específica usada para processar este pagamento.",
 	"apihelp-contributiontracking-param-comment": "Texto com um comentário.",
 	"apihelp-contributiontracking-param-comment-option": "Inverso da indicação de anonimato.",
-	"apihelp-contributiontracking-param-utm_source": "Identifica o site que enviou o tráfego para o Módulo de Monitorização Urchin.",
+	"apihelp-contributiontracking-param-utm_source": "Identifica o sítio que enviou o tráfego para o Módulo de Monitorização Urchin.",
 	"apihelp-contributiontracking-param-utm_medium": "Identifica o tipo de hiperligação que foi usada para o Módulo de Monitorização Urchin.",
 	"apihelp-contributiontracking-param-utm_campaign": "Identifica uma promoção de produto ou campanha estratégica específica para o Módulo de Monitorização Urchin.",
 	"apihelp-contributiontracking-param-utm_key": "Identifica uma chave específica para o Módulo de Monitorização Urchin.",
