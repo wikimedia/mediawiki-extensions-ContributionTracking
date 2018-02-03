@@ -56,8 +56,7 @@
 			"styles": [
 				"skinOverride.css"
 			],
-			"scripts": [],
-			"position": "top"
+			"scripts": []
 		}
 	},
 	"ResourceFileModulePaths": {

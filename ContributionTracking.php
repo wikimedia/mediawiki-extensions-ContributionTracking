@@ -62,7 +62,6 @@ $wgResourceModules['jquery.contributionTracking'] = [
 $wgResourceModules['contributionTracking.fundraiserMaintenance'] = [
 	'styles' => [ 'skinOverride.css', ],
 	'scripts' => [],
-	'position' => 'top',
 ] + $ctResourceTemplate;
 
 /**
