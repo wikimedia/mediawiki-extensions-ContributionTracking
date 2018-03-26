@@ -31,6 +31,7 @@
 	"apihelp-contributiontracking-param-email-opt": "Umkehrung des E-Mail-Opt-Out-Kontrollkästchens.",
 	"apihelp-contributiontracking-param-language": "Sprachcode des Benutzers. Nachrichten werden passend übersetzt (sofern möglich). Das legt ebenso fest, welche „Danke“-Seite der Benutzer sieht, nachdem er eine Spende am Gateway abgeschlossen hat.",
 	"apihelp-contributiontracking-param-country": "Ländercode des Benutzers.",
+	"apihelp-contributiontracking-param-owa_session": "Sitzungsname von dem Werkzeug „Open Web Analytics“.",
 	"apihelp-contributiontracking-param-owa_ref": "Referenzname für das Open-Web-Analytics-Werkzeug.",
 	"apihelp-contributiontracking-param-contribution_tracking_id": "Unsere Kennung für die gegenwärtige Spende. Wird nicht für neue Spenden geliefert.",
 	"apihelp-contributiontracking-param-returnto": "Zeichenfolge, welche die alternative „Danke“-Seite identifiziert, die dem Benutzer nach Abschluss seiner Transaktion angezeigt werden soll.",
