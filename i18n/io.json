@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Malafaya"
+			"Malafaya",
+			"Joao Xavier"
 		]
 	},
-	"contrib-tracking-error": "Eroro"
+	"contrib-tracking-error": "Eroro",
+	"contrib-tracking-error-text": "Nevalida submiso dil formulario"
 }
