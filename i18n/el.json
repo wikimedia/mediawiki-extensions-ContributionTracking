@@ -4,7 +4,8 @@
 			"Glavkos",
 			"Konsnos",
 			"Omnipaedista",
-			"ZaDiak"
+			"ZaDiak",
+			"Nikosgranturismogt"
 		]
 	},
 	"contributiontracking-desc": "Παρακολούθηση συνεισφορών για τον έρανο του Wikimedia",
@@ -17,5 +18,9 @@
 	"contrib-tracking-button": "Συνέχεια",
 	"contrib-tracking-item-name-onetime": "Εφάπαξ δωρεά",
 	"contrib-tracking-item-name-recurring": "Επαναλαμβανόμενη μηνιαία δωρεά",
-	"contrib-tracking-fundraiser-maintenance-header": "Προσωρινά εκτός λειτουργίας για συντήρηση"
+	"contrib-tracking-fundraiser-maintenance-header": "Προσωρινά εκτός λειτουργίας για συντήρηση",
+	"apihelp-contributiontracking-param-country": "Κωδικός χώρας χρήστη",
+	"apihelp-contributiontracking-param-fname": "Όνομα του δωρητή.",
+	"apihelp-contributiontracking-param-lname": "Επώνυμο του δωρητή.",
+	"apihelp-contributiontracking-param-email": "Διεύθυνση ηλεκτρονικού ταχυδρομείου του δωρητή."
 }
