@@ -22,5 +22,7 @@
 	"apihelp-contributiontracking-param-country": "Κωδικός χώρας χρήστη",
 	"apihelp-contributiontracking-param-fname": "Όνομα του δωρητή.",
 	"apihelp-contributiontracking-param-lname": "Επώνυμο του δωρητή.",
-	"apihelp-contributiontracking-param-email": "Διεύθυνση ηλεκτρονικού ταχυδρομείου του δωρητή."
+	"apihelp-contributiontracking-param-email": "Διεύθυνση ηλεκτρονικού ταχυδρομείου του δωρητή.",
+	"apihelp-contributiontracking-param-amountGiven": "Κανονικοποιημένη ποσότητα.",
+	"apihelp-contributiontracking-example-1": "Ιχνηλάτηση συνεισφοράς"
 }
