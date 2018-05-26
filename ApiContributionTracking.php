@@ -23,7 +23,7 @@ class ApiContributionTracking extends ApiBase {
 
 	/**
 	 * Stages incoming request parameters for the ContributionTrackingProcessor
-	 * @param array $params Incoming request parameters
+	 * @param array|null $params Incoming request parameters
 	 * @return array Paramaters ready to be sent off to the processor.
 	 */
 	function getStagedParams( $params = null ) {
