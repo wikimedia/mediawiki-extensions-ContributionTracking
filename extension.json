@@ -19,6 +19,10 @@
 		"ViewContributionTrackingTester"
 	],
 	"config": {
+		"ContributionTrackingDBname": null,
+		"ContributionTrackingDBpassword": null,
+		"ContributionTrackingDBserver": null,
+		"ContributionTrackingDBuser": null,
 		"ContributionTrackingFundraiserMaintenance": false,
 		"ContributionTrackingFundraiserMaintenanceUnsched": false,
 		"ContributionTrackingPayPalBusiness": "donations@wikimedia.org",
