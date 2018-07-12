@@ -22,13 +22,12 @@ class ContributionTrackingProcessor {
 	static function contributionTrackingConnection() {
 		global $wgContributionTrackingDBserver, $wgContributionTrackingDBname;
 		global $wgContributionTrackingDBuser, $wgContributionTrackingDBpassword;
-		global $wgDBserver, $wgDBname;
 
 		static $db;
 
 		if ( !$db ) {
-			if ( $wgContributionTrackingDBserver === $wgDBserver &&
-				$wgContributionTrackingDBname === $wgDBname
+			if ( $wgContributionTrackingDBserver === null &&
+				$wgContributionTrackingDBname === null
 			) {
 				$db = wfGetDB( DB_MASTER );
 			} else {

@@ -71,10 +71,10 @@ $wgResourceModules['contributionTracking.fundraiserMaintenance'] = [
  */
 $wgContributionTrackingReturnToURLDefault = 'http://wikimediafoundation.org/wiki/Thank_You';
 
-$wgContributionTrackingDBserver = $wgDBserver;
-$wgContributionTrackingDBname = $wgDBname;
-$wgContributionTrackingDBuser = $wgDBuser;
-$wgContributionTrackingDBpassword = $wgDBpassword;
+$wgContributionTrackingDBserver = null;
+$wgContributionTrackingDBname = null;
+$wgContributionTrackingDBuser = null;
+$wgContributionTrackingDBpassword = null;
 
 /**
  * IPN listener address for regular PayPal trxns
