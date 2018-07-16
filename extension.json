@@ -31,9 +31,6 @@
 		"ContributionTrackingRPPLength": "0",
 		"ContributionTrackingReturnToURLDefault": "http://wikimediafoundation.org/wiki/Thank_You"
 	},
-	"ExtensionFunctions": [
-		"ContributionTrackingHooks::extensionFunction"
-	],
 	"ExtensionMessagesFiles": {
 		"ContributionTrackingAlias": "ContributionTracking.alias.php"
 	},
