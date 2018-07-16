@@ -1,16 +1,6 @@
 <?php
 
 class ContributionTrackingHooks {
-	public static function extensionFunction() {
-		global $wgDBserver, $wgDBname, $wgDBuser, $wgDBpassword,
-			$wgContributionTrackingDBserver, $wgContributionTrackingDBname,
-			$wgContributionTrackingDBuser, $wgContributionTrackingDBpassword;
-
-		$wgContributionTrackingDBserver = $wgContributionTrackingDBserver ?: $wgDBserver;
-		$wgContributionTrackingDBname = $wgContributionTrackingDBname ?: $wgDBname;
-		$wgContributionTrackingDBuser = $wgContributionTrackingDBuser ?: $wgDBuser;
-		$wgContributionTrackingDBpassword = $wgContributionTrackingDBpassword ?: $wgDBpassword;
-	}
 
 	public static function onLoadExtensionSchemaUpdates( DatabaseUpdater $updater ) {
 		$dir = __DIR__ . '/';
@@ -29,7 +19,10 @@ class ContributionTrackingHooks {
 		} else {
 			global $wgContributionTrackingDBname;
 
-			if ( $updater->getDB()->getDBname() === $wgContributionTrackingDBname ) {
+			if (
+				$updater->getDB()->getDBname() === $wgContributionTrackingDBname ||
+				$wgContributionTrackingDBname === null
+			) {
 				$updater->addExtensionTable( 'contribution_tracking',
 					$dir . 'ContributionTracking.sql' );
 				$updater->addExtensionTable( 'contribution_tracking_owa_ref',
