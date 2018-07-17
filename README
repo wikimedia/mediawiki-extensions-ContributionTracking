@@ -1,1 +1,2 @@
-ContributionTracking provides some statistics on the Wikimedia Foundation fundraiser.
+ContributionTracking manages fundraiser maintenance variables and a connection
+to the database where donation attempts are tracked. It used to do more.
