@@ -6,12 +6,5 @@
 			"Vito Genovese"
 		]
 	},
-	"contributiontracking-desc": "Wikimedia bağış kampanyası için bağış takibi",
-	"contributiontracking": "Katkı izlemesi",
-	"contrib-tracking-error": "Hata",
-	"contrib-tracking-error-text": "Geçersiz form teslimi",
-	"contrib-tracking-submitting": "Ödeme işlemcisine gönderiliyor...",
-	"contrib-tracking-continue": "Otomatik olarak yönlendirilmediyseniz, bağışınızı tamamlamak için düğmeye tıklayın.",
-	"contrib-tracking-redirect": "Bağışınızı tamamlamak üzere otomatik olarak yönlendirileceksiniz.",
-	"contrib-tracking-button": "Devam et"
+	"contributiontracking-desc": "Wikimedia bağış kampanyası için bağış takibi"
 }
