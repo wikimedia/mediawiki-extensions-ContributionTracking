@@ -42,10 +42,10 @@ class SpecialFundraiserMaintenance extends UnlistedSpecialPage {
 		// Hide unneeded interface elements
 		$output->addModules( 'contributionTracking.fundraiserMaintenance' );
 
-		$output->addHTML( "<p>" . wfMessage( 'contrib-tracking-fundraiser-maintenance-notice' )
-			->rawparams(
+		$output->addHTML( $this->msg( 'contrib-tracking-fundraiser-maintenance-notice' )
+			->rawParams(
 				"<a href='mailto:problemsdonating@wikimedia.org'>problemsdonating@wikimedia.org</a>"
-			) . "<p>"
+			)->parseAsBlock()
 		);
 	}
 }
