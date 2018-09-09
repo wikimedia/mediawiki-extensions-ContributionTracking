@@ -8,15 +8,6 @@ class ContributionTrackingProcessor {
 	/**
 	 * If a database connection has already been established, it returns that
 	 * connection. Otherwise, it establishes one, and returns that.
-	 * @global string $wgContributionTrackingDBserver : DB Server name, defined
-	 * in ContributionTracking.php
-	 * @global string $wgContributionTrackingDBname : Database name, defined in
-	 * ContributionTracking.php
-	 * @global string $wgContributionTrackingDBuser : Database user, defined in
-	 * ContributionTracking.php
-	 * @global string $wgContributionTrackingDBpassword : Database password,
-	 * defined in ContributionTracking.php
-	 * @staticvar \Wikimedia\Rdbms\IDatabase $db
 	 * @return \Wikimedia\Rdbms\IDatabase The established database connection
 	 */
 	static function contributionTrackingConnection() {
