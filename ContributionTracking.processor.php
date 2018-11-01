@@ -10,7 +10,7 @@ class ContributionTrackingProcessor {
 	 * connection. Otherwise, it establishes one, and returns that.
 	 * @return \Wikimedia\Rdbms\IDatabase The established database connection
 	 */
-	static function contributionTrackingConnection() {
+	public static function contributionTrackingConnection() {
 		global $wgContributionTrackingDBserver, $wgContributionTrackingDBname;
 		global $wgContributionTrackingDBuser, $wgContributionTrackingDBpassword;
 
