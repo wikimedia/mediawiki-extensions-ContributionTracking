@@ -1,4 +1,8 @@
 <?php
+
+use Wikimedia\Rdbms\Database;
+use Wikimedia\Rdbms\IDatabase;
+
 /**
  * Centralized class used by both the old interstitial page, and the API to
  * process transactions and send donors off to the correct gateway location.
@@ -8,7 +12,7 @@ class ContributionTrackingProcessor {
 	/**
 	 * If a database connection has already been established, it returns that
 	 * connection. Otherwise, it establishes one, and returns that.
-	 * @return \Wikimedia\Rdbms\IDatabase The established database connection
+	 * @return IDatabase The established database connection
 	 */
 	public static function contributionTrackingConnection() {
 		global $wgContributionTrackingDBserver, $wgContributionTrackingDBname;
