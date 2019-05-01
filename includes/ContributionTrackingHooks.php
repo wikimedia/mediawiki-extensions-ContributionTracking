@@ -3,7 +3,7 @@
 class ContributionTrackingHooks {
 
 	public static function onLoadExtensionSchemaUpdates( DatabaseUpdater $updater ) {
-		$dir = __DIR__ . '/';
+		$dir = dirname( __DIR__ ) . '/';
 		if ( $updater === null ) {
 			global $wgExtNewTables, $wgExtNewFields;
 

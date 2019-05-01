@@ -5,9 +5,9 @@
 	"descriptionmsg": "contributiontracking-desc",
 	"type": "specialpage",
 	"AutoloadClasses": {
-		"ContributionTrackingHooks": "ContributionTracking.hooks.php",
-		"SpecialFundraiserMaintenance": "special/SpecialFundraiserMaintenance.php",
-		"ContributionTrackingProcessor": "ContributionTracking.processor.php"
+		"ContributionTrackingHooks": "includes/ContributionTrackingHooks.php",
+		"SpecialFundraiserMaintenance": "includes/SpecialFundraiserMaintenance.php",
+		"ContributionTrackingProcessor": "includes/ContributionTrackingProcessor.php"
 	},
 	"config": {
 		"ContributionTrackingDBname": null,
