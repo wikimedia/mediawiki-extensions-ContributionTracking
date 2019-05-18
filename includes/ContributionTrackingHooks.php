@@ -48,6 +48,7 @@ class ContributionTrackingHooks {
 				// 'LoadExtensionSchemaUpdates' hooks in its constructor (or do so
 				// conditionally), we're going to have to do these manually.
 				$ctDB = ContributionTrackingProcessor::contributionTrackingConnection();
+				'@phan-var \Wikimedia\Rdbms\IMaintainableDatabase $ctDB';
 				if ( !$ctDB->tableExists( 'contribution_tracking' ) ) {
 					$ctDB->sourceFile( $dir . 'ContributionTracking.sql' );
 				}
