@@ -3,9 +3,11 @@
 		"authors": [
 			"Blahma",
 			"Yekrats",
-			"Robin van der Vliet"
+			"Robin van der Vliet",
+			"Mirin"
 		]
 	},
 	"contributiontracking-desc": "Kontribuada atentilo por la monkampajno Wikimedia",
-	"contrib-tracking-fundraiser-maintenance-header": "Provizore ŝalta por riparado"
+	"contrib-tracking-fundraiser-maintenance-header": "Provizore ŝalta por riparado",
+	"contrib-tracking-fundraiser-maintenance-notice": "Nun ni estas prizorganta niajn servilojn, kaj ne povas akcepti donacojn. Bonvolu reprovi poste. Se vi havas iun ajn demadon, bonvolu retmesaĝi $1."
 }
