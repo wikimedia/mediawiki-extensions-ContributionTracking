@@ -12,9 +12,9 @@ class ContributionTrackingHooks {
 			$wgContributionTrackingDBname === null
 		) {
 			$updater->addExtensionTable( 'contribution_tracking',
-				$dir . 'ContributionTracking.sql' );
+				$dir . 'sql/ContributionTracking.sql' );
 			$updater->addExtensionTable( 'contribution_tracking_owa_ref',
-				$dir . 'ContributionTracking_OWA_ref.sql' );
+				$dir . 'sql/ContributionTracking_OWA_ref.sql' );
 			$updater->addExtensionUpdate( [ 'addField', 'contribution_tracking',
 				'owa_session', $dir . 'patches/patch-owa.sql', true ] );
 			$updater->addExtensionUpdate( [ 'addField', 'contribution_tracking', 'utm_key',
@@ -28,7 +28,7 @@ class ContributionTrackingHooks {
 			}
 			if ( $updater->getDB()->getType() !== 'postgres' ) {
 				$updater->addExtensionUpdate( [ 'addTable', 'contribution_tracking',
-					$dir . 'ContributionTracking.pg.sql', true ] );
+					$dir . 'sql/ContributionTracking.pg.sql', true ] );
 			}
 		} else {
 			// We are configured not to use the main mediawiki db.
@@ -38,10 +38,10 @@ class ContributionTrackingHooks {
 			$ctDB = ContributionTrackingProcessor::contributionTrackingConnection();
 			'@phan-var \Wikimedia\Rdbms\IMaintainableDatabase $ctDB';
 			if ( !$ctDB->tableExists( 'contribution_tracking' ) ) {
-				$ctDB->sourceFile( $dir . 'ContributionTracking.sql' );
+				$ctDB->sourceFile( $dir . 'sql/ContributionTracking.sql' );
 			}
 			if ( !$ctDB->tableExists( 'contribution_tracking_owa_ref' ) ) {
-				$ctDB->sourceFile( $dir . 'ContributionTracking_OWA_ref.sql' );
+				$ctDB->sourceFile( $dir . 'sql/ContributionTracking_OWA_ref.sql' );
 			}
 			if ( !$ctDB->fieldExists( 'contribution_tracking', 'owa_session' ) ) {
 				$ctDB->sourceFile( $dir . 'patches/patch-owa.sql' );
