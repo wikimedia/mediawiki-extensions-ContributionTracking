@@ -14,7 +14,7 @@ class ContributionTrackingProcessor {
 	 * connection. Otherwise, it establishes one, and returns that.
 	 * @return IDatabase The established database connection
 	 */
-	public static function contributionTrackingConnection() {
+	public static function contributionTrackingConnection() : IDatabase {
 		global $wgContributionTrackingDBserver, $wgContributionTrackingDBname;
 		global $wgContributionTrackingDBuser, $wgContributionTrackingDBpassword;
 
@@ -33,6 +33,7 @@ class ContributionTrackingProcessor {
 					'dbname' => $wgContributionTrackingDBname
 				];
 				$db = Database::factory( 'mysql', $params );
+				'@phan-var Database $db';
 			}
 		}
 
