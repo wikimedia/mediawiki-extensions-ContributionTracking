@@ -3,11 +3,10 @@
 		"authors": [
 			"Horus",
 			"Korrawit",
-			"Woraponboonkerd"
+			"Woraponboonkerd",
+			"Aefgh39622"
 		]
 	},
-	"contrib-tracking-error": "เกิดความผิดพลาด",
-	"contrib-tracking-submitting": "กำลังส่งไปยังผู้ดำเนินการจ่ายเงิน...",
-	"contrib-tracking-continue": "ถ้าคุณยังไม่ได้ถูกนำทางไปหน้าอื่นโดยอัตโนมัติ คลิกปุ่มเพื่อเสร็จสิ้นการบริจาค",
-	"contrib-tracking-button": "ดำเนินการต่อ"
+	"contributiontracking-desc": "การติดตามการมีส่วนร่วมสำหรับการระดมทุนวิกิมีเดีย",
+	"contrib-tracking-fundraiser-maintenance-header": "ระงับการให้บริการชั่วคราวเนื่องจากอยู่ในระหว่างการบำรุงรักษา"
 }
