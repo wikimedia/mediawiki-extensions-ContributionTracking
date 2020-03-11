@@ -21,9 +21,7 @@
 		"ContributionTrackingAlias": "ContributionTracking.alias.php"
 	},
 	"Hooks": {
-		"LoadExtensionSchemaUpdates": [
-			"ContributionTrackingHooks::onLoadExtensionSchemaUpdates"
-		]
+		"LoadExtensionSchemaUpdates": "ContributionTrackingHooks::onLoadExtensionSchemaUpdates"
 	},
 	"MessagesDirs": {
 		"ContributionTracking": [
