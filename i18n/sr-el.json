@@ -4,5 +4,7 @@
 			"Michaello"
 		]
 	},
-	"contributiontracking-desc": "Praćenje darovanih priloga za program prikupljanja sredstava Vikimedije"
+	"contributiontracking-desc": "Praćenje darovanih priloga za program prikupljanja sredstava Vikimedije",
+	"contrib-tracking-fundraiser-maintenance-header": "Privremeno nedostupno radi održavanja",
+	"contrib-tracking-fundraiser-maintenance-notice": "Trenutno obavljamo redovno održavanje i nismo u mogućnosti da prihvatimo donacije. Pokušajte ponovo uskoro. Ako imate bilo kakvih pitanja, pošaljite imejl na $1."
 }
