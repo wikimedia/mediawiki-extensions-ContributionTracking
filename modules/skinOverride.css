@@ -2,7 +2,7 @@
 #left-navigation,
 #right-navigation,
 #p-search,
-#mw-panel div.portal,
+#mw-panel .portal,
 body.ltr #footer #footer-places,
 #mw-head {
 	display: none !important;
@@ -13,7 +13,7 @@ body.ltr #footer #footer-places,
 	background-image: none !important;
 }
 
-div#mw-head-base,
-div#footer {
+#mw-head-base,
+#footer {
 	background-image: none;
 }
