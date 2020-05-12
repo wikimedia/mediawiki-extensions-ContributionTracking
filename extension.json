@@ -10,12 +10,24 @@
 		"ContributionTrackingProcessor": "includes/ContributionTrackingProcessor.php"
 	},
 	"config": {
-		"ContributionTrackingDBname": null,
-		"ContributionTrackingDBpassword": null,
-		"ContributionTrackingDBserver": null,
-		"ContributionTrackingDBuser": null,
-		"ContributionTrackingFundraiserMaintenance": false,
-		"ContributionTrackingFundraiserMaintenanceUnsched": false
+		"ContributionTrackingDBname": {
+			"value": null
+		},
+		"ContributionTrackingDBpassword": {
+			"value": null
+		},
+		"ContributionTrackingDBserver": {
+			"value": null
+		},
+		"ContributionTrackingDBuser": {
+			"value": null
+		},
+		"ContributionTrackingFundraiserMaintenance": {
+			"value": false
+		},
+		"ContributionTrackingFundraiserMaintenanceUnsched": {
+			"value": false
+		}
 	},
 	"ExtensionMessagesFiles": {
 		"ContributionTrackingAlias": "ContributionTracking.alias.php"
@@ -43,5 +55,8 @@
 	"SpecialPages": {
 		"FundraiserMaintenance": "SpecialFundraiserMaintenance"
 	},
-	"manifest_version": 1
+	"manifest_version": 2,
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	}
 }
