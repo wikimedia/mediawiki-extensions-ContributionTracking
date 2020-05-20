@@ -44,7 +44,7 @@ class SpecialFundraiserMaintenance extends UnlistedSpecialPage {
 
 		$output->addHTML( $this->msg( 'contrib-tracking-fundraiser-maintenance-notice' )
 			->rawParams(
-				"<a href='mailto:problemsdonating@wikimedia.org'>problemsdonating@wikimedia.org</a>"
+				"<a href='mailto:donate@wikimedia.org'>donate@wikimedia.org</a>"
 			)->parseAsBlock()
 		);
 	}
