@@ -37,19 +37,19 @@ class ContributionTrackingHooks {
 			// conditionally), we're going to have to do these manually.
 			$ctDB = ContributionTrackingProcessor::contributionTrackingConnection();
 			'@phan-var \Wikimedia\Rdbms\IMaintainableDatabase $ctDB';
-			if ( !$ctDB->tableExists( 'contribution_tracking' ) ) {
+			if ( !$ctDB->tableExists( 'contribution_tracking', __METHOD__ ) ) {
 				$ctDB->sourceFile( $dir . 'sql/ContributionTracking.sql' );
 			}
-			if ( !$ctDB->tableExists( 'contribution_tracking_owa_ref' ) ) {
+			if ( !$ctDB->tableExists( 'contribution_tracking_owa_ref', __METHOD__ ) ) {
 				$ctDB->sourceFile( $dir . 'sql/ContributionTracking_OWA_ref.sql' );
 			}
-			if ( !$ctDB->fieldExists( 'contribution_tracking', 'owa_session' ) ) {
+			if ( !$ctDB->fieldExists( 'contribution_tracking', 'owa_session', __METHOD__ ) ) {
 				$ctDB->sourceFile( $dir . 'patches/patch-owa.sql' );
 			}
-			if ( !$ctDB->fieldExists( 'contribution_tracking', 'utm_key' ) ) {
+			if ( !$ctDB->fieldExists( 'contribution_tracking', 'utm_key', __METHOD__ ) ) {
 				$ctDB->sourceFile( $dir . 'patches/patch-utm_key.sql' );
 			}
-			if ( !$ctDB->fieldExists( 'contribution_tracking', 'country' ) ) {
+			if ( !$ctDB->fieldExists( 'contribution_tracking', 'country', __METHOD__ ) ) {
 				$ctDB->sourceFile( $dir . 'patches/20120924.new_columns.sql' );
 			}
 		}
